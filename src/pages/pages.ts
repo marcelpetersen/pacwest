@@ -1,11 +1,15 @@
 import { TabsPage } from './tabs/tabs';
 import { TutorialPage } from './tutorial/tutorial';
-import { ListMasterPage } from './list-master/list-master';
-import { SearchPage } from './search/search';
-import { SettingsPage } from './settings/settings';
-import { MapPage as LocationPage } from './map/map';
-import { ContentPage as FloorPlansPage } from './content/content';
+//import { ListMasterPage } from './list-master/list-master';
+//import { SearchPage } from './search/search';
+//import { SettingsPage } from './settings/settings';
+//import { MapPage as LocationPage } from './map/map';
+//import { ContentPage as FloorPlansPage } from './content/content';
 
+import { HomePage } from './home/home';
+import { FuturePage } from './future/future';
+import { FloorPlansPage } from './floor-plans/floor-plans';
+import { LocationPage } from './location/location';
 import { GalleryPage } from './gallery/gallery';
 import { VitalsPage } from './vitals/vitals';
 
@@ -17,8 +21,8 @@ export const FirstRunPage = TutorialPage;
 export const MainPage = TabsPage;
 
 // The initial root pages for our tabs (remove if not using tabs)
-export const Tab1Root = ListMasterPage;
-export const Tab2Root = SearchPage;
+export const Tab1Root = HomePage;
+export const Tab2Root = FuturePage;
 export const Tab3Root = FloorPlansPage;
 export const Tab4Root = LocationPage;
 export const Tab5Root = VitalsPage;

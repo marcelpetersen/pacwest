@@ -12,6 +12,13 @@ $font-path: "../assets/fonts";
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+// General
+$font-size-base:      1.6rem !default;
+
+// Navigation
+$tabs-background:     #FAFAFA !default;
+$tabs-border-color:   #FAFAFA !default;
+$tabs-ios-border:     $hairlines-width solid $tabs-border-color !default;
 
 
 

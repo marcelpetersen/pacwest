@@ -8,10 +8,10 @@ import { Items } from '../../providers/providers';
 import { Item } from '../../models/item';
 
 @Component({
-  selector: 'page-list-master',
-  templateUrl: 'list-master.html'
+  selector: 'floor-plans-master',
+  templateUrl: 'floor-plans.html'
 })
-export class ListMasterPage {
+export class FloorPlansPage {
   currentItems: Item[];
 
   constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
