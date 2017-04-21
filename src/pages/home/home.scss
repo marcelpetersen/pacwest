@@ -1,12 +1,17 @@
 page-home {
 
-  .scroll-content {
+  ion-content {
     background-color: #FAFAFA;
-    background-image: url('../../assets/img/home-bg.jpg');
-    background-position: center center;
+    background-image: url('../../assets/img/hero_treated.jpg');
+    background-position: 30% 10%;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
+  .flex-container {
+    padding: 7.2rem;
+    @include flex-vr-align(center);
+    @include flex-hz-align(flex-start)
+  }
 
 }

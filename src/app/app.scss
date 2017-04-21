@@ -1,7 +1,172 @@
 // http://ionicframework.com/docs/v2/theming/
 
 
-// App Global Sass
+// App Global Mixins
+// Flex that Box
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin flex-vr-align($values) {
+  -webkit-align-items: $values;
+  align-items:  $values;
+}
+
+@mixin flex-hz-align($values) {
+  -webkit-justify-content: $values;
+  justify-content: $values;
+}
+
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+
+.flex-container {
+  @include flexbox();
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  -webkit-flex: row wrap;
+          flex: row wrap;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  align-items: center;
+
+  .flex-item {
+    @include flex(0 auto);
+    @include order(1);
+  }
+
+
+  .flex-item.flex-full {
+    @include flex(0 100%);
+  }
+  .flex-item.flex-50per {
+    @include flex(0 50%);
+  }
+  .flex-item.flex-420px {
+    @include flex(0 420px);
+  }
+
+  .row-reverse {
+    -webkit-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+
+  //Align-Content
+  .align-flex-start {
+    -webkit-align-items: flex-start;
+            align-items: flex-start;
+  }
+  .align-flex-end {
+    -webkit-align-items: flex-end;
+            align-items: flex-end;
+  }
+  .align-space-between {
+    -webkit-align-items: space-between;
+            align-items: space-between;
+  }
+  .align-space-around {
+    -webkit-align-items: space-around;
+            align-items: space-around;
+  }
+
+  //Justify-Content
+  .justify-flex-start {
+    -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+  }
+  .justify-flex-end {
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+  }
+  .justify-space-between {
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+  }
+  .justify-space-around {
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+  }
+
+}
+
+.height-full {
+  height: 100%;
+}
+.height-auto {
+  height: auto;
+}
+
+
+//Typography
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitlize {
+  text-transform: capitalize;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+.text-medium {
+  font-weight: 300;
+}
+.text-bold {
+  font-weight: bold;
+  font-weight: 600;
+}
+
+.text-left {
+  text-align:  left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+
+
+
+
+//Color
+.yellow {
+  color: #f0c41e;
+}
+
+
+
+
+
+
+
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
 // styles are for the entire app and not just one component.

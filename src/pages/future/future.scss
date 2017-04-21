@@ -1,3 +1,37 @@
 page-future {
 
+  ion-content {
+    background-color: #2e2e2f !important;
+    color: #FFFFFF !important;
+  }
+
+  .flex-container {
+    padding: 0;
+    @include flex-vr-align(center);
+    @include flex-hz-align(center);
+  }
+
+  .verticalLine {
+    background-color: #FFFFFF;
+    height: calc(140% - 120px);
+    margin: 0 auto;
+    width: 1px;
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 0.5px);
+    right: calc(50% - 0.5px);
+  }
+
+  .verticalLine-full {
+    background-color: #FFFFFF;
+    height: 100%;
+    margin: 0 auto;
+    width: 1px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: calc(50% - 0.5px);
+    right: calc(50% - 0.5px);
+  }
+
 }
