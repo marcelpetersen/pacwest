@@ -1,0 +1,16 @@
+// Brandon Grotesque Font
+$brandon-grotesque-font-path: $font-path !default;
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Brandon Grotesque Regular"), local("Brandon-Grotesque-Regular"),  url("#{$brandon-grotesque-font-path}/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Brandon Grotesque Medium"), local("Brandon-Grotesque-Medium"),  url("#{$brandon-grotesque-font-path}/Brandon_med.otf") format("opentype");
+}

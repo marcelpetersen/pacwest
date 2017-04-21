@@ -14,6 +14,12 @@ $font-path: "../assets/fonts";
 
 // General
 $font-size-base:      1.6rem !default;
+$font-family-base: -apple-system, "Helvitica Neue", "Roboto", sans-serif !default;
+
+body,
+html {
+  font-family: "Brandon Grotesque", "Raleway", sans-serif;
+}
 
 // Navigation
 $tabs-background:     #FAFAFA !default;
@@ -83,3 +89,45 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Brandon Grotesque Regular"), local("Brandon-Grotesque-Regular"),  url("../assets/fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Brandon Grotesque Medium"), local("Brandon-Grotesque-Medium"),  url("../assets/fonts/Brandon_med.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Raleway Light"), local("Raleway-Light"),  url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Regular"), local("Raleway-Regular"),  url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Raleway Medium"), local("Raleway-Medium"),  url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"), local("Raleway-Bold"),  url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+}

@@ -3,12 +3,13 @@ page-future {
   ion-content {
     background-color: #2e2e2f !important;
     color: #FFFFFF !important;
+    font-family: "Brandon Grotesque", "Raleway", -apple-system, "Helvitica Neue", sans-serif !important;
   }
 
   .flex-container {
     padding: 0;
-    @include flex-vr-align(center);
-    @include flex-hz-align(center);
+    //@include flex-vr-align(center);
+    //@include flex-hz-align(center);
   }
 
   .verticalLine {
@@ -17,7 +18,7 @@ page-future {
     margin: 0 auto;
     width: 1px;
     position: absolute;
-    top: 120px;
+    top: 180px;
     left: calc(50% - 0.5px);
     right: calc(50% - 0.5px);
   }
@@ -32,6 +33,11 @@ page-future {
     bottom:0;
     left: calc(50% - 0.5px);
     right: calc(50% - 0.5px);
+  }
+
+  h1 {
+    font-family: "Raleway", "Brandon Grotesque", sans-serif;
+    font-size: 3.2rem;
   }
 
 }
