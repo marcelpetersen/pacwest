@@ -16,9 +16,18 @@ export class LocationPage {
 
   initJSMaps(mapEle) {
     new google.maps.Map(mapEle, {
-      center: { lat: 43.071584, lng: -89.380120 },
-      zoom: 16
+      center: { lat: 45.5151769, lng: -122.6802014 },
+      zoom: 16,
+      zoomControl: true,
+      minZoom: 15,
+      maxZoom: 20,
+      streetViewControl: false,
+      rotateControl: false,
+      fullscreenControl: false
     });
+
+    //var transitLayer = new google.maps.TransitLayer();
+    //transitLayer.setMap(mapEle);
   }
 
   initNativeMaps(mapEle) {
@@ -26,7 +35,7 @@ export class LocationPage {
     mapEle.classList.add('show-map');
 
     GoogleMap.isAvailable().then(() => {
-      const position = new GoogleMapsLatLng(43.074395, -89.381056);
+      const position = new GoogleMapsLatLng(45.5151769, -122.6802014);
       this.map.setPosition(position);
     });
   }

@@ -1,17 +1,36 @@
 page-home {
 
-  ion-content {
+  ion-content, ion-content.content-ios {
     background-color: #FAFAFA;
-    background-image: url('../../assets/img/hero_treated.jpg');
+    background: url('../assets/img/hero_treated-sm.jpg') #FAFAFA;
     background-position: 30% 10%;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #000000;
+  }
+
+  .full-background {
+    background: url('../assets/img/hero_treated-sm.jpg') #FAFAFA;
+    background-position: 30% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    z-index: 1;
   }
 
   .flex-container {
     padding: 7.2rem;
+    position: relative;
     @include flex-vr-align(center);
     @include flex-hz-align(flex-start)
+  }
+
+  img.logo {
+    width: 100%;
+    height: 120px;
+    padding: 0;
+    margin: auto;
+    position: relative;
   }
 
 }

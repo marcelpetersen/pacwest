@@ -19,6 +19,8 @@ $font-family-base: -apple-system, "Helvitica Neue", "Roboto", sans-serif !defaul
 body,
 html {
   font-family: "Brandon Grotesque", "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 // Navigation
@@ -82,6 +84,37 @@ $colors: (
 // http://ionicframework.com/docs/v2/ionicons/
 
 @import "ionic.ionicons";
+
+
+// Typography
+// --------------------------------------------------
+h1, .type-alt {
+  -webkit-font-feature-settings:"kern" 1, "liga" 1, "ss01" 0, "ss02" 1, "dlig" 0;
+     -moz-font-feature-settings:"kern" 1, "liga" 1, "ss01" 0, "ss02" 1, "dlig" 0;
+      -ms-font-feature-settings:"kern" 1, "liga" 1, "ss01" 0, "ss02" 1, "dlig" 0;
+          font-feature-settings:"kern" 1, "liga" 1, "ss01" 0, "ss02" 1, "dlig" 0;
+}
+
+h2, h3, h4, h5, section, article, p, span {
+  -webkit-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+     -moz-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+      -ms-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+          font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+}
+
+input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=number], input[type=range], input[type=tel], input[type=week] {
+  -webkit-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+     -moz-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+      -ms-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+          font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1, "dlig" 0;
+}
+
+caption,tbody {
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "onum" 1,"zero" 1, "ss01" 1, "ss02" 1;
+     -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "onum" 1,"zero" 1, "ss01" 1, "ss02" 1;
+      -ms-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "onum" 1,"zero" 1, "ss01" 1, "ss02" 1;
+          font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "onum" 1,"zero" 1, "ss01" 1, "ss02" 1;
+}
 
 
 // Fonts

@@ -65,6 +65,9 @@
   .flex-item.flex-420px {
     @include flex(0 420px);
   }
+  .flex-item.flex-320px {
+    @include flex(0 320px);
+  }
 
   .row-reverse {
     -webkit-flex-direction: row-reverse;
