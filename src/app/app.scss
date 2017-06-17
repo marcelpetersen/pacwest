@@ -40,6 +40,8 @@
 .flex-container {
   @include flexbox();
   width: 100%;
+  max-width: 1208px;
+  margin: 0 auto;
   height: auto;
   position: relative;
   overflow: hidden;
