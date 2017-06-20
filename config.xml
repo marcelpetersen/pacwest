@@ -5,9 +5,11 @@
     <author email="gustavo.youngberg@cushwake.com" href="http://www.cushwake.com">San Francisco Marketing Team</author>
     <content src="index.html" />
     <access origin="*" />
+    <access origin="http://pacwestportland.com/app" />
     <allow-navigation href="http://ionic.local/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="http://pacwestportland.com/app" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
@@ -36,9 +38,7 @@
     <plugin name="cordova-plugin-statusbar" spec="2.2.1" />
     <plugin name="cordova-plugin-device" spec="1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
-    <plugin name="cordova-plugin-googlemaps" spec="~1.4.0">
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyBf3bbxmonk9vp5rpQX57kbQxJ2Ki14bgA" />
-        <variable name="NSLOCATIONWHENINUSEUSAGEDESCRIPTION" value="Show your location on the map" />
-        <variable name="NSLOCATIONALWAYSUSAGEDESCRIPTION" value="Trace your location on the map" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
     </plugin>
 </widget>

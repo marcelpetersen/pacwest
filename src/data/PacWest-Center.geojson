@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-06-19T22:08:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397806317",
+        "landuse": "commercial",
+        "name": "PacWest Center",
+        "wikidata": "Q7121859",
+        "wikipedia": "en:PacWest Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.6806721,
+              45.5151038
+            ],
+            [
+              -122.6797742,
+              45.514865
+            ],
+            [
+              -122.6794589,
+              45.5154472
+            ],
+            [
+              -122.6803567,
+              45.515686
+            ],
+            [
+              -122.6806721,
+              45.5151038
+            ]
+          ]
+        ]
+      },
+      "id": "way/397806317"
+    }
+  ]
+}
