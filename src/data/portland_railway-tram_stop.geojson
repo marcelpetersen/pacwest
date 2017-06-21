@@ -1,0 +1,2807 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-06-20T19:41:48Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/32553623",
+        "name": "Southwest Park & Market",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11011",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6839292,
+          45.5136663
+        ]
+      },
+      "id": "node/32553623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/40425091",
+        "name": "Southwest Moody & Meade",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13601",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.672775,
+          45.5031135
+        ]
+      },
+      "id": "node/40425091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/40532724",
+        "covered": "yes",
+        "light_rail": "yes",
+        "name": "Washington Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7164982,
+          45.5106174
+        ]
+      },
+      "id": "node/40532724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297852376",
+        "name": "Southwest 11th & Alder",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9600",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68275,
+          45.5210792
+        ]
+      },
+      "id": "node/297852376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297852393",
+        "name": "Northwest 23rd & Marshall",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8989",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6986695,
+          45.5306216
+        ]
+      },
+      "id": "node/297852393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320097133",
+        "name": "OHSU Commons",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12883",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6707251,
+          45.4989149
+        ]
+      },
+      "id": "node/320097133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333807469",
+        "light_rail": "yes",
+        "name": "Northeast 60th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8372",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6032494,
+          45.5285627
+        ]
+      },
+      "id": "node/333807469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333809901",
+        "light_rail": "yes",
+        "name": "Northeast 60th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8345",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6028026,
+          45.5286977
+        ]
+      },
+      "id": "node/333809901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333814451",
+        "light_rail": "yes",
+        "name": "Hollywood Transit Center/Northeast 42nd Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6213187,
+          45.532972
+        ]
+      },
+      "id": "node/333814451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333820588",
+        "light_rail": "yes",
+        "name": "Hollywood Transit Center/Northeast 42nd Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.620706,
+          45.5327577
+        ]
+      },
+      "id": "node/333820588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333833187",
+        "light_rail": "yes",
+        "name": "Lloyd Center/Northeast 11th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6536444,
+          45.5300489
+        ]
+      },
+      "id": "node/333833187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333833430",
+        "light_rail": "yes",
+        "name": "Lloyd Center/Northeast 11th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8374"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6543393,
+          45.5301051
+        ]
+      },
+      "id": "node/333833430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333837288",
+        "name": "Lloyd Plaza",
+        "railway": "tram_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6545084,
+          45.5310712
+        ]
+      },
+      "id": "node/333837288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333839080",
+        "light_rail": "yes",
+        "name": "Northeast 7th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6583924,
+          45.5301136
+        ]
+      },
+      "id": "node/333839080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333839350",
+        "light_rail": "yes",
+        "name": "Northeast 7th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6577672,
+          45.5300792
+        ]
+      },
+      "id": "node/333839350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333841406",
+        "light_rail": "yes",
+        "name": "Convention Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8376"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6625349,
+          45.5301105
+        ]
+      },
+      "id": "node/333841406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333847449",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6655724,
+          45.5302024
+        ]
+      },
+      "id": "node/333847449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333847464",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6655723,
+          45.5301599
+        ]
+      },
+      "id": "node/333847464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333847636",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6649874,
+          45.5300863
+        ]
+      },
+      "id": "node/333847636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333847855",
+        "light_rail": "yes",
+        "name": "Convention Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6619778,
+          45.5300736
+        ]
+      },
+      "id": "node/333847855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333852042",
+        "light_rail": "yes",
+        "name": "Interstate/Rose Quarter",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6675254,
+          45.530025
+        ]
+      },
+      "id": "node/333852042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333852447",
+        "light_rail": "yes",
+        "name": "Interstate/Rose Quarter",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11508"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6681171,
+          45.5303289
+        ]
+      },
+      "id": "node/333852447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333855728",
+        "light_rail": "yes",
+        "name": "Albina/Mississippi",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11509",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6757599,
+          45.5397237
+        ]
+      },
+      "id": "node/333855728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333856194",
+        "light_rail": "yes",
+        "name": "Albina/Mississippi",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11506",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6752159,
+          45.5393698
+        ]
+      },
+      "id": "node/333856194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333858697",
+        "light_rail": "yes",
+        "name": "Overlook Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11510",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6809843,
+          45.5483196
+        ]
+      },
+      "id": "node/333858697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333859146",
+        "light_rail": "yes",
+        "name": "Overlook Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11505",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6810318,
+          45.5489651
+        ]
+      },
+      "id": "node/333859146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333911380",
+        "light_rail": "yes",
+        "name": "Old Town/Chinatown",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8378"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.671439,
+          45.5246949
+        ]
+      },
+      "id": "node/333911380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333912016",
+        "light_rail": "yes",
+        "name": "Old Town/Chinatown",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6713957,
+          45.5251429
+        ]
+      },
+      "id": "node/333912016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333915826",
+        "light_rail": "yes",
+        "name": "Skidmore Fountain",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8379"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6713523,
+          45.5228968
+        ]
+      },
+      "id": "node/333915826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333915941",
+        "light_rail": "yes",
+        "name": "Skidmore Fountain",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6712869,
+          45.523066
+        ]
+      },
+      "id": "node/333915941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333918583",
+        "light_rail": "yes",
+        "name": "Oak/Southwest 1st Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8337"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6722115,
+          45.5202717
+        ]
+      },
+      "id": "node/333918583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333918852",
+        "light_rail": "yes",
+        "name": "Oak/Southwest 1st Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6724987,
+          45.5198745
+        ]
+      },
+      "id": "node/333918852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333921716",
+        "light_rail": "yes",
+        "name": "Morrison/Southwest 3rd Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6753829,
+          45.5181943
+        ]
+      },
+      "id": "node/333921716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333922095",
+        "light_rail": "yes",
+        "name": "Mall/Southwest 5th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6774096,
+          45.5187325
+        ]
+      },
+      "id": "node/333922095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333923000",
+        "light_rail": "yes",
+        "name": "Pioneer Square North",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.679475,
+          45.5192888
+        ]
+      },
+      "id": "node/333923000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333923433",
+        "light_rail": "yes",
+        "name": "Galleria/Southwest 10th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8384",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.681936,
+          45.5199472
+        ]
+      },
+      "id": "node/333923433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333925868",
+        "light_rail": "yes",
+        "name": "Library/Southwest 9th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8333",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6819412,
+          45.5192216
+        ]
+      },
+      "id": "node/333925868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333926110",
+        "light_rail": "yes",
+        "name": "Pioneer Square South",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.679123,
+          45.5184682
+        ]
+      },
+      "id": "node/333926110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333926353",
+        "light_rail": "yes",
+        "name": "Mall/Southwest 4th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6770876,
+          45.5179247
+        ]
+      },
+      "id": "node/333926353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333927243",
+        "light_rail": "yes",
+        "name": "Yamhill District",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "8336",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6745385,
+          45.5171906
+        ]
+      },
+      "id": "node/333927243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333929139",
+        "light_rail": "yes",
+        "name": "Providence Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6898104,
+          45.5218036
+        ]
+      },
+      "id": "node/333929139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333932359",
+        "light_rail": "yes",
+        "name": "Providence Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9758",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6898549,
+          45.5213493
+        ]
+      },
+      "id": "node/333932359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333932630",
+        "light_rail": "yes",
+        "name": "Kings Hill/Southwest Salmon Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9820",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6913484,
+          45.5202248
+        ]
+      },
+      "id": "node/333932630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333932996",
+        "light_rail": "yes",
+        "name": "Kings Hill/Southwest Salmon Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6909926,
+          45.5205546
+        ]
+      },
+      "id": "node/333932996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333933672",
+        "light_rail": "yes",
+        "name": "Goose Hollow/Southwest Jefferson Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10118",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6934793,
+          45.5179982
+        ]
+      },
+      "id": "node/333933672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333934146",
+        "light_rail": "yes",
+        "name": "Goose Hollow/Southwest Jefferson Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10117",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.694061,
+          45.5181937
+        ]
+      },
+      "id": "node/333934146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333940404",
+        "covered": "yes",
+        "light_rail": "yes",
+        "name": "Washington Park",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7172282,
+          45.510707
+        ]
+      },
+      "id": "node/333940404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/662765028",
+        "name": "Northwest 10th & Northrup",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13604",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6813959,
+          45.5312793
+        ]
+      },
+      "id": "node/662765028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663797564",
+        "name": "Northwest Lovejoy & 22nd",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "3596",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6968508,
+          45.5298101
+        ]
+      },
+      "id": "node/663797564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672315498",
+        "light_rail": "yes",
+        "name": "PSU South/Southwest 6th & College",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6836597,
+          45.5095767
+        ]
+      },
+      "id": "node/672315498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672315819",
+        "light_rail": "yes",
+        "name": "PSU Urban Center/Southwest 6th & Montgomery",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7774"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6826041,
+          45.5115859
+        ]
+      },
+      "id": "node/672315819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672315951",
+        "light_rail": "yes",
+        "name": "PSU Urban Center/Southwest 5th & Mill",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6815168,
+          45.5116422
+        ]
+      },
+      "id": "node/672315951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672316752",
+        "light_rail": "yes",
+        "name": "Southwest 6th & Madison",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13123",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6804551,
+          45.515538
+        ]
+      },
+      "id": "node/672316752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672316925",
+        "light_rail": "yes",
+        "name": "City Hall/Southwest 5th & Jefferson",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7608",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6797061,
+          45.5149165
+        ]
+      },
+      "id": "node/672316925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672318134",
+        "light_rail": "yes",
+        "name": "Pioneer Courthouse/Southwest 6th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6786563,
+          45.5189446
+        ]
+      },
+      "id": "node/672318134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672318277",
+        "light_rail": "yes",
+        "name": "Pioneer Place/Southwest 5th Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6779261,
+          45.5182539
+        ]
+      },
+      "id": "node/672318277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672318947",
+        "light_rail": "yes",
+        "name": "Southwest 6th & Pine",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7787",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6768455,
+          45.5222729
+        ]
+      },
+      "id": "node/672318947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672319067",
+        "light_rail": "yes",
+        "name": "Northwest 6th & Davis",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9299"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6764597,
+          45.5243701
+        ]
+      },
+      "id": "node/672319067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672319076",
+        "light_rail": "yes",
+        "name": "Southwest 5th & Oak",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7627",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6761052,
+          45.5216063
+        ]
+      },
+      "id": "node/672319076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672319124",
+        "light_rail": "yes",
+        "name": "Northwest 5th & Couch",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6754677,
+          45.5239334
+        ]
+      },
+      "id": "node/672319124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672319137",
+        "light_rail": "yes",
+        "name": "Union Station/Northwest 6th & Hoyt",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6765695,
+          45.5272151
+        ]
+      },
+      "id": "node/672319137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672319175",
+        "light_rail": "yes",
+        "name": "Union Station/Northwest 5th & Glisan",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7601"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6755723,
+          45.5267764
+        ]
+      },
+      "id": "node/672319175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361854",
+        "name": "Northwest Lovejoy & 18th",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10751",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6896237,
+          45.5299421
+        ]
+      },
+      "id": "node/757361854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361961",
+        "name": "Southwest 11th & Clay",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10760",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6859906,
+          45.515091
+        ]
+      },
+      "id": "node/757361961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361978",
+        "name": "Northwest Lovejoy & 21st",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "3595",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6946997,
+          45.5298501
+        ]
+      },
+      "id": "node/757361978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361979",
+        "name": "Northwest 11th & Glisan",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10754",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6822807,
+          45.5266225
+        ]
+      },
+      "id": "node/757361979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361982",
+        "name": "Northwest 11th & Johnson",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10753",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6823608,
+          45.5287545
+        ]
+      },
+      "id": "node/757361982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361992",
+        "name": "Northwest 11th & Everett",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10755",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6822294,
+          45.5252016
+        ]
+      },
+      "id": "node/757361992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757361999",
+        "name": "Southwest 11th & Taylor",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9633",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6838381,
+          45.5190589
+        ]
+      },
+      "id": "node/757361999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757362007",
+        "name": "Northwest Lovejoy & 13th",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10752",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6846287,
+          45.5300222
+        ]
+      },
+      "id": "node/757362007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/757362034",
+        "name": "Northwest 11th & Couch",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10756",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6821752,
+          45.5237922
+        ]
+      },
+      "id": "node/757362034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/967500691",
+        "name": "Northwest 10th & Everett",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10771",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6811685,
+          45.5250125
+        ]
+      },
+      "id": "node/967500691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1319523650",
+        "light_rail": "yes",
+        "name": "PSU South/Southwest 5th & Jackson",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "7606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6830149,
+          45.5089345
+        ]
+      },
+      "id": "node/1319523650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1319642932",
+        "name": "Southwest 5th & Market",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10762",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6810546,
+          45.5128968
+        ]
+      },
+      "id": "node/1319642932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1321040831",
+        "name": "Northwest 12th & Northrup",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12796",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6833071,
+          45.5315127
+        ]
+      },
+      "id": "node/1321040831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1322768353",
+        "name": "Southwest Harrison Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12377",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6766055,
+          45.5087955
+        ]
+      },
+      "id": "node/1322768353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1322768921",
+        "name": "Southwest Harrison Street",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12380",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6764987,
+          45.5089518
+        ]
+      },
+      "id": "node/1322768921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1360131340",
+        "name": "Southwest Park & Mill",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10766",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6845646,
+          45.5130257
+        ]
+      },
+      "id": "node/1360131340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1400506514",
+        "name": "Northeast 7th & Holladay",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13611",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6586549,
+          45.530694
+        ]
+      },
+      "id": "node/1400506514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1400506589",
+        "name": "North Broadway & Ross",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13619",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6695239,
+          45.5344717
+        ]
+      },
+      "id": "node/1400506589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1410412542",
+        "name": "Northeast Martin Luther King & East Burnside",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "5901",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6618273,
+          45.5233739
+        ]
+      },
+      "id": "node/1410412542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1490941684",
+        "name": "Southwest Moody & Meade",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13602",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6727103,
+          45.503185
+        ]
+      },
+      "id": "node/1490941684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1491831374",
+        "name": "Bancroft Street",
+        "operator": "Willamette Shore Trolley",
+        "railway": "tram_stop",
+        "website": "http://oerhs.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6720739,
+          45.4929933
+        ]
+      },
+      "id": "node/1491831374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563025716",
+        "name": "Southwest 10th & Clay",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10765",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6850152,
+          45.5145512
+        ]
+      },
+      "id": "node/1563025716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563025721",
+        "name": "Art Museum",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "6493",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6839446,
+          45.5165293
+        ]
+      },
+      "id": "node/1563025721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563025723",
+        "name": "Central Library",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10767",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6824821,
+          45.5192303
+        ]
+      },
+      "id": "node/1563025723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663754774",
+        "name": "Southeast Martin Luther King & Mill",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "5933",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.661941,
+          45.509643
+        ]
+      },
+      "id": "node/1663754774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663754886",
+        "name": "Southeast Grand & Hawthorne",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13616",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6607213,
+          45.5128407
+        ]
+      },
+      "id": "node/1663754886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663754909",
+        "name": "Southeast Grand & Taylor",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11483",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6607072,
+          45.5149653
+        ]
+      },
+      "id": "node/1663754909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663754910",
+        "name": "Southeast Martin Luther King & Taylor",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13585",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6618853,
+          45.5146578
+        ]
+      },
+      "id": "node/1663754910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663755010",
+        "name": "Southeast Martin Luther King & Morrison",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13584",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6618988,
+          45.5169499
+        ]
+      },
+      "id": "node/1663755010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663755011",
+        "name": "Southeast Grand & Belmont",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11484",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660663,
+          45.5168639
+        ]
+      },
+      "id": "node/1663755011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663755125",
+        "name": "Northeast Grand & Hoyt",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "2169",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6606275,
+          45.5275201
+        ]
+      },
+      "id": "node/1663755125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663755383",
+        "name": "Northeast Grand & Holladay",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "2175",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6606071,
+          45.5297277
+        ]
+      },
+      "id": "node/1663755383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1663755427",
+        "name": "Northeast Grand & Multnomah",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "9343",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6605906,
+          45.5318578
+        ]
+      },
+      "id": "node/1663755427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703213395",
+        "name": "Southwest 10th & Alder",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10768",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6817626,
+          45.5205607
+        ]
+      },
+      "id": "node/1703213395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703213401",
+        "name": "Southwest 10th & Stark",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10769",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6811187,
+          45.5217494
+        ]
+      },
+      "id": "node/1703213401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703229069",
+        "name": "Northwest 10th & Couch",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10770",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6811185,
+          45.5235961
+        ]
+      },
+      "id": "node/1703229069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703250163",
+        "name": "Northwest 10th & Glisan",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10772",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6812234,
+          45.5264486
+        ]
+      },
+      "id": "node/1703250163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703250173",
+        "name": "Northwest 10th & Johnson",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10773",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6812982,
+          45.5285765
+        ]
+      },
+      "id": "node/1703250173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703287998",
+        "name": "Northwest Northrup & 14th",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10775",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6853485,
+          45.5314745
+        ]
+      },
+      "id": "node/1703287998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703288000",
+        "name": "Northwest Northrup & 18th",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10776",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6894137,
+          45.5314
+        ]
+      },
+      "id": "node/1703288000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703302523",
+        "name": "Northwest Northrup & 21st",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10777",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6944699,
+          45.5313102
+        ]
+      },
+      "id": "node/1703302523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703374519",
+        "name": "Northwest Northrup & 22nd",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10778",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6964589,
+          45.5312717
+        ]
+      },
+      "id": "node/1703374519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703503379",
+        "name": "Southwest 11th & Jefferson",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10759",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6852511,
+          45.516453
+        ]
+      },
+      "id": "node/1703503379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703571047",
+        "name": "Southwest 5th & Montgomery",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10763",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6813427,
+          45.5117699
+        ]
+      },
+      "id": "node/1703571047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703574108",
+        "name": "PSU Urban Center",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "10764",
+        "tram": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q7120773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6821135,
+          45.5122201
+        ]
+      },
+      "id": "node/1703574108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703605520",
+        "name": "Southwest 3rd & Harrison",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12375",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6796083,
+          45.5101847
+        ]
+      },
+      "id": "node/1703605520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1703605522",
+        "name": "Southwest 3rd & Harrison",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12382",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6798079,
+          45.5102988
+        ]
+      },
+      "id": "node/1703605522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709349974",
+        "name": "Southwest Moody & Gibbs",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12760",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6717988,
+          45.4992965
+        ]
+      },
+      "id": "node/1709349974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709349975",
+        "name": "Southwest River Parkway & Moody",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12378",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6739266,
+          45.5070458
+        ]
+      },
+      "id": "node/1709349975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709349976",
+        "name": "Southwest River Parkway & Moody",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12379",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6741259,
+          45.5071599
+        ]
+      },
+      "id": "node/1709349976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709355508",
+        "name": "Southwest Bond & Lane",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12882",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6709111,
+          45.4955959
+        ]
+      },
+      "id": "node/1709355508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709355509",
+        "name": "Southwest Lowell & Bond",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12881",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6713768,
+          45.493915
+        ]
+      },
+      "id": "node/1709355509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709355510",
+        "name": "Southwest Moody & Gaines",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "12880",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.671918,
+          45.4961849
+        ]
+      },
+      "id": "node/1709355510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1930611816",
+        "name": "Northeast Martin Luther King & Hoyt",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "5912",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6617881,
+          45.5274052
+        ]
+      },
+      "id": "node/1930611816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1930611819",
+        "name": "Northeast Oregon & Grand",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13612",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660504,
+          45.5286444
+        ]
+      },
+      "id": "node/1930611819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1930611822",
+        "name": "Southeast Grand & East Burnside",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "2167",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6606563,
+          45.5228008
+        ]
+      },
+      "id": "node/1930611822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216411",
+        "name": "Southeast Martin Luther King & Stark",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13613",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6618533,
+          45.5190997
+        ]
+      },
+      "id": "node/1931216411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216415",
+        "name": "Northeast 7th & Halsey",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13610",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6586373,
+          45.5333282
+        ]
+      },
+      "id": "node/1931216415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216527",
+        "name": "Northeast Broadway & 2nd",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13618",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6635296,
+          45.5350568
+        ]
+      },
+      "id": "node/1931216527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216545",
+        "name": "Northeast Weidler & Grand",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13609",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6603052,
+          45.5343876
+        ]
+      },
+      "id": "node/1931216545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216552",
+        "name": "Northeast Grand & Broadway",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13617",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6605714,
+          45.534797
+        ]
+      },
+      "id": "node/1931216552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216566",
+        "name": "Southeast Martin Luther King & Hawthorne",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13614",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6619269,
+          45.5125138
+        ]
+      },
+      "id": "node/1931216566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931216587",
+        "name": "Southeast Grand & Mill",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "2171",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660732,
+          45.509952
+        ]
+      },
+      "id": "node/1931216587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957284975",
+        "name": "Northwest 11th & Marshall",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13620",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6824378,
+          45.5309024
+        ]
+      },
+      "id": "node/1957284975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957284983",
+        "name": "Northwest 9th & Lovejoy",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13606",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.680515,
+          45.5300778
+        ]
+      },
+      "id": "node/1957284983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957295354",
+        "name": "North Weidler & Ross",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13607",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6692235,
+          45.5344103
+        ]
+      },
+      "id": "node/1957295354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957320769",
+        "name": "Northeast Weidler & 2nd",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13608",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6638664,
+          45.5344049
+        ]
+      },
+      "id": "node/1957320769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957365042",
+        "name": "Southeast Grand & Stark",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13597",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6606771,
+          45.5196266
+        ]
+      },
+      "id": "node/1957365042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2825600065",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Holgate Boulevard",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.648443,
+          45.4911317
+        ]
+      },
+      "id": "node/2825600065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2825601233",
+        "light_rail": "yes",
+        "name": "OMSI/Southeast Water",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6630177,
+          45.5066419
+        ]
+      },
+      "id": "node/2825601233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3352537547",
+        "operator": "Willamette Shore Trolley",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "website": "http://oerhs.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6725092,
+          45.4899532
+        ]
+      },
+      "id": "node/3352537547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3411122112",
+        "light_rail": "yes",
+        "name": "OMSI/Southeast Water",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6624888,
+          45.5064645
+        ]
+      },
+      "id": "node/3411122112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3411122113",
+        "name": "Southeast Water/OMSI",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13615",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6633289,
+          45.5070603
+        ]
+      },
+      "id": "node/3411122113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3411122114",
+        "name": "Southeast Water/OMSI",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13709",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6634057,
+          45.5069458
+        ]
+      },
+      "id": "node/3411122114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3415126977",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Rhine Street",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13714"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6482207,
+          45.4976518
+        ]
+      },
+      "id": "node/3415126977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3416337825",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Holgate Boulevard",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6485837,
+          45.4906601
+        ]
+      },
+      "id": "node/3416337825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3741857969",
+        "light_rail": "yes",
+        "name": "Lincoln Street/Southwest 3rd Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6808632,
+          45.5079666
+        ]
+      },
+      "id": "node/3741857969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3741857970",
+        "light_rail": "yes",
+        "name": "Lincoln Street/Southwest 3rd Avenue",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6801254,
+          45.507883
+        ]
+      },
+      "id": "node/3741857970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742183367",
+        "light_rail": "yes",
+        "name": "South Waterfront/Southwest Moody",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6715494,
+          45.5027537
+        ]
+      },
+      "id": "node/3742183367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742183368",
+        "light_rail": "yes",
+        "name": "South Waterfront/Southwest Moody",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6711489,
+          45.502685
+        ]
+      },
+      "id": "node/3742183368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3743105675",
+        "light_rail": "yes",
+        "name": "Clinton Street/Southeast 12th Avenue",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6530364,
+          45.5026093
+        ]
+      },
+      "id": "node/3743105675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3743105676",
+        "light_rail": "yes",
+        "name": "Clinton Street/Southeast 12th Avenue",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6534941,
+          45.5029698
+        ]
+      },
+      "id": "node/3743105676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3743105677",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Rhine Street",
+        "network": "Metropolitan Area Express",
+        "operator": "Tri-County Metropolitan Transit of Oregon",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "13725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6481184,
+          45.4981269
+        ]
+      },
+      "id": "node/3743105677"
+    }
+  ]
+}

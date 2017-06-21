@@ -1,0 +1,6754 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-06-20T19:26:48Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95511413",
+        "access": "private",
+        "area": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.6750922,
+              45.528051
+            ],
+            [
+              -122.6750492,
+              45.528076
+            ],
+            [
+              -122.6763971,
+              45.5292122
+            ],
+            [
+              -122.6764743,
+              45.5292762
+            ],
+            [
+              -122.6765485,
+              45.5293398
+            ],
+            [
+              -122.6792907,
+              45.5316511
+            ],
+            [
+              -122.6793337,
+              45.531626
+            ],
+            [
+              -122.676592,
+              45.5293151
+            ],
+            [
+              -122.6765175,
+              45.5292513
+            ],
+            [
+              -122.6764405,
+              45.5291874
+            ],
+            [
+              -122.6750922,
+              45.528051
+            ]
+          ]
+        ]
+      },
+      "id": "way/95511413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95511414",
+        "access": "private",
+        "area": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.6749061,
+              45.5280812
+            ],
+            [
+              -122.674866,
+              45.5281046
+            ],
+            [
+              -122.6763469,
+              45.5293494
+            ],
+            [
+              -122.6796245,
+              45.532108
+            ],
+            [
+              -122.6796646,
+              45.5320846
+            ],
+            [
+              -122.6764612,
+              45.5293895
+            ],
+            [
+              -122.6763872,
+              45.5293262
+            ],
+            [
+              -122.6763098,
+              45.5292621
+            ],
+            [
+              -122.6749061,
+              45.5280812
+            ]
+          ]
+        ]
+      },
+      "id": "way/95511414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30287658",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Parkrose/Sumner Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10573"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.565859,
+            45.5588036
+          ],
+          [
+            -122.5656655,
+            45.558984
+          ],
+          [
+            -122.5655886,
+            45.5590517
+          ]
+        ]
+      },
+      "id": "way/30287658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30287994",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 60th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8372"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6027255,
+            45.5288015
+          ],
+          [
+            -122.6029058,
+            45.5287076
+          ],
+          [
+            -122.6030088,
+            45.5286551
+          ],
+          [
+            -122.603106,
+            45.5286043
+          ],
+          [
+            -122.6032569,
+            45.5285317
+          ],
+          [
+            -122.6033957,
+            45.5284683
+          ]
+        ]
+      },
+      "id": "way/30287994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30288089",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Hollywood Transit Center/Northeast 42nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8344"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6206678,
+            45.5327864
+          ],
+          [
+            -122.6210902,
+            45.532884
+          ]
+        ]
+      },
+      "id": "way/30288089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52142541",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Interstate/Rose Quarter",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11508"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6682216,
+            45.5304271
+          ],
+          [
+            -122.6673582,
+            45.5300487
+          ]
+        ]
+      },
+      "id": "way/52142541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52142547",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8377"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.665668,
+            45.5301258
+          ],
+          [
+            -122.6648755,
+            45.5301248
+          ]
+        ]
+      },
+      "id": "way/52142547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52326123",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Gateway Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8370"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.563625,
+            45.5310379
+          ],
+          [
+            -122.5633318,
+            45.5302846
+          ]
+        ]
+      },
+      "id": "way/52326123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52326126",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Gateway Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8370"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5634445,
+            45.530263
+          ],
+          [
+            -122.5637249,
+            45.5310185
+          ]
+        ]
+      },
+      "id": "way/52326126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52326131",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Gateway Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8347"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5638788,
+            45.5309885
+          ],
+          [
+            -122.5635953,
+            45.5302341
+          ]
+        ]
+      },
+      "id": "way/52326131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52562616",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Goose Hollow/Southwest Jefferson Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10118"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6933287,
+            45.5179217
+          ],
+          [
+            -122.6942965,
+            45.5181858
+          ]
+        ]
+      },
+      "id": "way/52562616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108397857",
+        "bicycle": "dismount",
+        "highway": "footway",
+        "layer": "-1",
+        "light_rail": "yes",
+        "name": "Sunset Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9624",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7813747,
+            45.5104326
+          ],
+          [
+            -122.7812508,
+            45.5103876
+          ],
+          [
+            -122.7807418,
+            45.5102026
+          ],
+          [
+            -122.780607,
+            45.5101536
+          ]
+        ]
+      },
+      "id": "way/108397857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108397863",
+        "bicycle": "dismount",
+        "highway": "footway",
+        "layer": "-1",
+        "light_rail": "yes",
+        "name": "Sunset Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9969",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7814363,
+            45.5103413
+          ],
+          [
+            -122.7813119,
+            45.5102967
+          ],
+          [
+            -122.7808115,
+            45.510117
+          ],
+          [
+            -122.780661,
+            45.510063
+          ]
+        ]
+      },
+      "id": "way/108397863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117315144",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Interstate/Rose Quarter",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11507"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6683189,
+            45.5303239
+          ],
+          [
+            -122.6674441,
+            45.5299457
+          ]
+        ]
+      },
+      "id": "way/117315144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118898874",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Powell Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13137"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5662293,
+            45.4960812
+          ],
+          [
+            -122.5661777,
+            45.4957292
+          ]
+        ]
+      },
+      "id": "way/118898874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118898877",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Division Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13138"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5666128,
+            45.5037386
+          ],
+          [
+            -122.5666388,
+            45.5033871
+          ]
+        ]
+      },
+      "id": "way/118898877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118898880",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Holgate Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13127"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5662962,
+            45.4907663
+          ],
+          [
+            -122.5662685,
+            45.4910958
+          ]
+        ]
+      },
+      "id": "way/118898880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118898883",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Main Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13139"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5644346,
+            45.5146323
+          ],
+          [
+            -122.5644396,
+            45.5142798
+          ]
+        ]
+      },
+      "id": "way/118898883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118899925",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lents/Southeast Foster Road",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13128"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5668767,
+            45.4800089
+          ],
+          [
+            -122.5668026,
+            45.480428
+          ]
+        ]
+      },
+      "id": "way/118899925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118899927",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Flavel Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13134"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5664873,
+            45.4682442
+          ],
+          [
+            -122.5666373,
+            45.4678738
+          ]
+        ]
+      },
+      "id": "way/118899927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118899928",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Fuller Road",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13130"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5735295,
+            45.4530317
+          ],
+          [
+            -122.573576,
+            45.4531924
+          ],
+          [
+            -122.5736183,
+            45.4533599
+          ]
+        ]
+      },
+      "id": "way/118899928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/119027223",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8340"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6656702,
+            45.5300553
+          ],
+          [
+            -122.6648765,
+            45.5300523
+          ]
+        ]
+      },
+      "id": "way/119027223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/119027225",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rose Quarter Transit Center",
+        "name_1": "Rose Quarter Transit Center Westbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8377"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6648738,
+            45.5302534
+          ],
+          [
+            -122.6656639,
+            45.5302542
+          ]
+        ]
+      },
+      "id": "way/119027225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/119108622",
+        "railway": "platform",
+        "usage": "tourism"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7156668,
+            45.5092396
+          ],
+          [
+            -122.7156982,
+            45.5092244
+          ],
+          [
+            -122.715718,
+            45.5092184
+          ],
+          [
+            -122.7157545,
+            45.5092075
+          ],
+          [
+            -122.7158055,
+            45.5092
+          ],
+          [
+            -122.7158618,
+            45.5091972
+          ],
+          [
+            -122.7159061,
+            45.5091972
+          ],
+          [
+            -122.715934,
+            45.5092002
+          ],
+          [
+            -122.7159736,
+            45.5092063
+          ],
+          [
+            -122.7160073,
+            45.5092159
+          ],
+          [
+            -122.7160469,
+            45.509231
+          ],
+          [
+            -122.7160681,
+            45.5092405
+          ],
+          [
+            -122.7160864,
+            45.5092535
+          ]
+        ]
+      },
+      "id": "way/119108622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/122424477",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Old Town/Chinatown",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8339"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6713458,
+            45.5252206
+          ],
+          [
+            -122.6713161,
+            45.5246482
+          ]
+        ]
+      },
+      "id": "way/122424477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124103906",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 7th Avenue",
+        "name_1": "7th Avenue Westbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8375"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6576959,
+            45.530143
+          ],
+          [
+            -122.6580505,
+            45.530141
+          ],
+          [
+            -122.6584274,
+            45.5301389
+          ]
+        ]
+      },
+      "id": "way/124103906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124462990",
+        "RLIS:systemname": "South Park Blocks",
+        "est_width": "2.3",
+        "foot": "designated",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest Park & Market",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11011",
+        "surface": "paved",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6838704,
+            45.5136855
+          ],
+          [
+            -122.6840566,
+            45.513734
+          ]
+        ]
+      },
+      "id": "way/124462990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124660215",
+        "bicycle": "dismount",
+        "highway": "footway",
+        "name": "Beaverton Transit Center WES Platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8013178,
+            45.4904729
+          ],
+          [
+            -122.8010215,
+            45.4908071
+          ]
+        ]
+      },
+      "id": "way/124660215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124660216",
+        "name": "Hall/Nimbus WES Station Platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.786988,
+            45.4577667
+          ],
+          [
+            -122.7870016,
+            45.4573977
+          ]
+        ]
+      },
+      "id": "way/124660216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124807603",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Kenton/North Denver Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11515"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6854526,
+            45.5837345
+          ],
+          [
+            -122.6860883,
+            45.5839975
+          ],
+          [
+            -122.6862686,
+            45.5840771
+          ],
+          [
+            -122.6863797,
+            45.5841277
+          ]
+        ]
+      },
+      "id": "way/124807603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124808476",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Lombard Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11514"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6820254,
+            45.5772709
+          ],
+          [
+            -122.6820175,
+            45.577861
+          ],
+          [
+            -122.6820231,
+            45.5780173
+          ]
+        ]
+      },
+      "id": "way/124808476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124808477",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Lombard Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11501"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6821712,
+            45.5762445
+          ],
+          [
+            -122.6821708,
+            45.576327
+          ],
+          [
+            -122.6821674,
+            45.5769985
+          ]
+        ]
+      },
+      "id": "way/124808477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124809159",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rosa Parks",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11513"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6820786,
+            45.5700413
+          ],
+          [
+            -122.6820706,
+            45.5707563
+          ]
+        ]
+      },
+      "id": "way/124809159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124809160",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Killingsworth Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11503"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6823131,
+            45.5625671
+          ],
+          [
+            -122.6823168,
+            45.5619798
+          ]
+        ]
+      },
+      "id": "way/124809160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124809161",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rosa Parks",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11502"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6822323,
+            45.5690371
+          ],
+          [
+            -122.6822242,
+            45.5697368
+          ]
+        ]
+      },
+      "id": "way/124809161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124809164",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Killingsworth Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11512"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6821584,
+            45.5634234
+          ],
+          [
+            -122.6821646,
+            45.562757
+          ]
+        ]
+      },
+      "id": "way/124809164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124809870",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Prescott Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11511"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6823079,
+            45.555497
+          ],
+          [
+            -122.6822986,
+            45.5551505
+          ]
+        ]
+      },
+      "id": "way/124809870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124810301",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Overlook Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11505"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.681073,
+            45.5495088
+          ],
+          [
+            -122.6810774,
+            45.5488274
+          ]
+        ]
+      },
+      "id": "way/124810301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124810302",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Overlook Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11510"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6809315,
+            45.548828
+          ],
+          [
+            -122.6809336,
+            45.548611
+          ],
+          [
+            -122.6809407,
+            45.5478822
+          ]
+        ]
+      },
+      "id": "way/124810302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124812192",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Albina/Mississippi",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11509",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6758773,
+            45.5397482
+          ],
+          [
+            -122.6754751,
+            45.5395412
+          ]
+        ]
+      },
+      "id": "way/124812192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125402965",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 102nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8369"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5593636,
+            45.5227051
+          ],
+          [
+            -122.5591918,
+            45.5227036
+          ],
+          [
+            -122.5585168,
+            45.5226976
+          ]
+        ]
+      },
+      "id": "way/125402965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125402966",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 102nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8348"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5580713,
+            45.5225864
+          ],
+          [
+            -122.557405,
+            45.5225872
+          ],
+          [
+            -122.5572711,
+            45.5225874
+          ]
+        ]
+      },
+      "id": "way/125402966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125406643",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 122nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8349"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5375427,
+            45.5224415
+          ],
+          [
+            -122.5368897,
+            45.5224411
+          ],
+          [
+            -122.5367495,
+            45.522441
+          ]
+        ]
+      },
+      "id": "way/125406643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125406644",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 122nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8368"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5388169,
+            45.52256
+          ],
+          [
+            -122.5387079,
+            45.5225597
+          ],
+          [
+            -122.5380071,
+            45.5225576
+          ]
+        ]
+      },
+      "id": "way/125406644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125414559",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 148th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8367"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5108831,
+            45.5223532
+          ],
+          [
+            -122.5114925,
+            45.5223558
+          ],
+          [
+            -122.5116714,
+            45.5223566
+          ]
+        ]
+      },
+      "id": "way/125414559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125414560",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 148th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8350"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5104283,
+            45.5222446
+          ],
+          [
+            -122.5098151,
+            45.5222395
+          ],
+          [
+            -122.5096869,
+            45.5222384
+          ]
+        ]
+      },
+      "id": "way/125414560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125417824",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 162nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8366"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4975001,
+            45.5222346
+          ],
+          [
+            -122.4973556,
+            45.5222336
+          ],
+          [
+            -122.4966849,
+            45.5222287
+          ]
+        ]
+      },
+      "id": "way/125417824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125417825",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 162nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8351"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4962407,
+            45.5221199
+          ],
+          [
+            -122.4956272,
+            45.5221167
+          ],
+          [
+            -122.4954446,
+            45.5221157
+          ]
+        ]
+      },
+      "id": "way/125417825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125785905",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Convention Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8376"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6626715,
+            45.5301518
+          ],
+          [
+            -122.6618262,
+            45.5301478
+          ]
+        ]
+      },
+      "id": "way/125785905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125785925",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lloyd Center/Northeast 11th Avenue",
+        "name_1": "Lloyd Center Westbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8374",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.654449,
+            45.5301459
+          ],
+          [
+            -122.6543476,
+            45.5301481
+          ],
+          [
+            -122.653589,
+            45.5301512
+          ]
+        ]
+      },
+      "id": "way/125785925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125785940",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Convention Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8341"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6626733,
+            45.5300374
+          ],
+          [
+            -122.6618275,
+            45.5300342
+          ]
+        ]
+      },
+      "id": "way/125785940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125785941",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 7th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8342"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6584791,
+            45.5300495
+          ],
+          [
+            -122.6576233,
+            45.5300449
+          ]
+        ]
+      },
+      "id": "way/125785941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125820531",
+        "highway": "footway",
+        "layer": "1",
+        "light_rail": "yes",
+        "name": "Mount Hood Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10576"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.567164,
+            45.5774397
+          ],
+          [
+            -122.567126,
+            45.5773044
+          ],
+          [
+            -122.5670912,
+            45.5771801
+          ],
+          [
+            -122.5669795,
+            45.5767821
+          ]
+        ]
+      },
+      "id": "way/125820531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125820532",
+        "highway": "footway",
+        "layer": "1",
+        "light_rail": "yes",
+        "name": "Mount Hood Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10577"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5673085,
+            45.5774196
+          ],
+          [
+            -122.5672062,
+            45.5770325
+          ],
+          [
+            -122.567196,
+            45.576995
+          ],
+          [
+            -122.5671742,
+            45.576915
+          ],
+          [
+            -122.5671318,
+            45.5767588
+          ]
+        ]
+      },
+      "id": "way/125820532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125834104",
+        "highway": "footway",
+        "layer": "1",
+        "light_rail": "yes",
+        "name": "Cascades",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10574"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5583212,
+            45.5724146
+          ],
+          [
+            -122.5580845,
+            45.5723229
+          ],
+          [
+            -122.5578686,
+            45.5722393
+          ],
+          [
+            -122.5576494,
+            45.5721544
+          ]
+        ]
+      },
+      "id": "way/125834104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125834105",
+        "highway": "footway",
+        "layer": "1",
+        "light_rail": "yes",
+        "name": "Cascades",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10575"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5583666,
+            45.5723269
+          ],
+          [
+            -122.5580472,
+            45.5722044
+          ],
+          [
+            -122.5577101,
+            45.5720751
+          ]
+        ]
+      },
+      "id": "way/125834105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126575209",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rockwood/Southeast 188th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8363"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4711164,
+            45.5207396
+          ],
+          [
+            -122.4703781,
+            45.5204264
+          ]
+        ]
+      },
+      "id": "way/126575209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126575261",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 181st Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8364"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4773517,
+            45.5220681
+          ],
+          [
+            -122.4779655,
+            45.5220736
+          ],
+          [
+            -122.4781576,
+            45.5220753
+          ]
+        ]
+      },
+      "id": "way/126575261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126575262",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 181st Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8353"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4769077,
+            45.5219611
+          ],
+          [
+            -122.4766616,
+            45.5219509
+          ],
+          [
+            -122.4765021,
+            45.521941
+          ],
+          [
+            -122.4762478,
+            45.5219245
+          ],
+          [
+            -122.4761149,
+            45.5219158
+          ]
+        ]
+      },
+      "id": "way/126575262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126662078",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 172nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8365"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4872061,
+            45.522158
+          ],
+          [
+            -122.4870412,
+            45.522157
+          ],
+          [
+            -122.4863825,
+            45.5221524
+          ]
+        ]
+      },
+      "id": "way/126662078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126662080",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "East 172nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8352"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4859256,
+            45.5220427
+          ],
+          [
+            -122.4853117,
+            45.5220365
+          ],
+          [
+            -122.4851451,
+            45.5220348
+          ]
+        ]
+      },
+      "id": "way/126662080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126665605",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Portland Airport",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10579"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.593152,
+            45.5876195
+          ],
+          [
+            -122.5930183,
+            45.5874997
+          ],
+          [
+            -122.5927025,
+            45.5872036
+          ]
+        ]
+      },
+      "id": "way/126665605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126668276",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Old Town/Chinatown",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8378"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6715083,
+            45.5252197
+          ],
+          [
+            -122.6714832,
+            45.5246456
+          ]
+        ]
+      },
+      "id": "way/126668276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670463",
+        "bicycle": "no",
+        "foot": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Skidmore Fountain",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8379"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.671393,
+            45.5232701
+          ],
+          [
+            -122.6714007,
+            45.5229681
+          ],
+          [
+            -122.6714055,
+            45.5228021
+          ]
+        ]
+      },
+      "id": "way/126670463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670464",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Pioneer Place/Southwest 5th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7646"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.678013,
+            45.5182157
+          ],
+          [
+            -122.6777026,
+            45.5187734
+          ]
+        ]
+      },
+      "id": "way/126670464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670468",
+        "bicycle": "no",
+        "foot": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Skidmore Fountain",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8338"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6712518,
+            45.5232332
+          ],
+          [
+            -122.6712275,
+            45.5227341
+          ]
+        ]
+      },
+      "id": "way/126670468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670474",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Pioneer Square South",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8334"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6798672,
+            45.5187092
+          ],
+          [
+            -122.6794522,
+            45.5185961
+          ],
+          [
+            -122.6790448,
+            45.5184851
+          ]
+        ]
+      },
+      "id": "way/126670474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670476",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Pioneer Courthouse/Southwest 6th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7777"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6788705,
+            45.5184376
+          ],
+          [
+            -122.678564,
+            45.5189923
+          ]
+        ]
+      },
+      "id": "way/126670476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670477",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Pioneer Square North",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8383"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6795595,
+            45.5192636
+          ],
+          [
+            -122.679111,
+            45.5191414
+          ],
+          [
+            -122.6787371,
+            45.5190395
+          ]
+        ]
+      },
+      "id": "way/126670477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670797",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Oak/Southwest 1st Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8380"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6722908,
+            45.5203549
+          ],
+          [
+            -122.6725838,
+            45.5198261
+          ]
+        ]
+      },
+      "id": "way/126670797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670801",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Morrison/Southwest 3rd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8381"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6754694,
+            45.5181878
+          ],
+          [
+            -122.6747082,
+            45.5179859
+          ]
+        ]
+      },
+      "id": "way/126670801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126670804",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Oak/Southwest 1st Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8337"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6721326,
+            45.5203121
+          ],
+          [
+            -122.6721516,
+            45.5202998
+          ],
+          [
+            -122.6724064,
+            45.5198139
+          ],
+          [
+            -122.6724186,
+            45.5197819
+          ]
+        ]
+      },
+      "id": "way/126670804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671369",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northwest 6th & Davis",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9299"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6764124,
+            45.524437
+          ],
+          [
+            -122.6763904,
+            45.5238403
+          ]
+        ]
+      },
+      "id": "way/126671369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671370",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Mall/Southwest 5th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8382"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6775141,
+            45.5187225
+          ],
+          [
+            -122.676725,
+            45.5185089
+          ]
+        ]
+      },
+      "id": "way/126671370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671371",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northwest 5th & Couch",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9303"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6755496,
+            45.5244539
+          ],
+          [
+            -122.6755226,
+            45.5238541
+          ]
+        ]
+      },
+      "id": "way/126671371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671372",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southwest 5th & Oak",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7627"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6759344,
+            45.5221069
+          ],
+          [
+            -122.6762315,
+            45.5215775
+          ]
+        ]
+      },
+      "id": "way/126671372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671373",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Union Station/Northwest 5th & Glisan",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7601"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6756359,
+            45.5267001
+          ],
+          [
+            -122.6756584,
+            45.5272956
+          ]
+        ]
+      },
+      "id": "way/126671373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671374",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Union Station/Northwest 6th & Hoyt",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7763"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6765206,
+            45.527288
+          ],
+          [
+            -122.6764956,
+            45.5267015
+          ]
+        ]
+      },
+      "id": "way/126671374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671375",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Mall/Southwest 4th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8335"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6778226,
+            45.5181546
+          ],
+          [
+            -122.6770333,
+            45.517938
+          ]
+        ]
+      },
+      "id": "way/126671375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126671376",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southwest 6th & Pine",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7787"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6767725,
+            45.5222964
+          ],
+          [
+            -122.6769261,
+            45.5220107
+          ],
+          [
+            -122.6770415,
+            45.5217962
+          ]
+        ]
+      },
+      "id": "way/126671376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126675557",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "PSU Urban Center/Southwest 5th & Mill",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7618"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.681614,
+            45.5115898
+          ],
+          [
+            -122.6813304,
+            45.5121058
+          ]
+        ]
+      },
+      "id": "way/126675557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126675562",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southwest 6th & Madison",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13123"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6806199,
+            45.5151126
+          ],
+          [
+            -122.6803328,
+            45.515654
+          ]
+        ]
+      },
+      "id": "way/126675562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126675579",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "PSU Urban Center/Southwest 6th & Montgomery",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7774"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6827993,
+            45.5111022
+          ],
+          [
+            -122.6825011,
+            45.5116505
+          ]
+        ]
+      },
+      "id": "way/126675579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126675587",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "City Hall/Southwest 5th & Jefferson",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7608"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6795285,
+            45.5154306
+          ],
+          [
+            -122.679806,
+            45.5148996
+          ]
+        ]
+      },
+      "id": "way/126675587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126678909",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Library/Southwest 9th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6819214,
+            45.5192559
+          ],
+          [
+            -122.6823314,
+            45.5193678
+          ]
+        ]
+      },
+      "id": "way/126678909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126678910",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Galleria/Southwest 10th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8384"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6820277,
+            45.519929
+          ],
+          [
+            -122.6816313,
+            45.5198222
+          ]
+        ]
+      },
+      "id": "way/126678910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126678939",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Providence Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9758"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6904461,
+            45.5213935
+          ],
+          [
+            -122.6903887,
+            45.5213998
+          ],
+          [
+            -122.6903329,
+            45.5214145
+          ],
+          [
+            -122.6902705,
+            45.521417
+          ],
+          [
+            -122.6901953,
+            45.5214074
+          ],
+          [
+            -122.6895617,
+            45.5212332
+          ]
+        ]
+      },
+      "id": "way/126678939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126679441",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Kings Hill/Southwest Salmon Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9759"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6909101,
+            45.5207689
+          ],
+          [
+            -122.691003,
+            45.5206197
+          ],
+          [
+            -122.6910925,
+            45.5204845
+          ],
+          [
+            -122.6911444,
+            45.5204155
+          ]
+        ]
+      },
+      "id": "way/126679441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126701655",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Goose Hollow/Southwest Jefferson Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10117"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6942285,
+            45.5182784
+          ],
+          [
+            -122.6932649,
+            45.518013
+          ]
+        ]
+      },
+      "id": "way/126701655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129268310",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Creek",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9822"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8326699,
+            45.5002237
+          ],
+          [
+            -122.8330731,
+            45.5004313
+          ]
+        ]
+      },
+      "id": "way/129268310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129280869",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9826"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8220092,
+            45.4953931
+          ],
+          [
+            -122.8218952,
+            45.4953483
+          ]
+        ]
+      },
+      "id": "way/129280869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129280870",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8219328,
+            45.4954888
+          ],
+          [
+            -122.8218144,
+            45.4954411
+          ]
+        ]
+      },
+      "id": "way/129280870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129281357",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9823"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.807461,
+            45.4904287
+          ],
+          [
+            -122.8072683,
+            45.4904764
+          ]
+        ]
+      },
+      "id": "way/129281357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129281358",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9824"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8074268,
+            45.4903291
+          ],
+          [
+            -122.8072201,
+            45.4903808
+          ]
+        ]
+      },
+      "id": "way/129281358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129281521",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9821"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.801685,
+            45.4912139
+          ],
+          [
+            -122.8011127,
+            45.4917447
+          ]
+        ]
+      },
+      "id": "way/129281521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129282044",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9818"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8018211,
+            45.4912835
+          ],
+          [
+            -122.8012492,
+            45.4918169
+          ]
+        ]
+      },
+      "id": "way/129282044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129282046",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9821"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8015854,
+            45.4911624
+          ],
+          [
+            -122.8015172,
+            45.4912272
+          ],
+          [
+            -122.8010508,
+            45.4916706
+          ],
+          [
+            -122.8010166,
+            45.4916938
+          ]
+        ]
+      },
+      "id": "way/129282046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129345577",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Providence Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9757"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6902352,
+            45.521765
+          ],
+          [
+            -122.6901701,
+            45.5217724
+          ],
+          [
+            -122.6898884,
+            45.5218184
+          ],
+          [
+            -122.6894774,
+            45.5218855
+          ],
+          [
+            -122.6894453,
+            45.5219067
+          ]
+        ]
+      },
+      "id": "way/129345577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129384000",
+        "RLIS:systemname": "Portland State University Block",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "footway",
+        "name": "PSU Urban Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10764",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6821298,
+            45.5123276
+          ],
+          [
+            -122.682048,
+            45.5121787
+          ]
+        ]
+      },
+      "id": "way/129384000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134149130",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Southwest Moody & Gibbs",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12760",
+        "surface": "paved",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6718341,
+            45.4992744
+          ],
+          [
+            -122.6718272,
+            45.4994509
+          ]
+        ]
+      },
+      "id": "way/134149130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135911424",
+        "bicycle": "dismount",
+        "name": "Willamette Shore Trolley Bancroft Street Station",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6720338,
+            45.4930351
+          ],
+          [
+            -122.6720381,
+            45.492966
+          ],
+          [
+            -122.6720508,
+            45.4929404
+          ],
+          [
+            -122.6720601,
+            45.4928381
+          ]
+        ]
+      },
+      "id": "way/135911424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154077277",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 5th & Montgomery",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10763",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6811874,
+            45.5119019
+          ],
+          [
+            -122.6812338,
+            45.5119
+          ],
+          [
+            -122.6813198,
+            45.5117469
+          ]
+        ]
+      },
+      "id": "way/154077277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154078690",
+        "highway": "footway",
+        "name": "Southwest Harrison Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12380",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6765492,
+            45.5089619
+          ],
+          [
+            -122.6765586,
+            45.5088425
+          ]
+        ]
+      },
+      "id": "way/154078690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/156115559",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 82nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8371"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5785049,
+            45.5334779
+          ],
+          [
+            -122.5781044,
+            45.5333409
+          ]
+        ]
+      },
+      "id": "way/156115559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/156250128",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Kenton/North Denver Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6864564,
+            45.5840324
+          ],
+          [
+            -122.6863521,
+            45.5839836
+          ],
+          [
+            -122.6861962,
+            45.58392
+          ],
+          [
+            -122.6855414,
+            45.5836475
+          ]
+        ]
+      },
+      "id": "way/156250128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158068227",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Central Library",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10767",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6824976,
+            45.5191115
+          ],
+          [
+            -122.6824435,
+            45.5192164
+          ]
+        ]
+      },
+      "id": "way/158068227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158069457",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 10th & Alder",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10768",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6817779,
+            45.5204063
+          ],
+          [
+            -122.6818103,
+            45.5204287
+          ],
+          [
+            -122.6817211,
+            45.5205925
+          ]
+        ]
+      },
+      "id": "way/158069457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158069460",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 10th & Stark",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10769",
+        "tram": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6810771,
+            45.5217786
+          ],
+          [
+            -122.6811747,
+            45.5215956
+          ]
+        ]
+      },
+      "id": "way/158069460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158070212",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 10th & Couch",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10770",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6810735,
+            45.523627
+          ],
+          [
+            -122.6810672,
+            45.5234472
+          ],
+          [
+            -122.681032,
+            45.5234163
+          ]
+        ]
+      },
+      "id": "way/158070212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158070633",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 10th & Everett",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10771",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6810885,
+            45.5248814
+          ],
+          [
+            -122.6811176,
+            45.5248978
+          ],
+          [
+            -122.6811235,
+            45.5250543
+          ]
+        ]
+      },
+      "id": "way/158070633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158072323",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 10th & Johnson",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10773",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6812202,
+            45.5284215
+          ],
+          [
+            -122.6812536,
+            45.5284484
+          ],
+          [
+            -122.6812561,
+            45.5285964
+          ],
+          [
+            -122.6812355,
+            45.5286199
+          ]
+        ]
+      },
+      "id": "way/158072323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158072325",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 10th & Glisan",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10772",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6811739,
+            45.5264762
+          ],
+          [
+            -122.6811905,
+            45.5264515
+          ],
+          [
+            -122.6811847,
+            45.5263333
+          ],
+          [
+            -122.6811477,
+            45.5263095
+          ]
+        ]
+      },
+      "id": "way/158072325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158074002",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 12th & Northrup",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12796",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6833507,
+            45.5315414
+          ],
+          [
+            -122.6831187,
+            45.5315436
+          ],
+          [
+            -122.6830742,
+            45.531573
+          ]
+        ]
+      },
+      "id": "way/158074002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158075990",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Northrup & 18th",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10776",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6894506,
+            45.5314353
+          ],
+          [
+            -122.6892242,
+            45.5314379
+          ]
+        ]
+      },
+      "id": "way/158075990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158075993",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Northrup & 14th",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10775",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6853896,
+            45.5315036
+          ],
+          [
+            -122.6851788,
+            45.5315061
+          ]
+        ]
+      },
+      "id": "way/158075993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158077350",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Northrup & 21st",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10777",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6943059,
+            45.5313384
+          ],
+          [
+            -122.6944953,
+            45.531335
+          ],
+          [
+            -122.6945215,
+            45.5313555
+          ]
+        ]
+      },
+      "id": "way/158077350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158083024",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 23rd & Marshall",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8989",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6987094,
+            45.5305739
+          ],
+          [
+            -122.6987115,
+            45.5306778
+          ]
+        ]
+      },
+      "id": "way/158083024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158083028",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Northrup & 22nd",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10778",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6963395,
+            45.5313032
+          ],
+          [
+            -122.6965144,
+            45.531301
+          ],
+          [
+            -122.6965368,
+            45.5313137
+          ]
+        ]
+      },
+      "id": "way/158083028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158083861",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Lovejoy & 22nd",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "3596",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6966749,
+            45.5297583
+          ],
+          [
+            -122.6969295,
+            45.5297549
+          ]
+        ]
+      },
+      "id": "way/158083861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158084472",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Lovejoy & 21st",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "3595",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6948537,
+            45.5298197
+          ],
+          [
+            -122.6946911,
+            45.5298221
+          ],
+          [
+            -122.6946548,
+            45.5297963
+          ]
+        ]
+      },
+      "id": "way/158084472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158085201",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Lovejoy & 18th",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10751",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6895811,
+            45.5298937
+          ],
+          [
+            -122.689604,
+            45.5299101
+          ],
+          [
+            -122.6898005,
+            45.5299072
+          ]
+        ]
+      },
+      "id": "way/158085201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158086036",
+        "bench": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest Lovejoy & 13th",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10752",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6848491,
+            45.5300069
+          ],
+          [
+            -122.6846344,
+            45.5300085
+          ]
+        ]
+      },
+      "id": "way/158086036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158089113",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 11th & Everett",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10755",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6822747,
+            45.5251727
+          ],
+          [
+            -122.6822726,
+            45.5253236
+          ]
+        ]
+      },
+      "id": "way/158089113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158089114",
+        "bench": "yes",
+        "highway": "footway",
+        "name": "Northwest 11th & Glisan",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10754",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6823223,
+            45.52659
+          ],
+          [
+            -122.6823138,
+            45.5266053
+          ],
+          [
+            -122.6823161,
+            45.5267414
+          ]
+        ]
+      },
+      "id": "way/158089114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158090036",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 11th & Couch",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10756",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6822415,
+            45.5237428
+          ],
+          [
+            -122.6822225,
+            45.5237593
+          ],
+          [
+            -122.6822146,
+            45.5237788
+          ],
+          [
+            -122.6822185,
+            45.5239085
+          ]
+        ]
+      },
+      "id": "way/158090036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158090038",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 11th & Alder",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9600",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6828479,
+            45.5210441
+          ],
+          [
+            -122.6828243,
+            45.5210506
+          ],
+          [
+            -122.6828031,
+            45.5210671
+          ],
+          [
+            -122.6827414,
+            45.5211724
+          ]
+        ]
+      },
+      "id": "way/158090038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158090289",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 11th & Taylor",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9633",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6838219,
+            45.5191697
+          ],
+          [
+            -122.6838668,
+            45.5190875
+          ]
+        ]
+      },
+      "id": "way/158090289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158090776",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 11th & Jefferson",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10759",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6853723,
+            45.5163853
+          ],
+          [
+            -122.6853383,
+            45.516398
+          ],
+          [
+            -122.6853119,
+            45.5164208
+          ],
+          [
+            -122.6852135,
+            45.5165962
+          ]
+        ]
+      },
+      "id": "way/158090776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158091093",
+        "bench": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 11th & Clay",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10760",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6859734,
+            45.515191
+          ],
+          [
+            -122.6860423,
+            45.5150732
+          ],
+          [
+            -122.6860996,
+            45.5150508
+          ]
+        ]
+      },
+      "id": "way/158091093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158093081",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 10th & Clay",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10765",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6850302,
+            45.5144766
+          ],
+          [
+            -122.6849607,
+            45.5145964
+          ]
+        ]
+      },
+      "id": "way/158093081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158093082",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Art Museum",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "6493",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6838616,
+            45.5165423
+          ],
+          [
+            -122.6839003,
+            45.5165355
+          ],
+          [
+            -122.6839939,
+            45.5163618
+          ]
+        ]
+      },
+      "id": "way/158093082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158097810",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 5th & Market",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10762",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6811992,
+            45.5129787
+          ],
+          [
+            -122.6809315,
+            45.512911
+          ]
+        ]
+      },
+      "id": "way/158097810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158099545",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest Park & Mill",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10766",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6842157,
+            45.5129335
+          ],
+          [
+            -122.684256,
+            45.5129826
+          ],
+          [
+            -122.6845685,
+            45.5130681
+          ],
+          [
+            -122.6846444,
+            45.513123
+          ]
+        ]
+      },
+      "id": "way/158099545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158099915",
+        "highway": "footway",
+        "name": "Southwest 3rd & Harrison",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12382",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6798987,
+            45.5102931
+          ],
+          [
+            -122.679719,
+            45.5102462
+          ]
+        ]
+      },
+      "id": "way/158099915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158303884",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest Bond & Lane",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12882",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.670965,
+            45.4954602
+          ],
+          [
+            -122.6709592,
+            45.4956237
+          ]
+        ]
+      },
+      "id": "way/158303884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158303923",
+        "highway": "footway",
+        "name": "Southwest River Parkway & Moody",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12379",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6741827,
+            45.5071472
+          ],
+          [
+            -122.6740377,
+            45.5071089
+          ]
+        ]
+      },
+      "id": "way/158303923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158804233",
+        "highway": "footway",
+        "name": "OHSU Commons",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12883",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6707617,
+            45.4989755
+          ],
+          [
+            -122.670785,
+            45.4989378
+          ]
+        ]
+      },
+      "id": "way/158804233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158804811",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest Lowell & Bond",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12881",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6715579,
+            45.4938904
+          ],
+          [
+            -122.6712862,
+            45.4938863
+          ]
+        ]
+      },
+      "id": "way/158804811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158804817",
+        "highway": "footway",
+        "name": "Southwest Moody Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12880"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6719432,
+            45.4963554
+          ],
+          [
+            -122.6719502,
+            45.4961383
+          ]
+        ]
+      },
+      "id": "way/158804817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/159104669",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Rockwood/Southeast 188th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8354"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4711871,
+            45.5206557
+          ],
+          [
+            -122.4704375,
+            45.5203332
+          ]
+        ]
+      },
+      "id": "way/159104669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162041995",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Grand & Multnomah",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9343",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6605571,
+            45.5318764
+          ],
+          [
+            -122.6605577,
+            45.5317236
+          ]
+        ]
+      },
+      "id": "way/162041995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162042006",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Grand & Hoyt",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2169",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6605769,
+            45.5275309
+          ],
+          [
+            -122.6605789,
+            45.5275242
+          ],
+          [
+            -122.6605797,
+            45.5274059
+          ]
+        ]
+      },
+      "id": "way/162042006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162042016",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Grand & Holladay",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2175",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6605403,
+            45.529767
+          ],
+          [
+            -122.6605698,
+            45.5297617
+          ],
+          [
+            -122.6605866,
+            45.5297347
+          ],
+          [
+            -122.6605888,
+            45.5297277
+          ],
+          [
+            -122.6605905,
+            45.5296033
+          ],
+          [
+            -122.6605882,
+            45.5295982
+          ],
+          [
+            -122.6605709,
+            45.5295735
+          ],
+          [
+            -122.6605456,
+            45.5295674
+          ]
+        ]
+      },
+      "id": "way/162042016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162042036",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Martin Luther King & East Burnside",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "5901",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6618791,
+            45.5235563
+          ],
+          [
+            -122.6618818,
+            45.5233741
+          ],
+          [
+            -122.6618834,
+            45.5233635
+          ],
+          [
+            -122.6618968,
+            45.5233298
+          ],
+          [
+            -122.6618976,
+            45.5233204
+          ]
+        ]
+      },
+      "id": "way/162042036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162042040",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Martin Luther King & Hoyt",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "5912",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6618491,
+            45.5273907
+          ],
+          [
+            -122.6618468,
+            45.5275977
+          ]
+        ]
+      },
+      "id": "way/162042040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162042091",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southeast Grand & East Burnside",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2167",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6606107,
+            45.5228296
+          ],
+          [
+            -122.660619,
+            45.5228069
+          ],
+          [
+            -122.6606234,
+            45.5226698
+          ]
+        ]
+      },
+      "id": "way/162042091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178678099",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "PSU South/Southwest 5th & Jackson",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "7606",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6830879,
+            45.5088777
+          ],
+          [
+            -122.6830772,
+            45.5088947
+          ],
+          [
+            -122.6830129,
+            45.5090142
+          ],
+          [
+            -122.6827903,
+            45.5094402
+          ]
+        ]
+      },
+      "id": "way/178678099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178678101",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "PSU South/Southwest 6th & College",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10293",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6837895,
+            45.5090788
+          ],
+          [
+            -122.6837322,
+            45.5092448
+          ],
+          [
+            -122.6836553,
+            45.5094446
+          ],
+          [
+            -122.6835618,
+            45.5096465
+          ]
+        ]
+      },
+      "id": "way/178678101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180639444",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southwest 11th & Taylor",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9633",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6838668,
+            45.5190875
+          ],
+          [
+            -122.6838786,
+            45.5190659
+          ]
+        ]
+      },
+      "id": "way/180639444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180639445",
+        "highway": "footway",
+        "name": "OHSU Commons",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12883",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.670785,
+            45.4989378
+          ],
+          [
+            -122.6708138,
+            45.4987639
+          ]
+        ]
+      },
+      "id": "way/180639445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180639452",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Galleria/Southwest 10th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8384"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6816313,
+            45.5198222
+          ],
+          [
+            -122.6812575,
+            45.5197215
+          ]
+        ]
+      },
+      "id": "way/180639452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180639454",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Library/Southwest 9th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6815665,
+            45.5191591
+          ],
+          [
+            -122.6819214,
+            45.5192559
+          ]
+        ]
+      },
+      "id": "way/180639454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185161596",
+        "highway": "footway",
+        "name": "North Broadway & Ross",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13619",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6695389,
+            45.5344447
+          ],
+          [
+            -122.6692932,
+            45.5345856
+          ]
+        ]
+      },
+      "id": "way/185161596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185161597",
+        "highway": "footway",
+        "name": "North Weidler & Ross",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13607",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6694787,
+            45.5344007
+          ],
+          [
+            -122.669199,
+            45.5344398
+          ]
+        ]
+      },
+      "id": "way/185161597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185171684",
+        "bus": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southeast Grand & Mill",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2171",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6606948,
+            45.510028
+          ],
+          [
+            -122.6606954,
+            45.5098699
+          ]
+        ]
+      },
+      "id": "way/185171684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185171685",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Southeast Martin Luther King & Mill",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "5933",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6619876,
+            45.5097915
+          ],
+          [
+            -122.6619867,
+            45.5096284
+          ]
+        ]
+      },
+      "id": "way/185171685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/189776944",
+        "highway": "footway",
+        "name": "Northeast 7th & Halsey",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13610",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6585989,
+            45.53332
+          ],
+          [
+            -122.6586001,
+            45.5335544
+          ]
+        ]
+      },
+      "id": "way/189776944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/189776945",
+        "highway": "footway",
+        "name": "Northeast 7th & Holladay",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13611",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6586148,
+            45.5309359
+          ],
+          [
+            -122.6586206,
+            45.5306622
+          ]
+        ]
+      },
+      "id": "way/189776945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/189781397",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Yamhill District",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8336",
+        "surface": "brick"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6747455,
+            45.5172954
+          ],
+          [
+            -122.6746639,
+            45.5172736
+          ],
+          [
+            -122.674411,
+            45.5172063
+          ],
+          [
+            -122.6743312,
+            45.517185
+          ]
+        ]
+      },
+      "id": "way/189781397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/276426455",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 60th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8345"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6033805,
+            45.5284521
+          ],
+          [
+            -122.6032451,
+            45.5285144
+          ],
+          [
+            -122.6030903,
+            45.5285885
+          ],
+          [
+            -122.6029895,
+            45.5286384
+          ],
+          [
+            -122.6028889,
+            45.5286904
+          ],
+          [
+            -122.6027425,
+            45.5287681
+          ],
+          [
+            -122.602729,
+            45.5287829
+          ],
+          [
+            -122.6027134,
+            45.5287917
+          ]
+        ]
+      },
+      "id": "way/276426455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286506411",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Milwaukie/Main Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13718"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6400847,
+            45.4409701
+          ],
+          [
+            -122.6399199,
+            45.4412959
+          ]
+        ]
+      },
+      "id": "way/286506411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295428692",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Tacoma/Johnson Creek",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13722"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6379754,
+            45.4630521
+          ],
+          [
+            -122.6375896,
+            45.4627807
+          ]
+        ]
+      },
+      "id": "way/295428692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295432208",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Holgate Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13715"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6485302,
+            45.4905454
+          ],
+          [
+            -122.6485115,
+            45.4909056
+          ]
+        ]
+      },
+      "id": "way/295432208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295432209",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Clinton Street/Southeast 12th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13713"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6528446,
+            45.5025583
+          ],
+          [
+            -122.6532463,
+            45.5027791
+          ]
+        ]
+      },
+      "id": "way/295432209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295432210",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Rhine Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13725"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6481615,
+            45.4982428
+          ],
+          [
+            -122.6481703,
+            45.4978901
+          ]
+        ]
+      },
+      "id": "way/295432210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295432211",
+        "description": "OMSI/SE Water MAX Station",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "OMSI/Southeast Water",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13727",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6621585,
+            45.5065982
+          ],
+          [
+            -122.6630305,
+            45.5066106
+          ]
+        ]
+      },
+      "id": "way/295432211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295433353",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lincoln Street/Southwest 3rd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13729"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.680974,
+            45.5079388
+          ],
+          [
+            -122.6805014,
+            45.5079274
+          ]
+        ]
+      },
+      "id": "way/295433353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295433354",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "South Waterfront/Southwest Moody",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13711",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6719199,
+            45.5024824
+          ],
+          [
+            -122.6711399,
+            45.502721
+          ]
+        ]
+      },
+      "id": "way/295433354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327189138",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9824"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8069418,
+            45.4904505
+          ],
+          [
+            -122.8067499,
+            45.4904985
+          ]
+        ]
+      },
+      "id": "way/327189138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327189139",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9824",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8072201,
+            45.4903808
+          ],
+          [
+            -122.8069418,
+            45.4904505
+          ]
+        ]
+      },
+      "id": "way/327189139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327189140",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9823",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8072683,
+            45.4904764
+          ],
+          [
+            -122.8070806,
+            45.4905228
+          ]
+        ]
+      },
+      "id": "way/327189140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327189141",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Central",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9823"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8070806,
+            45.4905228
+          ],
+          [
+            -122.8067623,
+            45.4906015
+          ]
+        ]
+      },
+      "id": "way/327189141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190050",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8218952,
+            45.4953483
+          ],
+          [
+            -122.8218822,
+            45.4953432
+          ]
+        ]
+      },
+      "id": "way/327190050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190051",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8212822,
+            45.4951073
+          ],
+          [
+            -122.8212691,
+            45.4951021
+          ]
+        ]
+      },
+      "id": "way/327190051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190052",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8214518,
+            45.495174
+          ],
+          [
+            -122.8212822,
+            45.4951073
+          ]
+        ]
+      },
+      "id": "way/327190052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190053",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8212691,
+            45.4951021
+          ],
+          [
+            -122.8211482,
+            45.4950546
+          ]
+        ]
+      },
+      "id": "way/327190053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190054",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8218822,
+            45.4953432
+          ],
+          [
+            -122.8217086,
+            45.495275
+          ]
+        ]
+      },
+      "id": "way/327190054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190055",
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Millikan Way Eastbound MAX Platform",
+        "public_transport": "platform",
+        "railway": "platform",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8217086,
+            45.495275
+          ],
+          [
+            -122.8215856,
+            45.4952266
+          ],
+          [
+            -122.8214518,
+            45.495174
+          ]
+        ]
+      },
+      "id": "way/327190055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190056",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8218019,
+            45.495436
+          ],
+          [
+            -122.8216323,
+            45.4953677
+          ]
+        ]
+      },
+      "id": "way/327190056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190057",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.821195,
+            45.4951914
+          ],
+          [
+            -122.8210759,
+            45.4951434
+          ]
+        ]
+      },
+      "id": "way/327190057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190058",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8218144,
+            45.4954411
+          ],
+          [
+            -122.8218019,
+            45.495436
+          ]
+        ]
+      },
+      "id": "way/327190058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190059",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8214595,
+            45.495298
+          ],
+          [
+            -122.8212059,
+            45.4951958
+          ]
+        ]
+      },
+      "id": "way/327190059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190060",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8212059,
+            45.4951958
+          ],
+          [
+            -122.821195,
+            45.4951914
+          ]
+        ]
+      },
+      "id": "way/327190060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327190061",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Millikan Way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9825",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8216323,
+            45.4953677
+          ],
+          [
+            -122.8214595,
+            45.495298
+          ]
+        ]
+      },
+      "id": "way/327190061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327847062",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Merlo Road/Southwest 158th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9828"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8420489,
+            45.5051753
+          ],
+          [
+            -122.8418647,
+            45.5050827
+          ]
+        ]
+      },
+      "id": "way/327847062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327847063",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Merlo Road/Southwest 158th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9827",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8422897,
+            45.5052963
+          ],
+          [
+            -122.8421692,
+            45.5052357
+          ]
+        ]
+      },
+      "id": "way/327847063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/334433681",
+        "highway": "footway",
+        "name": "Southeast Water/OMSI",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13615",
+        "surface": "paved",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6633694,
+            45.5070915
+          ],
+          [
+            -122.6633675,
+            45.5070117
+          ]
+        ]
+      },
+      "id": "way/334433681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367048610",
+        "highway": "footway",
+        "name": "Southwest Moody & Meade",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13602",
+        "surface": "paved",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6727242,
+            45.5032997
+          ],
+          [
+            -122.6726407,
+            45.5031681
+          ]
+        ]
+      },
+      "id": "way/367048610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/370524382",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "South Waterfront/Southwest Moody",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13728",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6715694,
+            45.5027101
+          ],
+          [
+            -122.6707585,
+            45.5029518
+          ]
+        ]
+      },
+      "id": "way/370524382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/370524383",
+        "description": "OMSI/SE Water MAX Station",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "OMSI/Southeast Water",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13712",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6624821,
+            45.5065003
+          ],
+          [
+            -122.6634179,
+            45.5065147
+          ]
+        ]
+      },
+      "id": "way/370524383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/371434978",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Bybee Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13716"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6399726,
+            45.4746084
+          ],
+          [
+            -122.6400425,
+            45.4748864
+          ]
+        ]
+      },
+      "id": "way/371434978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740500",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Albina/Mississippi",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11506",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6754751,
+            45.5395412
+          ],
+          [
+            -122.6751112,
+            45.539354
+          ]
+        ]
+      },
+      "id": "way/372740500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740501",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Clinton Street/Southeast 12th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13726"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6532463,
+            45.5027791
+          ],
+          [
+            -122.6536533,
+            45.5030029
+          ]
+        ]
+      },
+      "id": "way/372740501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740502",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lincoln Street/Southwest 3rd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13710"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6805014,
+            45.5079274
+          ],
+          [
+            -122.680034,
+            45.5079161
+          ]
+        ]
+      },
+      "id": "way/372740502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740505",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Milwaukie/Main Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13721"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6399199,
+            45.4412959
+          ],
+          [
+            -122.6397763,
+            45.4415799
+          ],
+          [
+            -122.6397358,
+            45.4416556
+          ]
+        ]
+      },
+      "id": "way/372740505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740506",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "North Prescott Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "11504"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6822986,
+            45.5551505
+          ],
+          [
+            -122.6822873,
+            45.55494
+          ],
+          [
+            -122.6822773,
+            45.5548419
+          ],
+          [
+            -122.6822616,
+            45.554754
+          ]
+        ]
+      },
+      "id": "way/372740506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740507",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Holgate Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13724"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6485115,
+            45.4909056
+          ],
+          [
+            -122.6484931,
+            45.4912588
+          ]
+        ]
+      },
+      "id": "way/372740507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740508",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast 17th Avenue & Rhine Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13714"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6481703,
+            45.4978901
+          ],
+          [
+            -122.6481786,
+            45.4975358
+          ]
+        ]
+      },
+      "id": "way/372740508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740509",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Bybee Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13723"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6400425,
+            45.4748864
+          ],
+          [
+            -122.6401016,
+            45.4751481
+          ]
+        ]
+      },
+      "id": "way/372740509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372740510",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Tacoma/Johnson Creek",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13717"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6375896,
+            45.4627807
+          ],
+          [
+            -122.6372495,
+            45.4625415
+          ]
+        ]
+      },
+      "id": "way/372740510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373716525",
+        "bus": "yes",
+        "highway": "footway",
+        "name": "Southwest Moody & Meade",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13601",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6728866,
+            45.5032187
+          ],
+          [
+            -122.6728496,
+            45.5031596
+          ],
+          [
+            -122.6728027,
+            45.5030845
+          ]
+        ]
+      },
+      "id": "way/373716525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031586",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Hollywood Transit Center/Northeast 42nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8373"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6210902,
+            45.532884
+          ],
+          [
+            -122.6215117,
+            45.5329814
+          ]
+        ]
+      },
+      "id": "way/374031586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031587",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Kings Hill/Southwest Salmon Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6911444,
+            45.5204155
+          ],
+          [
+            -122.6911955,
+            45.5203477
+          ],
+          [
+            -122.6913306,
+            45.5201782
+          ],
+          [
+            -122.6914009,
+            45.5201066
+          ]
+        ]
+      },
+      "id": "way/374031587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031588",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lents/Southeast Foster Road",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13135"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5668026,
+            45.480428
+          ],
+          [
+            -122.5667284,
+            45.4808471
+          ]
+        ]
+      },
+      "id": "way/374031588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031589",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Lloyd Center/Northeast 11th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8343",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.653589,
+            45.5300855
+          ],
+          [
+            -122.654449,
+            45.5300827
+          ]
+        ]
+      },
+      "id": "way/374031589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031590",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Merlo Road/Southwest 158th Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9828",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8421692,
+            45.5052357
+          ],
+          [
+            -122.8420489,
+            45.5051753
+          ]
+        ]
+      },
+      "id": "way/374031590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031594",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Northeast 82nd Avenue",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "8346"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5781044,
+            45.5333409
+          ],
+          [
+            -122.5777015,
+            45.5332031
+          ]
+        ]
+      },
+      "id": "way/374031594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031596",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Parkrose/Sumner Transit Center",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10572"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5655886,
+            45.5590517
+          ],
+          [
+            -122.5655064,
+            45.559124
+          ],
+          [
+            -122.5653274,
+            45.5592794
+          ]
+        ]
+      },
+      "id": "way/374031596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031598",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Division Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13125"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5666388,
+            45.5033871
+          ],
+          [
+            -122.5666646,
+            45.5030391
+          ]
+        ]
+      },
+      "id": "way/374031598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031599",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Flavel Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13134"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5666373,
+            45.4678738
+          ],
+          [
+            -122.5667872,
+            45.4675033
+          ]
+        ]
+      },
+      "id": "way/374031599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031600",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Fuller Road",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13133"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5736183,
+            45.4533599
+          ],
+          [
+            -122.57368,
+            45.4537214
+          ]
+        ]
+      },
+      "id": "way/374031600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031601",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Holgate Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13136"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5662685,
+            45.4910958
+          ],
+          [
+            -122.5662284,
+            45.4914562
+          ]
+        ]
+      },
+      "id": "way/374031601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031602",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Main Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13124"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5644396,
+            45.5142798
+          ],
+          [
+            -122.5644445,
+            45.5139314
+          ]
+        ]
+      },
+      "id": "way/374031602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031603",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Southeast Powell Boulevard",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13126"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5661777,
+            45.4957292
+          ],
+          [
+            -122.5661269,
+            45.4953825
+          ]
+        ]
+      },
+      "id": "way/374031603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031605",
+        "bicycle": "no",
+        "highway": "footway",
+        "layer": "-1",
+        "light_rail": "yes",
+        "name": "Washington Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10120"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.716352,
+            45.5106411
+          ],
+          [
+            -122.7172527,
+            45.5106082
+          ]
+        ]
+      },
+      "id": "way/374031605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374031606",
+        "bicycle": "no",
+        "highway": "footway",
+        "layer": "-1",
+        "light_rail": "yes",
+        "name": "Washington Park",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10121"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7172587,
+            45.5106889
+          ],
+          [
+            -122.716358,
+            45.5107218
+          ]
+        ]
+      },
+      "id": "way/374031606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374649342",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 11th & Johnson",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "10753",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6823984,
+            45.528751
+          ],
+          [
+            -122.6824024,
+            45.5288951
+          ]
+        ]
+      },
+      "id": "way/374649342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374744547",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northwest 10th & Northrup",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13604",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6813292,
+            45.5311425
+          ],
+          [
+            -122.6813656,
+            45.5311587
+          ],
+          [
+            -122.6813687,
+            45.5312839
+          ],
+          [
+            -122.6813327,
+            45.531297
+          ]
+        ]
+      },
+      "id": "way/374744547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374744556",
+        "highway": "footway",
+        "name": "Southwest 3rd & Harrison",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12375",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.679719,
+            45.5102462
+          ],
+          [
+            -122.6795388,
+            45.5101991
+          ]
+        ]
+      },
+      "id": "way/374744556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374744557",
+        "highway": "footway",
+        "name": "Southwest Harrison Street",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12377",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6765586,
+            45.5088425
+          ],
+          [
+            -122.676568,
+            45.5087222
+          ]
+        ]
+      },
+      "id": "way/374744557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374744558",
+        "highway": "footway",
+        "name": "Southwest River Parkway & Moody",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "12378",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6740377,
+            45.5071089
+          ],
+          [
+            -122.6738926,
+            45.5070705
+          ]
+        ]
+      },
+      "id": "way/374744558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374785059",
+        "highway": "footway",
+        "name": "Southeast Water/OMSI",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13709",
+        "surface": "paved",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6633675,
+            45.5070117
+          ],
+          [
+            -122.6633663,
+            45.5069281
+          ]
+        ]
+      },
+      "id": "way/374785059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/416281535",
+        "bicycle": "no",
+        "highway": "footway",
+        "light_rail": "yes",
+        "name": "Beaverton Creek",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "9819"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8330731,
+            45.5004313
+          ],
+          [
+            -122.8334573,
+            45.5006329
+          ]
+        ]
+      },
+      "id": "way/416281535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425879076",
+        "highway": "footway",
+        "name": "Northeast Broadway & 2nd",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13618",
+        "surface": "concrete",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.66327,
+            45.5350358
+          ],
+          [
+            -122.6635798,
+            45.5350372
+          ]
+        ]
+      },
+      "id": "way/425879076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425879082",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Grand & Broadway",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13617",
+        "surface": "concrete",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.660524,
+            45.5348233
+          ],
+          [
+            -122.6605254,
+            45.534716
+          ],
+          [
+            -122.6605257,
+            45.5346912
+          ]
+        ]
+      },
+      "id": "way/425879082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425879086",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Weidler & 2nd",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13608",
+        "surface": "concrete",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6638146,
+            45.5344448
+          ],
+          [
+            -122.6641129,
+            45.5344463
+          ]
+        ]
+      },
+      "id": "way/425879086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425879087",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "name": "Northeast Weidler & Grand",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "13609",
+        "surface": "concrete",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6602512,
+            45.5344326
+          ],
+          [
+            -122.6605274,
+            45.5344318
+          ]
+        ]
+      },
+      "id": "way/425879087"
+    }
+  ]
+}

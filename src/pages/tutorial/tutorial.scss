@@ -18,6 +18,18 @@ page-tutorial {
     margin: 36px 0;
   }
 
+  .gContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 240px;
+
+    &.header,
+    &.footer {
+      margin-top: 0;
+    }
+  }
+
   b {
     font-weight: 500;
   }

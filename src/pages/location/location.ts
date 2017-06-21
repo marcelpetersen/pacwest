@@ -36,50 +36,58 @@ export class LocationPage {
   ionViewDidEnter() {
     /*Initializing Map*/
     mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
+
+
+    // Set Bounds
+    var sw = new mapboxgl.LngLat(-123.046875, 45.418849);
+    var ne = new mapboxgl.LngLat(-122.372589, 45.622201);
+    var llb = new mapboxgl.LngLatBounds(sw, ne);
+
     var map = new mapboxgl.Map({
       //style: 'mapbox://styles/mapbox/dark-v9',
       style: 'mapbox://styles/gyoungbe/cj44onov79um42sk4vhph9sy1',
       //center: [this.Coordinates.longitude, this.Coordinates.latitude],
       center: [-122.6801443, 45.5153413],
+      maxBounds: llb,
       zoom: 17,
       pitch: 0,
-      minZoom: 16,
+      minZoom: 14,
       maxZoom: 18,
       container: 'map'
     });
     map.on('load', function() {
 
-      map.loadImage('https://lh4.googleusercontent.com/mQZo7IFlAJg8OxrL49shcphJXGKavWZtaAOjPcVxVqvZwyMPTDpYcrh5tv5Nhzig4IVnOZqbs4xm9FA=w1280-h1288', (error, image) => {
-        if (error) throw error;
-        map.addImage('logo', image);
-        map.addLayer({
-            "id": "points",
-            "type": "symbol",
-            "source": {
-                "type": "geojson",
-                "data": {
-                    "type": "FeatureCollection",
-                    "features": [{
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [-122.6801443, 45.5153413]
-                        }
-                    }]
-                }
-            },
-            "layout": {
-                "icon-image": "logo",
-                "icon-size": 0.1625,
-                "icon-offset": [50, -10],
-                "text-anchor": "center bottom"
-                // "icon-size": {
-                //   'base': 0.125,
-                //   'stops': [[14, 0.125], [18, 0.25]]
-                // }
-            }
-        });
-      });
+      // map.loadImage('https://lh4.googleusercontent.com/mQZo7IFlAJg8OxrL49shcphJXGKavWZtaAOjPcVxVqvZwyMPTDpYcrh5tv5Nhzig4IVnOZqbs4xm9FA=w1280-h1288', (error, image) => {
+      //   if (error) throw error;
+      //   map.addImage('logo', image);
+      //   map.addLayer({
+      //       "id": "points",
+      //       "type": "symbol",
+      //       "source": {
+      //           "type": "geojson",
+      //           "data": {
+      //               "type": "FeatureCollection",
+      //               "features": [{
+      //                   "type": "Feature",
+      //                   "geometry": {
+      //                       "type": "Point",
+      //                       "coordinates": [-122.6801443, 45.5153413]
+      //                   }
+      //               }]
+      //           }
+      //       },
+      //       "layout": {
+      //           "icon-image": "logo",
+      //           "icon-size": 0.1625,
+      //           "icon-offset": [50, -10],
+      //           "text-anchor": "center"
+      //           // "icon-size": {
+      //           //   'base': 0.125,
+      //           //   'stops': [[14, 0.125], [18, 0.25]]
+      //           // }
+      //       }
+      //   });
+      // });
 
       map.addLayer({
         'id': 'pacwest',
@@ -221,13 +229,13 @@ export class LocationPage {
             }
           },
           'layout': {
-            'visibility': 'visible'
+            //'visibility': 'visible'
           },
           'paint': {
               'fill-color': '#f0c41e',
               'fill-opacity': 1
           }
-      });
+      }, 'water');
 
   });
 
