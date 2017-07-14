@@ -1,0 +1,128 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-06-21T00:00:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180623086",
+        "aerialway": "cable_car",
+        "aerialway:bicycle": "yes",
+        "aerialway:bubble": "yes",
+        "aerialway:duration": "4",
+        "aerialway:occupancy": "78",
+        "layer": "2",
+        "name": "Portland Aerial Tram",
+        "operator": "Oregon Health & Science University",
+        "url": "http://www.gobytram.com/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6711272,
+            45.4992803
+          ],
+          [
+            -122.6724219,
+            45.4993099
+          ],
+          [
+            -122.6839895,
+            45.4995031
+          ]
+        ]
+      },
+      "id": "way/180623086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180639483",
+        "aerialway": "yes",
+        "bicycle": "dismount",
+        "covered": "yes",
+        "highway": "footway",
+        "name": "South Waterfront",
+        "public_transport": "platform",
+        "ref": "12845",
+        "surface": "paved",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6711272,
+            45.4992803
+          ],
+          [
+            -122.6710248,
+            45.4992777
+          ]
+        ]
+      },
+      "id": "way/180639483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910584022",
+        "aerialway": "station",
+        "bicycle": "dismount",
+        "layer": "2",
+        "name": "Marquam Hill",
+        "operator": "Oregon Health & Science University",
+        "public_transport": "stop_position",
+        "ref": "12844",
+        "url": "http://www.portlandtram.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6839895,
+          45.4995031
+        ]
+      },
+      "id": "node/1910584022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910584040",
+        "aerialway": "station",
+        "bicycle": "dismount",
+        "name": "South Waterfront",
+        "operator": "Oregon Health & Science University",
+        "public_transport": "stop_position",
+        "ref": "12845",
+        "url": "http://www.portlandtram.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6711272,
+          45.4992803
+        ]
+      },
+      "id": "node/1910584040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910584063",
+        "aerialway": "pylon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6724219,
+          45.4993099
+        ]
+      },
+      "id": "node/1910584063"
+    }
+  ]
+}
