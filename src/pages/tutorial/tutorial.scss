@@ -17,16 +17,31 @@ page-tutorial {
     max-width: 60%;
     margin: 36px 0;
   }
-
   .gContainer {
     max-width: 800px;
     margin: 0 auto;
-    height: auto;
+    height: 100%;
     margin-top: 240px;
+
+    margin-top: 12vh;
+
+    @include MQ(S) {
+      margin-top: 24px;
+    }
+
+    @include MQ(M) {
+      margin-top: 16vh;
+    }
 
     &.header,
     &.footer {
       margin-top: 0;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .gContainer {
+      margin-top: 24px;
     }
   }
 

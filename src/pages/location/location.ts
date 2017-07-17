@@ -55,39 +55,164 @@ export class LocationPage {
       maxZoom: 18,
       container: 'map'
     });
+
+    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right'); // Add zoom and rotation controls
+
+    var filterGroup = document.getElementById('filter-group');
     map.on('load', function() {
 
-      // map.loadImage('https://lh4.googleusercontent.com/mQZo7IFlAJg8OxrL49shcphJXGKavWZtaAOjPcVxVqvZwyMPTDpYcrh5tv5Nhzig4IVnOZqbs4xm9FA=w1280-h1288', (error, image) => {
-      //   if (error) throw error;
-      //   map.addImage('logo', image);
-      //   map.addLayer({
-      //       "id": "points",
-      //       "type": "symbol",
-      //       "source": {
-      //           "type": "geojson",
-      //           "data": {
-      //               "type": "FeatureCollection",
-      //               "features": [{
-      //                   "type": "Feature",
-      //                   "geometry": {
-      //                       "type": "Point",
-      //                       "coordinates": [-122.6801443, 45.5153413]
-      //                   }
-      //               }]
-      //           }
-      //       },
-      //       "layout": {
-      //           "icon-image": "logo",
-      //           "icon-size": 0.1625,
-      //           "icon-offset": [50, -10],
-      //           "text-anchor": "center"
-      //           // "icon-size": {
-      //           //   'base': 0.125,
-      //           //   'stops': [[14, 0.125], [18, 0.25]]
-      //           // }
-      //       }
-      //   });
-      // });
+      // Paint overrides
+      // map.setPaintProperty('background', 'background-color', '#008CA7');
+      // map.setPaintProperty('water', 'fill-color', '#418FB7');
+      // map.setPaintProperty('turning-features', 'icon-opacity', 0);
+
+      // Layout overrides
+      // map.setLayoutProperty('poi-parks-scalerank3', 'visibility', 'none');
+      // map.setLayoutProperty('poi-scalerank3', 'visibility', 'none');
+      // map.setLayoutProperty('place-residential', 'visibility', 'none');
+
+      // Amenities
+      // map.setLayoutProperty('place_restaurant', 'visibility', 'visible');
+      // map.setLayoutProperty('place_entertainment-theater', 'visibility', 'visible');
+      // map.setLayoutProperty('place_beer', 'visibility', 'visible');
+      // map.setLayoutProperty('place_bar', 'visibility', 'visible');
+      // map.setLayoutProperty('place_coffee', 'visibility', 'visible');
+      // map.setLayoutProperty('place_entertainment-music', 'visibility', 'visible');
+      // map.setLayoutProperty('place_dessert', 'visibility', 'visible');
+      // map.setLayoutProperty('place_sports', 'visibility', 'visible');
+      // map.setLayoutProperty('place_parking', 'visibility', 'visible');
+      // map.setLayoutProperty('place_grocery', 'visibility', 'visible');
+      // map.setLayoutProperty('place_park', 'visibility', 'visible');
+      // map.setLayoutProperty('place_museum', 'visibility', 'visible');
+      // map.setLayoutProperty('place_government', 'visibility', 'visible');
+      // map.setLayoutProperty('place_pharmacy', 'visibility', 'visible');
+      // map.setLayoutProperty('place_shop', 'visibility', 'visible');
+      // map.setLayoutProperty('place_default', 'visibility', 'visible');
+      // map.setLayoutProperty('place_lodging', 'visibility', 'visible');
+      // map.setLayoutProperty('place_postal', 'visibility', 'visible');
+      // map.setLayoutProperty('place_art', 'visibility', 'visible');
+      // map.setLayoutProperty('place_banks', 'visibility', 'visible');
+
+      // Transit
+      // MAX Lines
+      map.setLayoutProperty('MAX_R', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_G', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_B', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_O', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Y', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Rgby', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rGby', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rgBy', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rgbY', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Go', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_gO', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Rgb', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rGb', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rgB', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Rb', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_rB', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_Gy', 'visibility', 'visible');
+      map.setLayoutProperty('MAX_gY', 'visibility', 'visible');
+      // Street Car Lines
+      map.setLayoutProperty('SC_R', 'visibility', 'visible');
+      map.setLayoutProperty('SC_G', 'visibility', 'visible');
+      map.setLayoutProperty('SC_B', 'visibility', 'visible');
+      map.setLayoutProperty('SC_Rgb', 'visibility', 'visible');
+      map.setLayoutProperty('SC_rGb', 'visibility', 'visible');
+      map.setLayoutProperty('SC_rgB', 'visibility', 'visible');
+      map.setLayoutProperty('SC_Rg', 'visibility', 'visible');
+      map.setLayoutProperty('SC_rG', 'visibility', 'visible');
+      map.setLayoutProperty('SC_Rb', 'visibility', 'visible');
+      map.setLayoutProperty('SC_rB', 'visibility', 'visible');
+      map.setLayoutProperty('SC_Gb', 'visibility', 'visible');
+      map.setLayoutProperty('SC_gB', 'visibility', 'visible');
+      // Arial Tram
+      map.setLayoutProperty('Aerial-Tram', 'visibility', 'visible');
+
+
+      // OPTION ONE
+      toggleLayer([
+        // 'place_restaurant',
+        // 'place_entertainment-theater',
+        // 'place_beer',
+        // 'place_bar',
+        // 'place_coffee',
+        // 'place_entertainment-music',
+        // 'place_dessert',
+        // 'place_sports',
+        // 'place_parking',
+        // 'place_grocery',
+        // 'place_park',
+        // 'place_museum',
+        // 'place_government',
+        // 'place_pharmacy',
+        // 'place_shop',
+        // 'place_default',
+        // 'place_lodging',
+        // 'place_postal',
+        // 'place_art',
+        // 'place_banks'
+        ],
+        'Amenities');
+      toggleLayer([
+        'MAX_G',
+        'MAX_O',
+        'MAX_Y',
+        'MAX_R',
+        'MAX_B',
+        'MAX_Rgby',
+        'MAX_rGby',
+        'MAX_rgBy',
+        'MAX_rgbY',
+        'MAX_Go',
+        'MAX_gO',
+        'MAX_Rgb',
+        'MAX_rGb',
+        'MAX_rgB',
+        'MAX_Rb',
+        'MAX_rB',
+        'MAX_Gy',
+        'MAX_gY',
+        'SC_R',
+        'SC_G',
+        'SC_B',
+        'SC_Rgb',
+        'SC_rGb',
+        'SC_rgB',
+        'SC_Rg',
+        'SC_rG',
+        'SC_Rb',
+        'SC_rB',
+        'SC_Gb',
+        'SC_gB',
+        'Aerial-Tram'
+      ], 'Transit');
+      function toggleLayer(ids, name) {
+        // Add Input to DOM
+        var input = document.createElement('input');
+        input.type = 'checkbox';
+        input.id = ids;
+        input.checked = true;
+        console.log('Mapbox Layers are on:' + input.checked);
+        filterGroup.appendChild(input);
+
+        // Add Label to DOM
+        var label = document.createElement('label');
+        label.setAttribute('for', ids);
+        label.textContent = name;
+        filterGroup.appendChild(label);
+
+        // Create Event Listener for change
+        input.addEventListener('change', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          for (let layers in ids) {
+            map.setLayoutProperty(ids[layers], 'visibility',
+                e.target.checked ? 'visible' : 'none');
+            }
+        });
+      };
+
 
       map.addLayer({
         'id': 'pacwest',

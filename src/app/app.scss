@@ -2,6 +2,26 @@
 
 
 // App Global Mixins
+
+// Media Queries
+$S:     480px;
+$M:     800px;
+$L:     980px;
+// --Mixin
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media (max-width: $S) { @content; }
+  }
+  @else if $canvas == M {
+   @media (min-width: $S) and (max-width:$M) { @content; }
+  }
+  @else if $canvas == L {
+   @media (min-width: $M) { @content; }
+  }
+}
+
+
+
 // Flex that Box
 @mixin flexbox() {
   display: -webkit-box;
