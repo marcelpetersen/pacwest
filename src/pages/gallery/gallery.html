@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header hidden="hidden">
   <ion-navbar>
     <ion-title>
       Gallery
@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="lightGallery">
   <ion-card *ngFor="let item of cardItems">
 
     <ion-item>
@@ -17,7 +17,7 @@
       <p>{{item.date}}</p>
     </ion-item>
 
-    <img [src]="item.image">
+    <img class="galleryItem" [src]="item.image" data-src="assets/img/advance-card-bttf.png">
 
     <ion-card-content>
       <p>{{item.content}}</p>

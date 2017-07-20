@@ -36,7 +36,8 @@ export class TutorialPage {
       console.log('Loaded values', values);
       this.slides = [
         {
-          title: values.TUTORIAL_SLIDE1_TITLE,
+          //title: values.TUTORIAL_SLIDE1_TITLE,
+          title: 'Welcome to the PACWEST Tour App',
           description: values.TUTORIAL_SLIDE1_DESCRIPTION,
           image: 'assets/img/ica-slidebox-img-1.png',
         },

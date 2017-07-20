@@ -256,10 +256,26 @@ $L:     980px;
 $tabs-ios-tab-font-size: 1.6rem;
 
 ion-tabs {
-
   .tab-button {
     min-height: 64px !important;
     font-size: $tabs-ios-tab-font-size;
   }
-
 }
+.tabs-md .tab-button-text,
+.tabs-ios .tab-button-text {
+  font-family: $font-family-base;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
+  font-weight: 500;
+}
+section, article, p, span {
+  font-family: "Brandon Grotesque", "Raleway", "Roboto", "Helvitica Neue", sans-serif;
+}
+
+
+
+
+// Imports
+//@import 'node_modules/lightgallery/dist/css/lightgallery.min.css';

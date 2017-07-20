@@ -203,13 +203,27 @@ export class LocationPage {
         filterGroup.appendChild(label);
 
         // Create Event Listener for change
-        input.addEventListener('change', function(e) {
+        // input.addEventListener('change', function(e) {
+        //   e.preventDefault();
+        //   e.stopPropagation();
+        //   for (let layers in ids) {
+        //     map.setLayoutProperty(ids[layers], 'visibility',
+        //         e.target.checked ? 'visible' : 'none');
+        //     }
+        // });
+
+        // Create Event Listener for change W/O using e.target.checked
+        input.addEventListener('change', function(e){
           e.preventDefault();
           e.stopPropagation();
           for (let layers in ids) {
-            map.setLayoutProperty(ids[layers], 'visibility',
-                e.target.checked ? 'visible' : 'none');
+            if (input.checked === true) {
+                map.setLayoutProperty(ids[layers], 'visibility', 'visible')
             }
+            else {
+                map.setLayoutProperty(ids[layers], 'visibility', 'none')
+            }
+          }
         });
       };
 

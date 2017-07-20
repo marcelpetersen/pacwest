@@ -1,6 +1,12 @@
-import { Component } from '@angular/core';
+import { Component }      from '@angular/core';
+import { NavController }  from 'ionic-angular';
 
-import { NavController } from 'ionic-angular';
+//import { jQuery }         from 'jquery/dist/jquery.min.js';
+import * as $ from "jquery";
+import "lightgallery";
+// import { lgFullscreen }   from 'lg-fullscreen/dist/lg-fullscreen.min.js';
+// import { lgThumbnail }    from 'lg-thumbnail/dist/lg-thumbnail.min.js';
+// import { lgZoom }         from 'lg-zoom/dist/lg-zoom.min.js';
 
 @Component({
   selector: 'page-gallery',
@@ -39,6 +45,13 @@ export class GalleryPage {
         content: 'Your scientists were so preoccupied with whether or not they could, that they didn\'t stop to think if they should.'
       }
     ];
+  }
+
+  ionViewDidLoad() {
+    $(".lightGallery").lightGallery({
+      thumbnail:true,
+      selector: '.galleryItem'
+    });
   }
 
 }

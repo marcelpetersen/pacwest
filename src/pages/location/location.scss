@@ -11,21 +11,17 @@ page-location {
       position: absolute;
       display: block;
       background: white;
-      top: 80px;
-      right: calc(50% - 100px);
+      bottom: 32px;
+      right: calc(50% - 120px);
       left: auto;
       z-index: 1;
       border-radius: 3px;
-      width: 200px;
+      width: 240px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32);
 
       @include MQ(S) {
         top: auto;
         bottom: 80px;
-        // width: 240px;
-        // left: calc(50% - 120px);
-
-
       }
 
       .filter-group {
@@ -33,12 +29,12 @@ page-location {
 
         input[type=checkbox]:first-child + label {
             border-right: 1px solid rgba(0,0,0,0.08);
-            width: 78px;
+            width: auto;
         }
 
         label:last-child {
             left: 0;
-            width: 74px;
+            width: auto;
         }
 
         input[type=checkbox] {
@@ -63,7 +59,8 @@ page-location {
         }
 
         input[type=checkbox] + label {
-            text-transform: capitalize;
+            font-family: "Raleway", sans-serif;
+            text-transform: uppercase;
             display: inline-block;
         }
       }
