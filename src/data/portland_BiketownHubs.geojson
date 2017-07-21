@@ -1,0 +1,848 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-07-19T23:01:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4154528341",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW 8th at Everett",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6784871,
+          45.5249611
+        ]
+      },
+      "id": "node/4154528341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301455837",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "North Failing at Williams",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6669596,
+          45.5507601
+        ]
+      },
+      "id": "node/4301455837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301475304",
+        "amenity": "bicycle_rental",
+        "capacity": "3",
+        "name": "North Williams at Fremont",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6667766,
+          45.5476736
+        ]
+      },
+      "id": "node/4301475304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301475305",
+        "amenity": "bicycle_rental",
+        "capacity": "6",
+        "name": "North Williams at Fremont",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6667767,
+          45.5477333
+        ]
+      },
+      "id": "node/4301475305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301475308",
+        "amenity": "bicycle_rental",
+        "capacity": "5",
+        "name": "North Williams at Fremont",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6667752,
+          45.5478652
+        ]
+      },
+      "id": "node/4301475308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301475309",
+        "amenity": "bicycle_rental",
+        "capacity": "3",
+        "name": "North Williams at Fremont",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6667773,
+          45.5477888
+        ]
+      },
+      "id": "node/4301475309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4313827652",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Southwest 5th at Main",
+        "network": "Biketown",
+        "phone": "+1-866-512-2453",
+        "website": "http://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6792129,
+          45.5159412
+        ]
+      },
+      "id": "node/4313827652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4314838803",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "source": "Mapillary Image",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6718411,
+          45.5027633
+        ]
+      },
+      "id": "node/4314838803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318723139",
+        "amenity": "bicycle_rental",
+        "capacity": "7",
+        "name": "Tilikum West at SW Moody",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6719992,
+          45.5023234
+        ]
+      },
+      "id": "node/4318723139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318751237",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "SW Salmon at Waterfront Park",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6740166,
+          45.5156146
+        ]
+      },
+      "id": "node/4318751237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318759080",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "name": "SW Yamhill at Director Park",
+        "network": "Biketown",
+        "operator": "motivate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6811131,
+          45.5189282
+        ]
+      },
+      "id": "node/4318759080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343744082",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Northwest Naito at Ironside",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6742288,
+          45.5288769
+        ]
+      },
+      "id": "node/4343744082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343939829",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Southwest Park at the Portland Art Museum",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.683258,
+          45.5159311
+        ]
+      },
+      "id": "node/4343939829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4386457060",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX SW Naito at Ankeny Plaza",
+        "network": "Biketown",
+        "operator": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6703877,
+          45.5226795
+        ]
+      },
+      "id": "node/4386457060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404520107",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "NW Marshall at Tanner Springs Park",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "source": "mapillary image",
+        "source:date": "2016-08-04",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6817228,
+          45.530892
+        ]
+      },
+      "id": "node/4404520107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404550204",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "NW 13th at Marshall",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "source": "Mapillary Image",
+        "source:date": "2016-09-15",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.684373,
+          45.5308528
+        ]
+      },
+      "id": "node/4404550204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404584316",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Union Station at NW Station Way",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "source": "mapillary Image, survey",
+        "source:date": "2016-09-15",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6767961,
+          45.5284269
+        ]
+      },
+      "id": "node/4404584316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404604003",
+        "amenity": "bicycle_rental",
+        "name": "SW Market at Keller Fountain Park",
+        "network": "Biketown",
+        "operator": "motivate",
+        "phone": "+1-866-512-2453",
+        "source": "mapillary Image and survey",
+        "source:date": "2016-08-28",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6790102,
+          45.5123719
+        ]
+      },
+      "id": "node/4404604003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404656873",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Southwest Harrison at 1st",
+        "network": "Biketown",
+        "operator": "Motivate",
+        "phone": "+1-866-512-2453",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6778201,
+          45.5097458
+        ]
+      },
+      "id": "node/4404656873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404699298",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "NW 18th at Northrup",
+        "network": "Biketown",
+        "operator": "motivate",
+        "source": "Mapillary Image and survey",
+        "source:date": "2016-09-15",
+        "website": "http://biketownpdx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6894912,
+          45.5314782
+        ]
+      },
+      "id": "node/4404699298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4448507498",
+        "amenity": "bicycle_rental",
+        "name": "NE Multnomah at 9th",
+        "network": "Biketown",
+        "source": "Mapillary Image"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6575111,
+          45.5314137
+        ]
+      },
+      "id": "node/4448507498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4452122894",
+        "amenity": "bicycle_rental",
+        "network": "Biketown",
+        "operator": "motivate",
+        "source": "Mapillary Image",
+        "source:date": "2016-10-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6633124,
+          45.5061888
+        ]
+      },
+      "id": "node/4452122894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472022895",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Northwest 11th at The Fields",
+        "network": "Biketown",
+        "phone": "+1-866-512-2453",
+        "website": "http://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6823985,
+          45.5323377
+        ]
+      },
+      "id": "node/4472022895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142635",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Biketown PDX NW Raleigh at 21st",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6949214,
+          45.534099
+        ]
+      },
+      "id": "node/4472142635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142636",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Biketown PDX NW Savier at 23rd",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6985045,
+          45.5348441
+        ]
+      },
+      "id": "node/4472142636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142637",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW Thurman at 24th",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7006481,
+          45.5355328
+        ]
+      },
+      "id": "node/4472142637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142638",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Biketown PDX NW 23rd at Overton",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6986119,
+          45.5320761
+        ]
+      },
+      "id": "node/4472142638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142639",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW Kearney at 23rd",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6988558,
+          45.529138
+        ]
+      },
+      "id": "node/4472142639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142640",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW 22nd at LoveJoy",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696643,
+          45.5296682
+        ]
+      },
+      "id": "node/4472142640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142641",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW Johnson at Jamison Square",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6820883,
+          45.528627
+        ]
+      },
+      "id": "node/4472142641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142642",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Biketown PDX NW 19th at Johnson",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.690531,
+          45.5286634
+        ]
+      },
+      "id": "node/4472142642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142643",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW 21st at Johnson",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6945617,
+          45.5283246
+        ]
+      },
+      "id": "node/4472142643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142644",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW Glisan at 21st",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6942144,
+          45.5263637
+        ]
+      },
+      "id": "node/4472142644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142645",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW 18th at Flanders",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6892387,
+          45.5254936
+        ]
+      },
+      "id": "node/4472142645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142646",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Biketown PDX NW Flanders at 14th",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6855061,
+          45.5258064
+        ]
+      },
+      "id": "node/4472142646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142647",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "name": "Biketown PDX NW 10th at Everett",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6811331,
+          45.5249642
+        ]
+      },
+      "id": "node/4472142647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472142648",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX NW Everett at 22nd",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6966073,
+          45.5248909
+        ]
+      },
+      "id": "node/4472142648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472149716",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Northwest Couch at 1st",
+        "network": "Biketown",
+        "phone": "+1-866-512-2453",
+        "website": "http://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6716853,
+          45.523826
+        ]
+      },
+      "id": "node/4472149716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472149717",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX SW 3rd at Ankeny",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6731925,
+          45.5224341
+        ]
+      },
+      "id": "node/4472149717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472149718",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Biketown PDX SW 2nd at Pine",
+        "network": "Biketown",
+        "website": "https://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6726118,
+          45.5214362
+        ]
+      },
+      "id": "node/4472149718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4581909214",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Southwest Moody at Aerial Tram Terminal",
+        "network": "Biketown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6715668,
+          45.4991352
+        ]
+      },
+      "id": "node/4581909214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753977838",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "name": "Southwest 4th at Madison",
+        "network": "Biketown",
+        "phone": "+1-866-512-2453",
+        "website": "http://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6788017,
+          45.5150835
+        ]
+      },
+      "id": "node/4753977838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755796628",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Southeast Clinton at 26th",
+        "network": "Biketown",
+        "phone": "+1-866-512-2453",
+        "website": "http://www.biketownpdx.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6394795,
+          45.5035902
+        ]
+      },
+      "id": "node/4755796628"
+    }
+  ]
+}

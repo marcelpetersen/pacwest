@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-07-19T23:01:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910584022",
+        "aerialway": "station",
+        "bicycle": "dismount",
+        "layer": "2",
+        "name": "Marquam Hill",
+        "operator": "Oregon Health & Science University",
+        "public_transport": "stop_position",
+        "ref": "12844",
+        "url": "http://www.portlandtram.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6839895,
+          45.4995031
+        ]
+      },
+      "id": "node/1910584022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910584040",
+        "aerialway": "station",
+        "bicycle": "dismount",
+        "name": "South Waterfront",
+        "operator": "Oregon Health & Science University",
+        "public_transport": "stop_position",
+        "ref": "12845",
+        "url": "http://www.portlandtram.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6711272,
+          45.4992803
+        ]
+      },
+      "id": "node/1910584040"
+    }
+  ]
+}

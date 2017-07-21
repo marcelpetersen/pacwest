@@ -51,7 +51,7 @@ export class LocationPage {
       maxBounds: llb,
       zoom: 17,
       pitch: 0,
-      minZoom: 14,
+      minZoom: 15,
       maxZoom: 18,
       container: 'map'
     });
@@ -59,6 +59,7 @@ export class LocationPage {
     map.addControl(new mapboxgl.NavigationControl(), 'bottom-right'); // Add zoom and rotation controls
 
     var filterGroup = document.getElementById('filter-group');
+
     map.on('load', function() {
 
       // Paint overrides
@@ -129,6 +130,17 @@ export class LocationPage {
       // Arial Tram
       map.setLayoutProperty('Aerial-Tram', 'visibility', 'visible');
 
+      // Transit Labels & Symbols
+      map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'visible');
+      map.setLayoutProperty('portland-tram-labels', 'visibility', 'visible');
+      map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'visible');
+
+      // BIKETOWN
+      map.setLayoutProperty('biketown-station', 'visibility', 'visible');
+
+      // Pacwest Specific Labels
+      map.setLayoutProperty('pacwest-label', 'visibility', 'visible');
+
 
       // OPTION ONE
       toggleLayer([
@@ -185,7 +197,10 @@ export class LocationPage {
         'SC_rB',
         'SC_Gb',
         'SC_gB',
-        'Aerial-Tram'
+        'Aerial-Tram',
+        'portland-lightrail-labels',
+        'portland-tram-labels',
+        'portland-tram-labels-aerial'
       ], 'Transit');
       function toggleLayer(ids, name) {
         // Add Input to DOM
@@ -193,7 +208,7 @@ export class LocationPage {
         input.type = 'checkbox';
         input.id = ids;
         input.checked = true;
-        console.log('Mapbox Layers are on:' + input.checked);
+        console.log('Mapbox Layers Initiated:' + input.checked);
         filterGroup.appendChild(input);
 
         // Add Label to DOM
@@ -219,9 +234,11 @@ export class LocationPage {
           for (let layers in ids) {
             if (input.checked === true) {
                 map.setLayoutProperty(ids[layers], 'visibility', 'visible')
+                console.log('Mapbox Layers Visible');
             }
             else {
                 map.setLayoutProperty(ids[layers], 'visibility', 'none')
+                console.log('Mapbox Layers Hidden');
             }
           }
         });
@@ -375,9 +392,7 @@ export class LocationPage {
               'fill-opacity': 1
           }
       }, 'water');
-
   });
-
 
 
 
