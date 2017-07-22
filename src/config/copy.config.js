@@ -26,6 +26,10 @@ module.exports = {
   },
 
   // Custom Plugin Exports
+  copyImages: {
+    src: '{{SRC}}/assets/img/**/*',
+    dest: '{{WWW}}/assets/img'
+  },
   copyPluginsJs: {
     src: [
       '{{ROOT}}/node_modules/lightgallery/dist/js/lightgallery-all.min.js'

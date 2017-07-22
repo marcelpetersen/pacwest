@@ -77,13 +77,50 @@ $L:     980px;
     @include order(1);
   }
 
-
+  // Flex Percentages
   .flex-item.flex-full {
     @include flex(0 100%);
+  }
+  .flex-item.flex-90per {
+    @include flex(0 90%);
+  }
+  .flex-item.flex-80per {
+    @include flex(0 80%);
+  }
+  .flex-item.flex-75per {
+    @include flex(0 75%);
+  }
+  .flex-item.flex-70per {
+    @include flex(0 70%);
+  }
+  .flex-item.flex-60per {
+    @include flex(0 60%);
   }
   .flex-item.flex-50per {
     @include flex(0 50%);
   }
+  .flex-item.flex-40per {
+    @include flex(0 40%);
+  }
+  .flex-item.flex-25per {
+    @include flex(0 25%);
+  }
+  .flex-item.flex-20per {
+    @include flex(0 20%);
+  }
+  .flex-item.flex-10per {
+    @include flex(0 10%);
+  }
+
+  // Flex Thirds
+  .flex-item.flex-thirdx2 {
+    @include flex(0 66.666666%);
+  }
+  .flex-item.flex-thirdx1 {
+    @include flex(0 33.333333%);
+  }
+
+  // Flex Exact
   .flex-item.flex-420px {
     @include flex(0 420px);
   }
@@ -91,11 +128,11 @@ $L:     980px;
     @include flex(0 320px);
   }
 
+
   .row-reverse {
     -webkit-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-
   .row-wrap {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -104,7 +141,6 @@ $L:     980px;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-
 
 }
 

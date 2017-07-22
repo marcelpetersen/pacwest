@@ -7,6 +7,15 @@ page-gallery {
     .card-md + ion-card {
       margin-top: 10px !important;
     }
+
+    ion-card-content {
+      padding: 0 16px !important;
+
+      ion-card-title {
+        //text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
   }
 
 }
