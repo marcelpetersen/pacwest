@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, Platform, ViewController } from 'ionic-angular';
 
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js'
+import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
+import * as $ from "jquery";
 //import { Geolocation, Geoposition } from 'ionic-native';
 
 @Component({
@@ -35,27 +36,34 @@ export class LocationPage {
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
 
       // Set Bounds
-      var sw = new mapboxgl.LngLat(-123.046875, 45.418849);
-      var ne = new mapboxgl.LngLat(-122.372589, 45.622201);
+      // var sw = new mapboxgl.LngLat(-123.046875, 45.418849);
+      // var ne = new mapboxgl.LngLat(-122.372589, 45.622201);
+
+      var sw = new mapboxgl.LngLat(-122.71108626318916, 45.48014656958415);
+      var ne = new mapboxgl.LngLat(-122.64920233679575, 45.55051403284517);
       var llb = new mapboxgl.LngLatBounds(sw, ne);
 
       var map = new mapboxgl.Map({
           style: 'mapbox://styles/gyoungbe/cj44onov79um42sk4vhph9sy1',
           //center: [this.Coordinates.longitude, this.Coordinates.latitude],
           center: [-122.6801443, 45.5153413],
+          container: 'map',
+
+          // Settings
+          bearing: -90,
           maxBounds: llb,
-          zoom: 17,
-          pitch: 0,
-          minZoom: 15,
           maxZoom: 18,
-          container: 'map'
+          minZoom: 14,
+          pitch: 0,
+          zoom: 16.5
       });
 
       // Add zoom and rotation controls
       map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
-      var filterGroup = document.getElementById('filter-group');
+      //var filterGroup = document.getElementById('filter-group');
 
+      var filterGroup = document.getElementById('filter-group-list');
       map.on('load', function() {
 
           // Paint overrides
@@ -172,10 +180,14 @@ export class LocationPage {
           function toggleLayer(ids, name) {
             // Add Input to DOM
             var input = document.createElement('input');
-            input.type = 'checkbox';
+            input.type = 'radio';
+            input.name = toggleLayer.name;
             input.id = ids;
-            input.checked = true;
-            console.log('Mapbox Layers Initiated:' + input.checked);
+            input.className = 'mapToggle';
+            input.checked = false;
+            input.setAttribute('ng-click', 'map.flyTo({center: [-122.6801443,45.5153413],bearing: -90,pitch: 0,speed: 0.75,zoom: 15})');
+
+            // console.log('Mapbox Layers Initiated:' + input.checked);
             filterGroup.appendChild(input);
 
             // Add Label to DOM
@@ -200,6 +212,44 @@ export class LocationPage {
               }
             });
           };
+
+
+          // Sort Input and Label within ul < li
+          var $sort = $('ul#filter-group-list').children();
+          for(var i=0, len = $sort.length; i < len; i+=2){
+            // console.log(len); // Read Length of created items
+            $sort.slice(i, i+2).wrapAll('<li>')
+          };
+
+
+          // Fly to map center
+          var flyToCenter = document.getElementById('flyToCenter');
+          flyToCenter.addEventListener('click', function () {
+            map.flyTo({
+                center: [
+                  -122.6801443,
+                  45.5153413
+                ],
+                bearing: -90,
+                pitch: 0,
+                speed: 0.75,
+                zoom: 15
+            });
+          });
+
+          function flyCenter() {
+            map.flyTo({
+                center: [
+                  -122.6801443,
+                  45.5153413
+                ],
+                bearing: -90,
+                pitch: 0,
+                speed: 0.75,
+                zoom: 15
+            });
+          }
+
 
 
           map.addLayer({

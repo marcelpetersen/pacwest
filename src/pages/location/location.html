@@ -8,9 +8,18 @@
 
 
 <ion-content no-bounce>
-  <div id="map">
+  <div class="map-container">
+
+    <!-- Map -->
+    <div id="map">
+      <button id="flyToCenter" class="btn btn-filled">Center Map</button>
+    </div>
+
+    <!-- Filter Checkbox -->
     <div id="filter-group-container">
-      <nav id="filter-group" class="filter-group"></nav>
+      <nav id="filter-group" class="filter-group">
+        <ul id="filter-group-list"></ul>
+      </nav>
     </div>
   </div>
 </ion-content>
