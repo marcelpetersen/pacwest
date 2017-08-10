@@ -16,18 +16,34 @@ page-location {
       .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
         display: none;
       }
+      .mapboxgl-ctrl-bottom-left {
+        bottom: 4px;
+        left: 32px;
+      }
+      .mapboxgl-ctrl.mapboxgl-ctrl-group {
+        border-radius: 0;
+        background: #fefefe;
+        margin-right: 32px;
+        margin-bottom: 40px;
+      }
 
       button#flyToCenter {
         position: absolute;
         z-index: 1;
-        top: 40px;
-        bottom: auto;
+        bottom: 40px;
+        top: auto;
+        width: 150px;
+        height: 40px;
         left: calc(50% - 75px);
-
+        font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
+        text-transform: uppercase;
+        font-size: 15.625px;
+        font-weight: 600;
         border: none;
+        border-radius: 0;
         background: #fefefe;
         color: #333;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 
         &:hover {
           background-color: #f2f2f2;
@@ -39,12 +55,12 @@ page-location {
       position: absolute;
       display: block;
       background: white;
-      bottom: 32px;
-      right: calc(50% - 120px);
-      left: auto;
+      bottom: 40px;
+      right: auto;
+      left: 32px;
       z-index: 1;
-      border-radius: 3px;
-      width: 240px;
+      border-radius: 0px;
+      width: 170px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32);
 
       @include MQ(S) {
@@ -55,6 +71,9 @@ page-location {
 
       ul {
         text-align: inherit;
+        margin: 0;
+        padding: 0;
+        list-style: none;
 
         li {
           border-bottom: 1px solid #ddd;
@@ -75,11 +94,14 @@ page-location {
 
       .filter-group {
         text-transform: uppercase;
+        font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
+        font-size: 15.625px;
+        font-weight: 600;
 
         input[type=checkbox]:first-child + label,
         input[type=radio]:first-child + label {
             // border-right: 1px solid rgba(0,0,0,0.08);
-            width: auto;
+            width: calc(100% - 24px);
         }
 
         label:last-child {
@@ -93,13 +115,13 @@ page-location {
           margin-bottom: 0;
           height: 16px;
           // vertical-align: text-top;
-          vertical-align: sub;
+          // vertical-align: sub;
           display: inline-block;
         }
 
         input[type=checkbox] + label,
         input[type=radio] + label {
-            display: block;
+            display: inline-block;
             cursor: pointer;
             padding: 10px 10px 10px 6px;
             margin: 0;

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, Platform, ViewController } from 'ionic-angular';
+import { NavController, Platform, ViewController, Events } from 'ionic-angular';
 
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
 import * as $ from "jquery";
@@ -13,7 +13,7 @@ export class LocationPage {
   Coordinates: any;
   watch:any;
 
-  constructor(public navCtrl: NavController, public platform: Platform, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public platform: Platform, public viewCtrl: ViewController, public events: Events) {
 
   }
 
@@ -31,6 +31,9 @@ export class LocationPage {
     //   this.executemap()
     // });
   //}
+
+
+
 
   ionViewDidEnter() {
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
@@ -65,88 +68,34 @@ export class LocationPage {
 
       var filterGroup = document.getElementById('filter-group-list');
       map.on('load', function() {
-
-          // Paint overrides
-
-          // Layout overrides
-
-          // Amenities
-          map.setLayoutProperty('place_bar', 'visibility', 'visible');
-          map.setLayoutProperty('place_coffee', 'visibility', 'visible');
-          map.setLayoutProperty('place_government', 'visibility', 'visible');
-          map.setLayoutProperty('place_grocery', 'visibility', 'visible');
-          map.setLayoutProperty('place_lodging', 'visibility', 'visible');
-          map.setLayoutProperty('place_museum', 'visibility', 'visible');
-          map.setLayoutProperty('place_restaurant', 'visibility', 'visible');
-          map.setLayoutProperty('place_shopping', 'visibility', 'visible');
-
-          // Transit
-          // MAX Lines
-          map.setLayoutProperty('MAX_R', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_G', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_B', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_O', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Y', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Rgby', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rGby', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rgBy', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rgbY', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Go', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_gO', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Rgb', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rGb', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rgB', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Rb', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_rB', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_Gy', 'visibility', 'visible');
-          map.setLayoutProperty('MAX_gY', 'visibility', 'visible');
-
-          // Street Car Lines
-          map.setLayoutProperty('SC_R', 'visibility', 'visible');
-          map.setLayoutProperty('SC_G', 'visibility', 'visible');
-          map.setLayoutProperty('SC_B', 'visibility', 'visible');
-          map.setLayoutProperty('SC_Rgb', 'visibility', 'visible');
-          map.setLayoutProperty('SC_rGb', 'visibility', 'visible');
-          map.setLayoutProperty('SC_rgB', 'visibility', 'visible');
-          map.setLayoutProperty('SC_Rg', 'visibility', 'visible');
-          map.setLayoutProperty('SC_rG', 'visibility', 'visible');
-          map.setLayoutProperty('SC_Rb', 'visibility', 'visible');
-          map.setLayoutProperty('SC_rB', 'visibility', 'visible');
-          map.setLayoutProperty('SC_Gb', 'visibility', 'visible');
-          map.setLayoutProperty('SC_gB', 'visibility', 'visible');
-          // Arial Tram
-          map.setLayoutProperty('Aerial-Tram', 'visibility', 'visible');
-
-          // Transit Labels & Symbols
-          map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'visible');
-          map.setLayoutProperty('portland-tram-labels', 'visibility', 'visible');
-          map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'visible');
-
-          // BIKETOWN
-          map.setLayoutProperty('biketown-station', 'visibility', 'visible');
-
-          // Pacwest Specific Labels
-          map.setLayoutProperty('pacwest-label', 'visibility', 'visible');
-
-
+          console.log('Reading Events while in dev mode');
           // OPTION ONE
+          toggleLayer([
+            'place_grocery',
+            'place_shopping'
+            ],
+            'Retail');
           toggleLayer([
             'place_bar',
             'place_coffee',
-            'place_government',
-            'place_grocery',
-            'place_lodging',
-            'place_museum',
-            'place_restaurant',
-            'place_shopping'
+            'place_restaurant'
             ],
-            'Amenities');
+            'Food & Drinks');
           toggleLayer([
-            'MAX_G',
+            'place_lodging'
+            ],
+            'Hotels');
+          toggleLayer([
+            'place_government',
+            'place_museum'
+            ],
+            'Municipal');
+          toggleLayer([
+            // 'MAX_R',
+            // 'MAX_B',
+            // 'MAX_G',
             'MAX_O',
             'MAX_Y',
-            'MAX_R',
-            'MAX_B',
             'MAX_Rgby',
             'MAX_rGby',
             'MAX_rgBy',
@@ -175,7 +124,8 @@ export class LocationPage {
             'Aerial-Tram',
             'portland-lightrail-labels',
             'portland-tram-labels',
-            'portland-tram-labels-aerial'
+            'portland-tram-labels-aerial',
+            'biketown-station'
           ], 'Transit');
           function toggleLayer(ids, name) {
             // Add Input to DOM
@@ -185,8 +135,9 @@ export class LocationPage {
             input.id = ids;
             input.className = 'mapToggle';
             input.checked = false;
-            input.setAttribute('ng-click', 'map.flyTo({center: [-122.6801443,45.5153413],bearing: -90,pitch: 0,speed: 0.75,zoom: 15})');
+            // input.setAttribute('ng-click', 'flyCenter()');
 
+            // map.flyTo({center: [-122.6801443,45.5153413],bearing: -90,pitch: 0,speed: 0.75,zoom: 15})
             // console.log('Mapbox Layers Initiated:' + input.checked);
             filterGroup.appendChild(input);
 
@@ -197,21 +148,330 @@ export class LocationPage {
             filterGroup.appendChild(label);
 
             // Create Event Listener for change W/O using e.target.checked
-            input.addEventListener('change', function(e){
-              e.preventDefault();
+            // input.addEventListener('change', function(e){
+            //   e.preventDefault();
+            //   e.stopPropagation();
+            //   for (let layers in ids) {
+            //     if (input.checked === true) {
+            //         map.setLayoutProperty(ids[layers], 'visibility', 'visible')
+            //         console.log('Mapbox Layers Visible');
+            //     }
+            //     else {
+            //         map.setLayoutProperty(ids[layers], 'visibility', 'none')
+            //         console.log('Mapbox Layers Hidden');
+            //     }
+            //   }
+            // });
+
+            // Toggle through layer groups one at a time
+            $("input.mapToggle").click(function(e) {
               e.stopPropagation();
-              for (let layers in ids) {
-                if (input.checked === true) {
-                    map.setLayoutProperty(ids[layers], 'visibility', 'visible')
-                    console.log('Mapbox Layers Visible');
+
+              function flyCenter() {
+                  map.flyTo({
+                      center: [
+                        -122.6801443,
+                        45.5153413
+                      ],
+                      bearing: -90,
+                      pitch: 0,
+                      speed: 0.75,
+                      zoom: 16
+                  });
+              };
+
+                if (this.id === 'place_grocery,place_shopping') {
+                    flyCenter();
+                    console.log(this.id + ' is selected');
+                    map.setLayoutProperty('place_grocery', 'visibility', 'visible');
+                    map.setLayoutProperty('place_shopping', 'visibility', 'visible');
+
+                    // OFF
+                    map.setLayoutProperty('place_bar', 'visibility', 'none');
+                    map.setLayoutProperty('place_coffee', 'visibility', 'none');
+                    map.setLayoutProperty('place_government', 'visibility', 'none');
+                    map.setLayoutProperty('place_lodging', 'visibility', 'none');
+                    map.setLayoutProperty('place_museum', 'visibility', 'none');
+                    map.setLayoutProperty('place_restaurant', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_O', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Y', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgBy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgbY', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Go', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gO', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Gy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gY', 'visibility', 'none');
+                    map.setLayoutProperty('SC_R', 'visibility', 'none');
+                    map.setLayoutProperty('SC_G', 'visibility', 'none');
+                    map.setLayoutProperty('SC_B', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rg', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rG', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Gb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_gB', 'visibility', 'none');
+                    map.setLayoutProperty('Aerial-Tram', 'visibility', 'none');
+                    map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'none');
+                    map.setLayoutProperty('biketown-station', 'visibility', 'none');
+                } else if (this.id === 'place_government,place_museum') {
+                    flyCenter();
+                    console.log(this.id + ' is selected');
+                    map.setLayoutProperty('place_government', 'visibility', 'visible');
+                    map.setLayoutProperty('place_museum', 'visibility', 'visible');
+
+                    // OFF
+                    map.setLayoutProperty('place_bar', 'visibility', 'none');
+                    map.setLayoutProperty('place_coffee', 'visibility', 'none');
+                    map.setLayoutProperty('place_grocery', 'visibility', 'none');
+                    map.setLayoutProperty('place_lodging', 'visibility', 'none');
+                    map.setLayoutProperty('place_restaurant', 'visibility', 'none');
+                    map.setLayoutProperty('place_shopping', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_O', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Y', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgBy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgbY', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Go', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gO', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Gy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gY', 'visibility', 'none');
+                    map.setLayoutProperty('SC_R', 'visibility', 'none');
+                    map.setLayoutProperty('SC_G', 'visibility', 'none');
+                    map.setLayoutProperty('SC_B', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rg', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rG', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Gb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_gB', 'visibility', 'none');
+                    map.setLayoutProperty('Aerial-Tram', 'visibility', 'none');
+                    map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'none');
+                    map.setLayoutProperty('biketown-station', 'visibility', 'none');
+                } else if (this.id === 'place_bar,place_coffee,place_restaurant') {
+                    flyCenter();
+                    console.log(this.id + ' is selected');
+                    map.setLayoutProperty('place_bar', 'visibility', 'visible');
+                    map.setLayoutProperty('place_coffee', 'visibility', 'visible');
+                    map.setLayoutProperty('place_restaurant', 'visibility', 'visible');
+
+                    // OFF
+                    map.setLayoutProperty('place_government', 'visibility', 'none');
+                    map.setLayoutProperty('place_grocery', 'visibility', 'none');
+                    map.setLayoutProperty('place_lodging', 'visibility', 'none');
+                    map.setLayoutProperty('place_museum', 'visibility', 'none');
+                    map.setLayoutProperty('place_shopping', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
+                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_O', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Y', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGby', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgBy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgbY', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Go', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gO', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_rB', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_Gy', 'visibility', 'none');
+                    map.setLayoutProperty('MAX_gY', 'visibility', 'none');
+                    map.setLayoutProperty('SC_R', 'visibility', 'none');
+                    map.setLayoutProperty('SC_G', 'visibility', 'none');
+                    map.setLayoutProperty('SC_B', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rgb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rGb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rgB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rg', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rG', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Rb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_rB', 'visibility', 'none');
+                    map.setLayoutProperty('SC_Gb', 'visibility', 'none');
+                    map.setLayoutProperty('SC_gB', 'visibility', 'none');
+                    map.setLayoutProperty('Aerial-Tram', 'visibility', 'none');
+                    map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels', 'visibility', 'none');
+                    map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'none');
+                    map.setLayoutProperty('biketown-station', 'visibility', 'none');
+                } else if (this.id === 'place_lodging') {
+                  flyCenter();
+                  console.log(this.id + ' is selected');
+                  map.setLayoutProperty('place_lodging', 'visibility', 'visible');
+
+                  // OFF
+                  map.setLayoutProperty('place_bar', 'visibility', 'none');
+                  map.setLayoutProperty('place_coffee', 'visibility', 'none');
+                  map.setLayoutProperty('place_government', 'visibility', 'none');
+                  map.setLayoutProperty('place_grocery', 'visibility', 'none');
+                  map.setLayoutProperty('place_museum', 'visibility', 'none');
+                  map.setLayoutProperty('place_restaurant', 'visibility', 'none');
+                  map.setLayoutProperty('place_shopping', 'visibility', 'none');
+                  // map.setLayoutProperty('MAX_R', 'visibility', 'none');
+                  // map.setLayoutProperty('MAX_G', 'visibility', 'none');
+                  // map.setLayoutProperty('MAX_B', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_O', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Y', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rGby', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgBy', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgbY', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Go', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_gO', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rgb', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rGb', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgB', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rb', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rB', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Gy', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_gY', 'visibility', 'none');
+                  map.setLayoutProperty('SC_R', 'visibility', 'none');
+                  map.setLayoutProperty('SC_G', 'visibility', 'none');
+                  map.setLayoutProperty('SC_B', 'visibility', 'none');
+                  map.setLayoutProperty('SC_Rgb', 'visibility', 'none');
+                  map.setLayoutProperty('SC_rGb', 'visibility', 'none');
+                  map.setLayoutProperty('SC_rgB', 'visibility', 'none');
+                  map.setLayoutProperty('SC_Rg', 'visibility', 'none');
+                  map.setLayoutProperty('SC_rG', 'visibility', 'none');
+                  map.setLayoutProperty('SC_Rb', 'visibility', 'none');
+                  map.setLayoutProperty('SC_rB', 'visibility', 'none');
+                  map.setLayoutProperty('SC_Gb', 'visibility', 'none');
+                  map.setLayoutProperty('SC_gB', 'visibility', 'none');
+                  map.setLayoutProperty('Aerial-Tram', 'visibility', 'none');
+                  map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'none');
+                  map.setLayoutProperty('portland-tram-labels', 'visibility', 'none');
+                  map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'none');
+                  map.setLayoutProperty('biketown-station', 'visibility', 'none');
+                } else if (this.id ===  'MAX_O,MAX_Y,MAX_Rgby,MAX_rGby,MAX_rgBy,MAX_rgbY,MAX_Go,MAX_gO,MAX_Rgb,MAX_rGb,MAX_rgB,MAX_Rb,MAX_rB,MAX_Gy,MAX_gY,SC_R,SC_G,SC_B,SC_Rgb,SC_rGb,SC_rgB,SC_Rg,SC_rG,SC_Rb,SC_rB,SC_Gb,SC_gB,Aerial-Tram,portland-lightrail-labels,portland-tram-labels,portland-tram-labels-aerial,biketown-station') {
+                  flyCenter();
+                  console.log(this.id + ' is selected');
+                  // map.setLayoutProperty('MAX_R', 'visibility', 'visible');
+                  // map.setLayoutProperty('MAX_G', 'visibility', 'visible');
+                  // map.setLayoutProperty('MAX_B', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_O', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Y', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Rgby', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rGby', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rgBy', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rgbY', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Go', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_gO', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Rgb', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rGb', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rgB', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Rb', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_rB', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_Gy', 'visibility', 'visible');
+                  map.setLayoutProperty('MAX_gY', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_R', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_G', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_B', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_Rgb', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_rGb', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_rgB', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_Rg', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_rG', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_Rb', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_rB', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_Gb', 'visibility', 'visible');
+                  map.setLayoutProperty('SC_gB', 'visibility', 'visible');
+                  map.setLayoutProperty('Aerial-Tram', 'visibility', 'visible');
+                  map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'visible');
+                  map.setLayoutProperty('portland-tram-labels', 'visibility', 'visible');
+                  map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'visible');
+                  map.setLayoutProperty('biketown-station', 'visibility', 'visible');
+
+                  // OFF
+                  map.setLayoutProperty('place_bar', 'visibility', 'none');
+                  map.setLayoutProperty('place_coffee', 'visibility', 'none');
+                  map.setLayoutProperty('place_government', 'visibility', 'none');
+                  map.setLayoutProperty('place_grocery', 'visibility', 'none');
+                  map.setLayoutProperty('place_lodging', 'visibility', 'none');
+                  map.setLayoutProperty('place_museum', 'visibility', 'none');
+                  map.setLayoutProperty('place_restaurant', 'visibility', 'none');
+                  map.setLayoutProperty('place_shopping', 'visibility', 'none');
+                } else {
+                  console.log('Nothing is selected');
+                  // EVERYTHING OFF
+                  map.setLayoutProperty('place_bar', 'visibility', 'none');
+                  map.setLayoutProperty('place_coffee', 'visibility', 'none');
+                  map.setLayoutProperty('place_government', 'visibility', 'none');
+                  map.setLayoutProperty('place_grocery', 'visibility', 'none');
+                  map.setLayoutProperty('place_lodging', 'visibility', 'none');
+                  map.setLayoutProperty('place_museum', 'visibility', 'none');
+                  map.setLayoutProperty('place_restaurant', 'visibility', 'none');
+                  map.setLayoutProperty('place_shopping', 'visibility', 'none');
+                  // map.setLayoutProperty('MAX_R',    'visibility', 'none');
+                  // map.setLayoutProperty('MAX_G',    'visibility', 'none');
+                  // map.setLayoutProperty('MAX_B',    'visibility', 'none');
+                  map.setLayoutProperty('MAX_O',    'visibility', 'none');
+                  map.setLayoutProperty('MAX_Y',    'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rGby', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgBy', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgbY', 'visibility', 'none');
+                  map.setLayoutProperty('MAX_Go',   'visibility', 'none');
+                  map.setLayoutProperty('MAX_gO',   'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rgb',  'visibility', 'none');
+                  map.setLayoutProperty('MAX_rGb',  'visibility', 'none');
+                  map.setLayoutProperty('MAX_rgB',  'visibility', 'none');
+                  map.setLayoutProperty('MAX_Rb',   'visibility', 'none');
+                  map.setLayoutProperty('MAX_rB',   'visibility', 'none');
+                  map.setLayoutProperty('MAX_Gy',   'visibility', 'none');
+                  map.setLayoutProperty('MAX_gY',   'visibility', 'none');
+                  map.setLayoutProperty('SC_R',     'visibility', 'none');
+                  map.setLayoutProperty('SC_G',     'visibility', 'none');
+                  map.setLayoutProperty('SC_B',     'visibility', 'none');
+                  map.setLayoutProperty('SC_Rgb',   'visibility', 'none');
+                  map.setLayoutProperty('SC_rGb',   'visibility', 'none');
+                  map.setLayoutProperty('SC_rgB',   'visibility', 'none');
+                  map.setLayoutProperty('SC_Rg',    'visibility', 'none');
+                  map.setLayoutProperty('SC_rG',    'visibility', 'none');
+                  map.setLayoutProperty('SC_Rb',    'visibility', 'none');
+                  map.setLayoutProperty('SC_rB',    'visibility', 'none');
+                  map.setLayoutProperty('SC_Gb',    'visibility', 'none');
+                  map.setLayoutProperty('SC_gB',    'visibility', 'none');
+                  map.setLayoutProperty('Aerial-Tram', 'visibility', 'none');
+                  map.setLayoutProperty('portland-lightrail-labels', 'visibility', 'none');
+                  map.setLayoutProperty('portland-tram-labels', 'visibility', 'none');
+                  map.setLayoutProperty('portland-tram-labels-aerial', 'visibility', 'none');
+                  map.setLayoutProperty('biketown-station', 'visibility', 'none');
                 }
-                else {
-                    map.setLayoutProperty(ids[layers], 'visibility', 'none')
-                    console.log('Mapbox Layers Hidden');
-                }
-              }
-            });
+
+            })
           };
+
+          // $('input.mapToggle')
 
 
           // Sort Input and Label within ul < li
@@ -237,18 +497,6 @@ export class LocationPage {
             });
           });
 
-          function flyCenter() {
-            map.flyTo({
-                center: [
-                  -122.6801443,
-                  45.5153413
-                ],
-                bearing: -90,
-                pitch: 0,
-                speed: 0.75,
-                zoom: 15
-            });
-          }
 
 
 
@@ -389,9 +637,6 @@ export class LocationPage {
                   }
                 }
               },
-              'layout': {
-                //'visibility': 'visible'
-              },
               'paint': {
                   'fill-color': '#f0c41e',
                   'fill-opacity': 1
@@ -402,10 +647,26 @@ export class LocationPage {
  }
 
   ionViewDidLeave() {
-    var filterGroup = document.getElementById('filter-group');
+    var filterGroup = document.getElementById('filter-group-list');
     while (filterGroup.hasChildNodes()) {
       filterGroup.removeChild(filterGroup.firstChild);
     }
   }
+
+  // flyCenter() {
+  //     var map = mapboxgl.Map();
+  //     //var flyCenter = document.getElementsByClassName('mapToggle');
+  //
+  //     map.flyTo({
+  //         center: [
+  //           -122.6801443,
+  //           45.5153413
+  //         ],
+  //         bearing: -90,
+  //         pitch: 0,
+  //         speed: 0.75,
+  //         zoom: 15
+  //     });
+  // }
 
 }

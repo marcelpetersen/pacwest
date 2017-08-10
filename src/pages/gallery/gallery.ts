@@ -13,44 +13,109 @@ import "lightgallery";
   templateUrl: 'gallery.html'
 })
 export class GalleryPage {
-  cardItems: any[];
+  // galleryImages: any[];
+  selectedGallery: string;
+
+  galleryExterior: any[];
+  galleryInterior: any[];
+  galleryRendering: any[];
 
   constructor(public navCtrl: NavController) {
-    this.cardItems = [
-      {
-        user: {
-          avatar: 'assets/img/marty-avatar.png',
-          name: 'Marty McFly'
+    this.galleryExterior = [
+        {
+          image: 'assets/img/exterior/exterior-01.jpg'
         },
-        date: 'November 5, 1955',
-        image: 'assets/img/advance-card-bttf.png',
-        content: 'Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.',
-      },
-      {
-        user: {
-          avatar: 'assets/img/sarah-avatar.png.jpeg',
-          name: 'Sarah Connor'
+        {
+          image: 'assets/img/exterior/exterior-02.jpg'
         },
-        date: 'May 12, 1984',
-        image: 'assets/img/advance-card-tmntr.jpg',
-        content: 'I face the unknown future, with a sense of hope. Because if a machine, a Terminator, can learn the value of human life, maybe we can too.'
-      },
-      {
-        user: {
-          avatar: 'assets/img/ian-avatar.png',
-          name: 'Dr. Ian Malcolm'
+        {
+          image: 'assets/img/exterior/exterior-03.jpg'
         },
-        date: 'June 28, 1990',
-        image: 'assets/img/advance-card-jp.jpg',
-        content: 'Your scientists were so preoccupied with whether or not they could, that they didn\'t stop to think if they should.'
-      }
-    ];
+        {
+          image: 'assets/img/exterior/exterior-04.jpg'
+        },
+        {
+          image: 'assets/img/exterior/exterior-05.jpg'
+        },
+        {
+          image: 'assets/img/exterior/exterior-06.jpg'
+        },
+        {
+          image: 'assets/img/exterior/exterior-07.jpg'
+        },
+        {
+          image: 'assets/img/exterior/exterior-08.jpg'
+        }
+    ]
+    this.galleryInterior = [
+        {
+          image: 'assets/img/interior/interior-01.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-02.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-03.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-04.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-05.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-06.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-07.jpg'
+        },
+        {
+          image: 'assets/img/interior/interior-08.jpg'
+        }
+    ]
+    this.galleryRendering = [
+        {
+          image: 'assets/img/rendering/rendering-01.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-02.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-03.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-04.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-05.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-06.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-07.jpg'
+        },
+        {
+          image: 'assets/img/rendering/rendering-08.jpg'
+        }
+    ]
+
+    this.selectedGallery = 'exterior';
+
+
   }
 
+
+
   ionViewDidLoad() {
-    $(".lightGallery").lightGallery({
+
+    $(".lightGallery-1").lightGallery({
       thumbnail:true,
-      selector: '.galleryItem'
+      selector: 'img'
+    });
+    $(".lightGallery-2").lightGallery({
+      thumbnail: true,
+      selector: 'img'
     });
   }
 
