@@ -39,13 +39,18 @@ $tabs-ios-border:     $hairlines-width solid $tabs-border-color !default;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #387ef5,
-  secondary:  #32db64,
+  primary:    #f0c41e,
+  secondary:  #2e2e2f,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222,
-  white:      #FAFAFA
+  dark:       #212121,
+  white:      #FDFDFD
 );
+
+$primary: #f0c41e;
+$secondary: #2e2e2f;
+$white: #FDFDFD;
+$black: #121212;
 
 
 // App iOS Variables

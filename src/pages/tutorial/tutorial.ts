@@ -36,13 +36,14 @@ export class TutorialPage {
       console.log('Loaded values', values);
       this.slides = [
         {
-          //title: values.TUTORIAL_SLIDE1_TITLE,
-          title: 'Welcome to the PACWEST Tour App',
-          description: values.TUTORIAL_SLIDE1_DESCRIPTION,
-          image: 'assets/img/ica-slidebox-img-1.png',
+          // title: values.TUTORIAL_SLIDE1_TITLE,
+          title: 'TRANS' + '<span class="primary">' + 'FORMED' + '</span>',
+          description: 'Building on a tradition of excellence.',
+          image: 'assets/img/pacwest_primary.svg',
         },
         {
-          title: values.TUTORIAL_SLIDE2_TITLE,
+          // title: values.TUTORIAL_SLIDE2_TITLE,
+          title: 'Experience the Transformation',
           description: values.TUTORIAL_SLIDE2_DESCRIPTION,
           image: 'assets/img/ica-slidebox-img-2.png',
         },

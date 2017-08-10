@@ -72,6 +72,7 @@ $L:     980px;
   -webkit-align-items: center;
   align-items: center;
 
+
   .flex-item {
     @include flex(0 1 auto);
     @include order(1);
@@ -169,6 +170,12 @@ $L:     980px;
   -webkit-align-items: stretch;
           align-items: stretch;
 }
+.align-middle {
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-items: center;
+        justify-content: center;
+}
 
 
 //Align-Self
@@ -195,6 +202,10 @@ $L:     980px;
 .align-self-stretch {
   -webkit-align-self: stretch;
           align-self: stretch;
+}
+.align-self-center {
+  -webkit-align-self: center;
+          align-self: center;
 }
 
 
@@ -267,6 +278,7 @@ $L:     980px;
 .yellow {
   color: #f0c41e;
 }
+$primary-yellow: #f0c41e;
 
 
 
@@ -302,10 +314,9 @@ ion-tabs {
   font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-
 }
 
-h1, h2, h3, h4, h5, h6, .title {
+h1, h2, h3, h4, h5, h6, .title, h1 span, h2 span, h3 span, h4 span {
   font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
   font-weight: 500;
 }
@@ -313,6 +324,15 @@ section, article, p, span {
   font-family: "Brandon Grotesque", "Raleway", "Roboto", "Helvitica Neue", sans-serif;
 }
 
+.content-md {
+  background: $secondary;
+}
+.menu-inner .content-md {
+  background: #FFF;
+}
+ion-footer {
+  background: $white;
+}
 
 
 

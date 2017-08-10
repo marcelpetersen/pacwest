@@ -1,21 +1,21 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
 
-import { ItemDetailPage } from '../item-detail/item-detail';
-import { ItemCreatePage } from '../item-create/item-create';
+// import { ItemDetailPage } from '../item-detail/item-detail';
+// import { ItemCreatePage } from '../item-create/item-create';
 
-import { Items } from '../../providers/providers';
-import { Item } from '../../models/item';
+// import { Items } from '../../providers/providers';
+// import { Item } from '../../models/item';
 
 @Component({
   selector: 'floor-plans-master',
   templateUrl: 'floor-plans.html'
 })
 export class FloorPlansPage {
-  currentItems: Item[];
+  // currentItems: Item[];
 
-  constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
-    this.currentItems = this.items.query();
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) { //public items: Items,
+    // this.currentItems = this.items.query();
   }
 
   /**
@@ -28,29 +28,29 @@ export class FloorPlansPage {
    * Prompt the user to add a new item. This shows our ItemCreatePage in a
    * modal and then adds the new item to our data source if the user created one.
    */
-  addItem() {
-    let addModal = this.modalCtrl.create(ItemCreatePage);
-    addModal.onDidDismiss(item => {
-      if (item) {
-        this.items.add(item);
-      }
-    })
-    addModal.present();
-  }
+  // addItem() {
+  //   let addModal = this.modalCtrl.create(ItemCreatePage);
+  //   addModal.onDidDismiss(item => {
+  //     if (item) {
+  //       this.items.add(item);
+  //     }
+  //   })
+  //   addModal.present();
+  // }
 
   /**
    * Delete an item from the list of items.
    */
-  deleteItem(item) {
-    this.items.delete(item);
-  }
+  // deleteItem(item) {
+  //   this.items.delete(item);
+  // }
 
   /**
    * Navigate to the detail page for this item.
    */
-  openItem(item: Item) {
-    this.navCtrl.push(ItemDetailPage, {
-      item: item
-    });
-  }
+  // openItem(item: Item) {
+  //   this.navCtrl.push(ItemDetailPage, {
+  //     item: item
+  //   });
+  // }
 }

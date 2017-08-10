@@ -1,3 +1,11 @@
 page-floorplans {
 
+  ion-content {
+    background-color: $secondary;
+
+    .scroll-content {
+      background: $secondary;
+    }
+  }
+
 }

@@ -4,6 +4,21 @@ page-tutorial {
     border-color: transparent;
   }
 
+  ion-slide {
+    background: #FAFAFA;
+
+
+    h2 {
+      color: $secondary;
+
+      span.primary {
+        font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
+        color: $primary;
+      }
+
+    }
+  }
+
   .slide-zoom {
     height: 100%;
   }
@@ -53,10 +68,12 @@ page-tutorial {
     padding: 0 40px;
     font-size: 16px;
     line-height: 1.5;
-    color: #60646B;
+    color: $secondary;
+    font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
 
-    b {
-      color: #000000;
+    b, strong {
+      color: $primary;
+      font-weight: 700;
     }
   }
 
