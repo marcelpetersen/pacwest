@@ -6,8 +6,8 @@ import { Settings } from '../providers/providers';
 
 import { FirstRunPage } from '../pages/pages';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-import { TabsPage } from '../pages/tabs/tabs';
-import { MenuPage } from '../pages/menu/menu';
+// import { TabsPage } from '../pages/tabs/tabs';
+// import { MenuPage } from '../pages/menu/menu';
 import { HomePage } from '../pages/home/home';
 import { FuturePage } from '../pages/future/future';
 import { FloorPlansPage } from '../pages/floor-plans/floor-plans';
@@ -21,7 +21,7 @@ import { TranslateService } from 'ng2-translate/ng2-translate';
   template: `<ion-menu [content]="content">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Pages</ion-title>
+        <ion-title>PACWEST</ion-title>
       </ion-toolbar>
     </ion-header>
 
@@ -43,8 +43,8 @@ export class MyApp {
 
   pages: any[] = [
     { title: 'Tutorial', component: TutorialPage },
-    { title: 'Tabs',     component: TabsPage },
-    { title: 'Menu',     component: MenuPage },
+    // { title: 'Tabs',     component: TabsPage },
+    // { title: 'Menu',     component: MenuPage },
     { title: 'Home',     component: HomePage },
     { title: 'Future',   component: FuturePage },
     { title: 'Floors',   component: FloorPlansPage },

@@ -6,26 +6,15 @@
 
 <ion-content no-bounce>
   <ion-slides [options]="{pager: true}" (ionWillChange)="onSlideChangeStart($event)">
-    <ion-slide *ngFor="let slide of slides">
-      <div class="flex-container height-full">
-        <div class="flex-item flex-75per">
-          <img [src]="slide.image" class="slide-image"/>
-          <h2 class="slide-title" [innerHTML]="slide.title"></h2>
-          <p [innerHTML]="slide.description"></p>
-        </div>
-      </div>
-    </ion-slide>
     <ion-slide>
       <div class="flex-container height-full">
         <div class="flex-item flex-75per">
-          <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-          <!-- <object class="svg-logo slide-image" type="image/svg+xml" data="assets/img/pacwest_stacked.svg" style="pointer-events:none;">
-            <img src="assets/img/pacwest_primary.jpg" class="img-responsive brand" alt="" />
-          </object> -->
-          <h2 class="slide-title">Let's Begin!</h2>
+          <img src="assets/img/pacwest_primary.svg" class="slide-image"/>
+          <h2 class="slide-title">TRANS<span class="primary">FORMED</span></h2>
+          <p>Building on a tradition of excellence.</p>
           <button ion-button icon-right large clear (click)="startApp()">
-            Continue
-            <ion-icon name="arrow-forward"></ion-icon>
+            Start
+            <!-- <ion-icon name="arrow-forward"></ion-icon> -->
           </button>
         </div>
       </div>
@@ -33,12 +22,12 @@
   </ion-slides>
 </ion-content>
 
-<ion-footer no-shadow>
+<!-- <ion-footer no-shadow>
   <ion-navbar>
     <div class="gContainer footer">
       <ion-buttons end *ngIf="showSkip">
-        <button ion-button (click)="startApp()" color="primary">Skip</button>
+        <button ion-button (click)="startApp()" color="primary">Start</button>
       </ion-buttons>
     </div>
   </ion-navbar>
-</ion-footer>
+</ion-footer> -->

@@ -308,12 +308,24 @@ ion-tabs {
     min-height: 64px !important;
     font-size: $tabs-ios-tab-font-size;
   }
+
+  &.tabs-md .tabbar,
+  &.tabs-ios .tabbar {
+    // background: $secondary;
+  }
+
 }
+
 .tabs-md .tab-button-text,
 .tabs-ios .tab-button-text {
   font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
+}
+
+.enable-hover a:hover {
+  color: darken(#f0c41e, 10%);
+  opacity: 1;
 }
 
 h1, h2, h3, h4, h5, h6, .title, h1 span, h2 span, h3 span, h4 span {
@@ -332,6 +344,25 @@ section, article, p, span {
 }
 ion-footer {
   background: $white;
+
+  // background: $secondary;
+}
+
+#background.building {
+  background-image: url('../assets/img/floor-plans/building_min.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  width: 72%;
+  height: 210%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 100px;
+  left: -60px;
+
+  height: 1800px;
+  width: 860px;
 }
 
 

@@ -6,24 +6,89 @@
 
 <ion-content>
 
-  <ion-list>
-    <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
-        <ion-avatar item-left>
-          <img [src]="item.profilePic" />
-        </ion-avatar>
-        <h2>{{item.name}}</h2>
-        <p>{{item.about}}</p>
-        <ion-note item-right *ngIf="item.note">{{item.note}}</ion-note>
-      </button>
+  <div class="flex-container" style="width: 320px; float: right; top: 320px;">
 
-      <ion-item-options>
+    <ion-list>
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2700</h2>
+          <p>Stuff</p>
+        </button>
+
         <button ion-button color="primary" (click)="openItem(item)">
           View
         </button>
-      </ion-item-options>
-    </ion-item-sliding>
-  </ion-list>
+      </ion-item>
 
-  <div id="background"></div>
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2600</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item>
+
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2250</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item>
+
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2230</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item>
+
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2230</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item><ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2230</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item>
+
+      <ion-item class="flex-item">
+        <button ion-item (click)="openItem(item)">
+          <h2>Suite 2230</h2>
+          <p>Stuff</p>
+        </button>
+
+        <button ion-button color="primary" (click)="openItem(item)">
+          View
+        </button>
+      </ion-item>
+
+
+    </ion-list>
+
+  </div>
+
+
+  <div id="background" class="building"></div>
 </ion-content>
