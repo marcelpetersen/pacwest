@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ModalController } from 'ionic-angular';
+import { NavController, ModalController, LoadingController } from 'ionic-angular';
 
 import { ModalSuites2700 } from '../modalsuites2700/modalsuites2700';
 import { ModalSuites2600 } from '../modalsuites2600/modalsuites2600';
@@ -26,7 +26,7 @@ import { ModalSuites300 } from '../modalsuites300/modalsuites300';
 export class FloorPlansPage {
   // currentItems: Item[];
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public loading: LoadingController) {
     //public items: Items,
     // this.currentItems = this.items.query();
   }
@@ -92,6 +92,11 @@ export class FloorPlansPage {
    * The view loaded, let's query our items for the list
    */
   ionViewDidLoad() {
+    let loader = this.loading.create({
+      content: 'Getting current availabilities...',
+      duration: 1000
+    });
+    loader.present();
   }
 
   /**

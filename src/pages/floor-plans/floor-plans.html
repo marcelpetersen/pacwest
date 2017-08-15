@@ -6,218 +6,315 @@
 
 <ion-content>
 
-  <div class="flex-container">
+  <div class="main-container">
 
-    <ion-grid>
+    <div class="header">
+      <h1>Current <span class="primary-yellow">Availabilities</span></h1>
+    </div>
 
-      <ion-row align-items-end>
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item>
+    <div class="flex-container">
+
+      <ion-grid>
+
+        <ion-row align-items-end>
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 2700 | <span>15,524 sqft</span></h2>
               <button ion-button color="primary" item-end (click)="presentModal2700()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item>
+                <h2>Suite 2700 | <span>15,524 sqft</span></h2>
+                <button ion-button color="primary" item-end (click)="presentModal2700()">
+                  View Plan
+                </button>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
 
-      <ion-row align-items-end style="margin-top:5px">
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
+        <ion-row align-items-end style="margin-top:5px">
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 2600 | <span>15,524 sqft</span></h2>
               <button ion-button color="primary" (click)="presentModal2600()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
 
-
-      <ion-row align-items-end style="margin-top:108px">
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 2220 | <span>3,886 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal2220()">
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <h2>Suite 2600 | <span>15,524 sqft</span></h2>
+                <button ion-button color="primary" (click)="presentModal2600()">
                   View Plan
                 </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 2230 | <span>4,138 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal2230()">
-                  View Plan
-                </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 2250 | <span>4,410 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal2250()">
-                  View Plan
-                </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
 
-      <ion-row align-items-end style="margin-top:62px">
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
+        <ion-row align-items-end style="margin-top:108px">
+          <ion-col col-lg-3 offset-lg-3 col-md-3 offset-md-3>
+            <div class="ste-container">
+              <h2>Suite 2220 | <span>3,886 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal2220()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 2220 | <span>3,886 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal2220()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+
+          <ion-col col-lg-3 col-md-3>
+            <div class="ste-container">
+              <h2>Suite 2230 | <span>4,138 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal2230()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 2230 | <span>4,138 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal2230()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+
+          <ion-col col-lg-3 col-md-3>
+            <div class="ste-container">
+              <h2>Suite 2250 | <span>4,410 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal2250()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 2250 | <span>4,410 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal2250()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row align-items-end style="margin-top:62px">
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 2050 | <span>11,390 sqft</span></h2>
               <button ion-button color="primary" (click)="presentModal2050()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
 
-
-      <ion-row align-items-end style="margin-top:186px">
-        <ion-col col-lg-4 push-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 1440 | <span>4,127 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal1440()">
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <h2>Suite 2050 | <span>11,390 sqft</span></h2>
+                <button ion-button color="primary" (click)="presentModal2050()">
                   View Plan
                 </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-
-        <ion-col col-lg-4 push-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 1450 | <span>4,680 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal1450()">
-                  View Plan
-                </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
 
-      <ion-row align-items-end style="margin-top:63px">
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
+        <ion-row align-items-end style="margin-top:186px">
+          <ion-col col-lg-3 offset-lg-6 col-md-3 offset-md-6 col-sm-6 offset-sm-6>
+            <div class="ste-container">
+              <h2>Suite 1440 | <span>4,127 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal1440()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 1440 | <span>4,127 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal1440()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+
+          <ion-col col-lg-3 col-md-3>
+            <div class="ste-container">
+              <h2>Suite 1450 | <span>4,680 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal1450()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 1450 | <span>4,680 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal1450()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row align-items-end style="margin-top:63px">
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 1220 | <span>3,629 sqft</span></h2>
               <button ion-button color="primary" (click)="presentModal1220()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
 
-
-      <ion-row align-items-end style="margin-top:257px">
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 730 | <span>2,038 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal730()">
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <h2>Suite 1220 | <span>3,629 sqft</span></h2>
+                <button ion-button color="primary" (click)="presentModal1220()">
                   View Plan
                 </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 740 | <span>4,846 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal740()">
-                  View Plan
-                </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-
-        <ion-col col-lg-4>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
-              <span>
-                <h2>Suite 790 | <span>980 sqft</span></h2>
-                <button ion-button color="primary" (click)="presentModal790()">
-                  View Plan
-                </button>
-              </span>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
 
-      <ion-row align-items-end style="margin-top:148px">
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item>
+        <ion-row align-items-end style="margin-top:257px">
+          <ion-col col-lg-3 offset-lg-3 col-md-3 offset-md-3>
+            <div class="ste-container">
+              <h2>Suite 730 | <span>2,038 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal730()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 730 | <span>2,038 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal730()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+
+          <ion-col col-lg-3 col-md-3>
+            <div class="ste-container">
+              <h2>Suite 740 | <span>4,846 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal740()">
+                View Plan
+              </button>
+            </div>
+
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 740 | <span>4,846 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal740()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+
+          <ion-col col-lg-3 col-md-3>
+            <div class="ste-container">
+              <h2>Suite 790 | <span>980 sqft</span></h2>
+              <button ion-button color="primary" (click)="presentModal790()">
+                View Plan
+              </button>
+            </div>
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <span>
+                  <h2>Suite 790 | <span>980 sqft</span></h2>
+                  <button ion-button color="primary" (click)="presentModal790()">
+                    View Plan
+                  </button>
+                </span>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row align-items-end style="margin-top:148px">
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 400 | <span>15,553 sqft</span></h2>
               <button ion-button color="primary" item-end (click)="presentModal400()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
+            <!-- <ion-list no-lines>
+              <ion-item>
+                <h2>Suite 400 | <span>15,553 sqft</span></h2>
+                <button ion-button color="primary" item-end (click)="presentModal400()">
+                  View Plan
+                </button>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
 
-      <ion-row align-items-end style="margin-top:8px">
-        <ion-col col-lg-4 push-lg-8>
-          <ion-list no-lines>
-            <ion-item class="flex-item">
+        <ion-row align-items-end style="margin-top:8px">
+          <ion-col col-lg-3 offset-lg-9 col-md-3 offset-md-9 col-sm-6 offset-sm-6>
+            <div class="ste-container">
               <h2>Suite 300 | <span>10,764 sqft</span></h2>
               <button ion-button color="primary" (click)="presentModal300()">
                 View Plan
               </button>
-            </ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
+            </div>
 
-    </ion-grid>
+            <!-- <ion-list no-lines>
+              <ion-item class="flex-item">
+                <h2>Suite 300 | <span>10,764 sqft</span></h2>
+                <button ion-button color="primary" (click)="presentModal300()">
+                  View Plan
+                </button>
+              </ion-item>
+            </ion-list> -->
+          </ion-col>
+        </ion-row>
 
+      </ion-grid>
+
+
+    </div>
+
+
+    <div id="background" class="building"></div>
 
   </div>
-
-
-  <div class="building ste2600"></div>
-  <div class="building ste2200"></div>
-  <div class="building ste2050"></div>
-  <div class="building ste1400"></div>
-  <div class="building ste1220"></div>
-  <div class="building ste700"></div>
-  <div class="building ste300"></div>
-  <div id="background" class="building"></div>
 </ion-content>
