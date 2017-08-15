@@ -4,9 +4,11 @@
 // App Global Mixins
 
 // Media Queries
-$S:     480px;
-$M:     800px;
-$L:     980px;
+$S:      480px;
+$M:      800px;
+$L:     1280px;
+$XL:    1440px;
+
 // --Mixin
 @mixin MQ($canvas) {
   @if $canvas == S {
@@ -16,7 +18,10 @@ $L:     980px;
    @media (min-width: $S) and (max-width:$M) { @content; }
   }
   @else if $canvas == L {
-   @media (min-width: $M) { @content; }
+   @media (min-width: $M) and (max-width:$L) { @content; }
+  }
+  @else if $canvas == XL {
+    @media (min-width: $L) { @content; }
   }
 }
 

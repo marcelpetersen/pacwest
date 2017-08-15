@@ -28,8 +28,20 @@ import { LocationPage } from '../pages/location/location';
 import { VitalsPage } from '../pages/vitals/vitals';
 import { GalleryPage } from '../pages/gallery/gallery';
 
-import { ModalSuites } from '../pages/modalsuites/modalsuites';
+import { ModalSuites2700 } from '../pages/modalsuites2700/modalsuites2700';
 import { ModalSuites2600 } from '../pages/modalsuites2600/modalsuites2600';
+import { ModalSuites2250 } from '../pages/modalsuites2250/modalsuites2250';
+import { ModalSuites2230 } from '../pages/modalsuites2230/modalsuites2230';
+import { ModalSuites2220 } from '../pages/modalsuites2220/modalsuites2220';
+import { ModalSuites2050 } from '../pages/modalsuites2050/modalsuites2050';
+import { ModalSuites1450 } from '../pages/modalsuites1450/modalsuites1450';
+import { ModalSuites1440 } from '../pages/modalsuites1440/modalsuites1440';
+import { ModalSuites1220 } from '../pages/modalsuites1220/modalsuites1220';
+import { ModalSuites790 } from '../pages/modalsuites790/modalsuites790';
+import { ModalSuites740 } from '../pages/modalsuites740/modalsuites740';
+import { ModalSuites730 } from '../pages/modalsuites730/modalsuites730';
+import { ModalSuites400 } from '../pages/modalsuites400/modalsuites400';
+import { ModalSuites300 } from '../pages/modalsuites300/modalsuites300';
 
 
 import { User } from '../providers/user';
@@ -79,8 +91,20 @@ let pages = [
   VitalsPage,
   GalleryPage,
 
-  ModalSuites,
-  ModalSuites2600
+  ModalSuites2700,
+  ModalSuites2600,
+  ModalSuites2250,
+  ModalSuites2230,
+  ModalSuites2220,
+  ModalSuites2050,
+  ModalSuites1450,
+  ModalSuites1440,
+  ModalSuites1220,
+  ModalSuites790,
+  ModalSuites740,
+  ModalSuites730,
+  ModalSuites400,
+  ModalSuites300
 ];
 
 export function declarations() {

@@ -9,11 +9,21 @@ page-floor-plans {
   }
 
   .flex-container {
-    width:924px;
+    width: 924px;
     float: right;
     top: 584px;
     // position: absolute;
     right: calc(50% - 924px + 72px);
+
+
+    @include MQ(L) {
+      right: 40px;
+      top: 320px;
+    }
+
+    @include MQ(XL) {
+      right: 8%;
+    }
   }
 
   ion-list {
