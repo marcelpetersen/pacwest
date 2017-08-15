@@ -6,89 +6,218 @@
 
 <ion-content>
 
-  <div class="flex-container" style="width: 320px; float: right; top: 320px;">
+  <div class="flex-container">
 
-    <ion-list>
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2700</h2>
-          <p>Stuff</p>
-        </button>
+    <ion-grid>
 
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
-
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2600</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
-
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2250</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
-
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2230</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
-
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2230</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item><ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2230</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
-
-      <ion-item class="flex-item">
-        <button ion-item (click)="openItem(item)">
-          <h2>Suite 2230</h2>
-          <p>Stuff</p>
-        </button>
-
-        <button ion-button color="primary" (click)="openItem(item)">
-          View
-        </button>
-      </ion-item>
+      <ion-row align-items-end>
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item>
+              <h2>Suite 2700 | <span>15,524 sqft</span></h2>
+              <button #one ion-button color="primary" item-end (click)="presentModal('one')">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
 
 
-    </ion-list>
+      <ion-row align-items-end style="margin-top:5px">
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <h2>Suite 2600 | <span>15,524 sqft</span></h2>
+              <button #two ion-button color="primary" (click)="presentModal('two')">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:108px">
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 2220 | <span>3,886 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 2230 | <span>4,138 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 2250 | <span>4,410 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:62px">
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <h2>Suite 2050 | <span>11,390 sqft</span></h2>
+              <button ion-button color="primary" (click)="openItem(item)">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:186px">
+        <ion-col col-lg-4 push-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 1440 | <span>4,127 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+
+        <ion-col col-lg-4 push-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 1450 | <span>4,680 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:63px">
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <h2>Suite 1220 | <span>3,629 sqft</span></h2>
+              <button ion-button color="primary" (click)="openItem(item)">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:257px">
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 730 | <span>2,038 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 740 | <span>4,846 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+
+        <ion-col col-lg-4>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <span>
+                <h2>Suite 790 | <span>980 sqft</span></h2>
+                <button ion-button color="primary" (click)="openItem(item)">
+                  View Plan
+                </button>
+              </span>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:148px">
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item>
+              <h2>Suite 400 | <span>15,553 sqft</span></h2>
+              <button ion-button color="primary" item-end (click)="openItem(item)">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row align-items-end style="margin-top:8px">
+        <ion-col col-lg-4 push-lg-8>
+          <ion-list no-lines>
+            <ion-item class="flex-item">
+              <h2>Suite 300 | <span>10,764 sqft</span></h2>
+              <button ion-button color="primary" (click)="openItem(item)">
+                View Plan
+              </button>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
 
   </div>
 
 
+  <!-- <div class="building ste2600"></div>
+  <div class="building ste2200"></div>
+  <div class="building ste2050"></div>
+  <div class="building ste1400"></div>
+  <div class="building ste1220"></div>
+  <div class="building ste700"></div>
+  <div class="building ste300"></div> -->
   <div id="background" class="building"></div>
 </ion-content>

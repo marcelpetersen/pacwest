@@ -15,7 +15,10 @@ page-tutorial {
         font-family: "Raleway", "Roboto", "Helvitica Neue", sans-serif;
         color: $primary;
       }
+    }
 
+    button, button.button-inner {
+      text-transform: uppercase !important;
     }
   }
 

@@ -28,6 +28,9 @@ import { LocationPage } from '../pages/location/location';
 import { VitalsPage } from '../pages/vitals/vitals';
 import { GalleryPage } from '../pages/gallery/gallery';
 
+import { ModalSuites } from '../pages/modalsuites/modalsuites';
+import { ModalSuites2600 } from '../pages/modalsuites2600/modalsuites2600';
+
 
 import { User } from '../providers/user';
 import { Api } from '../providers/api';
@@ -65,27 +68,19 @@ export function provideSettings(storage: Storage) {
  */
 let pages = [
   MyApp,
-  //CardsPage,
-  //ContentPage,
-  //LoginPage,
-  //MapPage,
-  //SignupPage,
   TabsPage,
   TutorialPage,
-  //WelcomePage,
-  //ListMasterPage,
-  //ItemDetailPage,
-  //ItemCreatePage,
   MenuPage,
-  //SettingsPage,
-  //SearchPage,
 
   HomePage,
   FuturePage,
   FloorPlansPage,
   LocationPage,
   VitalsPage,
-  GalleryPage
+  GalleryPage,
+
+  ModalSuites,
+  ModalSuites2600
 ];
 
 export function declarations() {

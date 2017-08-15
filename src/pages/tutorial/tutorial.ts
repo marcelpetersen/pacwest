@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
-
 import { MenuController, NavController } from 'ionic-angular';
-
-//import { WelcomePage } from '../welcome/welcome';
-
 import { TabsPage } from '../tabs/tabs';
-
-// import { TranslateService } from 'ng2-translate/ng2-translate';
 
 export const MainPage = TabsPage;
 
