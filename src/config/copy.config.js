@@ -30,28 +30,28 @@ module.exports = {
     src: '{{SRC}}/assets/img/**/*',
     dest: '{{WWW}}/assets/img'
   },
-  copyPluginsJs: {
-    src: [
-      '{{ROOT}}/node_modules/lightgallery/dist/js/lightgallery-all.min.js'
-    ],
-    dest: '{{BUILD}}/plugins/js'
-  },
-  copyPluginsCss: {
-    src: [
-      '{{ROOT}}/node_modules/lightgallery/dist/css/lightgallery.min.css'
-    ],
-    dest: '{{BUILD}}/plugins/css'
-  },
-  copyPluginsImg: {
-    src: [
-      '{{ROOT}}/node_modules/lightgallery/dist/img/*'
-    ],
-    dest: '{{BUILD}}/plugins/img'
-  },
-  copyPluginsFonts: {
-    src: [
-      '{{ROOT}}/node_modules/lightgallery/dist/fonts/*'
-    ],
-    dest: '{{BUILD}}/plugins/fonts'
-  }
+  // copyPluginsJs: {
+  //   src: [
+  //     '{{ROOT}}/node_modules/lightgallery/dist/js/lightgallery-all.min.js'
+  //   ],
+  //   dest: '{{BUILD}}/plugins/js'
+  // },
+  // copyPluginsCss: {
+  //   src: [
+  //     '{{ROOT}}/node_modules/lightgallery/dist/css/lightgallery.min.css'
+  //   ],
+  //   dest: '{{BUILD}}/plugins/css'
+  // },
+  // copyPluginsImg: {
+  //   src: [
+  //     '{{ROOT}}/node_modules/lightgallery/dist/img/*'
+  //   ],
+  //   dest: '{{BUILD}}/plugins/img'
+  // },
+  // copyPluginsFonts: {
+  //   src: [
+  //     '{{ROOT}}/node_modules/lightgallery/dist/fonts/*'
+  //   ],
+  //   dest: '{{BUILD}}/plugins/fonts'
+  // }
 }
