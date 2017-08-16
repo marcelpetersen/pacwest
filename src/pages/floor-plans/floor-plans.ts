@@ -16,19 +16,16 @@ import { ModalSuites730 } from '../modalsuites730/modalsuites730';
 import { ModalSuites400 } from '../modalsuites400/modalsuites400';
 import { ModalSuites300 } from '../modalsuites300/modalsuites300';
 
-// import { Items } from '../../providers/providers';
-// import { Item } from '../../models/item';
 
 @Component({
   selector: 'page-floor-plans',
   templateUrl: 'floor-plans.html'
 })
 export class FloorPlansPage {
-  // currentItems: Item[];
+
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController, public loading: LoadingController) {
-    //public items: Items,
-    // this.currentItems = this.items.query();
+
   }
 
   presentModal2700() {
@@ -88,9 +85,7 @@ export class FloorPlansPage {
     modal300.present();
   }
 
-  /**
-   * The view loaded, let's query our items for the list
-   */
+
   ionViewDidLoad() {
     let loader = this.loading.create({
       content: 'Getting current availabilities...',
@@ -99,33 +94,4 @@ export class FloorPlansPage {
     loader.present();
   }
 
-  /**
-   * Prompt the user to add a new item. This shows our ItemCreatePage in a
-   * modal and then adds the new item to our data source if the user created one.
-   */
-  // addItem() {
-  //   let addModal = this.modalCtrl.create(ItemCreatePage);
-  //   addModal.onDidDismiss(item => {
-  //     if (item) {
-  //       this.items.add(item);
-  //     }
-  //   })
-  //   addModal.present();
-  // }
-
-  /**
-   * Delete an item from the list of items.
-   */
-  // deleteItem(item) {
-  //   this.items.delete(item);
-  // }
-
-  /**
-   * Navigate to the detail page for this item.
-   */
-  // openItem(item: Item) {
-  //   this.navCtrl.push(ItemDetailPage, {
-  //     item: item
-  //   });
-  // }
 }

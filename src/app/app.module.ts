@@ -5,22 +5,11 @@ import { Storage, IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
 
-//import { CardsPage } from '../pages/cards/cards';
-//import { ContentPage } from '../pages/content/content';
-//import { LoginPage } from '../pages/login/login';
-//import { MapPage } from '../pages/map/map';
-//import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-//import { WelcomePage } from '../pages/welcome/welcome';
-//import { ListMasterPage } from '../pages/list-master/list-master';
-//import { ItemCreatePage } from '../pages/item-create/item-create';
-//import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { MenuPage } from '../pages/menu/menu';
-//import { SettingsPage } from '../pages/settings/settings';
-//import { SearchPage } from '../pages/search/search';
 
-
+// Custom Pages for Pacwest
 import { HomePage } from '../pages/home/home';
 import { FuturePage } from '../pages/future/future';
 import { FloorPlansPage } from '../pages/floor-plans/floor-plans';
@@ -28,6 +17,7 @@ import { LocationPage } from '../pages/location/location';
 import { VitalsPage } from '../pages/vitals/vitals';
 import { GalleryPage } from '../pages/gallery/gallery';
 
+// Modals for Floor Plans Page
 import { ModalSuites2700 } from '../pages/modalsuites2700/modalsuites2700';
 import { ModalSuites2600 } from '../pages/modalsuites2600/modalsuites2600';
 import { ModalSuites2250 } from '../pages/modalsuites2250/modalsuites2250';
@@ -43,7 +33,7 @@ import { ModalSuites730 } from '../pages/modalsuites730/modalsuites730';
 import { ModalSuites400 } from '../pages/modalsuites400/modalsuites400';
 import { ModalSuites300 } from '../pages/modalsuites300/modalsuites300';
 
-
+// Providers
 import { User } from '../providers/user';
 import { Api } from '../providers/api';
 import { Settings } from '../providers/settings';

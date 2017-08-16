@@ -4,10 +4,15 @@
 // App Global Mixins
 
 // Media Queries
-$S:      480px;
-$M:      800px;
-$L:     1280px;
-$XL:    1440px;
+$S:        480px;
+$M:        800px;
+$L:       1120px;
+$larger:  1600px;
+$XL:      2120px;
+$XXL:     2400px;
+
+$iPadPro_w: 1366px;
+$iPadPro_h: 1024px;
 
 // --Mixin
 @mixin MQ($canvas) {
@@ -20,8 +25,20 @@ $XL:    1440px;
   @else if $canvas == L {
    @media (min-width: $M) and (max-width:$L) { @content; }
   }
+
+  @else if $canvas == larger {
+   @media (min-width: $M) and (max-width:$larger) { @content; }
+  }
+
   @else if $canvas == XL {
-    @media (min-width: $L) { @content; }
+    @media (min-width: $L) and (max-width:$XL) { @content; }
+  }
+  @else if $canvas == XXL {
+    @media (min-width: $XL) { @content; }
+  }
+
+  @else if $canvas == iPadPro_w && iPadPro_h {
+    @media (width: $iPadPro_w) and (height: $iPadPro_h) { @content; }
   }
 }
 

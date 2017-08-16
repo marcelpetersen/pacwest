@@ -2,7 +2,7 @@ page-home {
 
   ion-content, ion-content.content-ios {
     background-color: #2e2e2f;
-    background: url('../assets/img/hero_treated-sm.jpg') #2e2e2f;
+    background: url('../assets/img/hero_treated-min.jpg') #2e2e2f;
     background-position: 30% 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,8 @@ page-home {
   }
 
   .full-background {
-    background: url('../assets/img/hero_treated-sm.jpg') #2e2e2f;
+    background-color: #2e2e2f;
+    background: url('../assets/img/hero_treated-min.jpg') #2e2e2f;
     background-position: 30% 10%;
     background-repeat: no-repeat;
     background-size: cover;

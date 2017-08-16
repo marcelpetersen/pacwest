@@ -1,11 +1,7 @@
 import { TabsPage } from './tabs/tabs';
 import { TutorialPage } from './tutorial/tutorial';
-//import { ListMasterPage } from './list-master/list-master';
-//import { SearchPage } from './search/search';
-//import { SettingsPage } from './settings/settings';
-//import { MapPage as LocationPage } from './map/map';
-//import { ContentPage as FloorPlansPage } from './content/content';
 
+// Custom Pages for this App
 import { HomePage } from './home/home';
 import { FuturePage } from './future/future';
 import { FloorPlansPage } from './floor-plans/floor-plans';

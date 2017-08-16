@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, Platform, ViewController, Events } from 'ionic-angular';
+import { NavController, Platform, ViewController, Events, LoadingController } from 'ionic-angular';
 
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
 import * as $ from "jquery";
@@ -13,7 +13,7 @@ export class LocationPage {
   Coordinates: any;
   watch:any;
 
-  constructor(public navCtrl: NavController, public platform: Platform, public viewCtrl: ViewController, public events: Events) {
+  constructor(public navCtrl: NavController, public platform: Platform, public viewCtrl: ViewController, public events: Events, public loading: LoadingController) {
 
   }
 
@@ -32,10 +32,22 @@ export class LocationPage {
     // });
   //}
 
+  presentLoading(){
+    let loader = this.loading.create({
+      content: 'Loading Amenities...'
+    });
 
+    loader.present();
+
+    setTimeout(() => {
+      loader.dismiss();
+    }, 3000);
+  }
 
 
   ionViewDidEnter() {
+
+      this.presentLoading()
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
 
       // Set Bounds

@@ -1,3 +1,10 @@
 page-vitals {
+  ion-content {
+    background-color: $secondary;
 
+    .scroll-content {
+      background: $secondary;
+      color: $white;
+    }
+  }
 }
