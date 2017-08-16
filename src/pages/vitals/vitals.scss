@@ -7,27 +7,4 @@ page-vitals {
       color: $white;
     }
   }
-
-
-  .flex-container {
-    padding-top: 120px;
-
-    h1 {
-      text-transform: uppercase;
-      font-weight: 300;
-      font-size: 4rem;
-
-      span {
-        font-weight: 300;
-      }
-    }
-
-    p {
-      font-size: 1.8rem;
-    }
-
-    ul {
-      padding-left: 24px;
-    }
-  }
 }
