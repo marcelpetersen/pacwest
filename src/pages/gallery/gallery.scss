@@ -16,6 +16,31 @@ page-gallery {
         font-weight: 400;
       }
     }
+
+    .flex-container.height-full {
+      max-width: 100%;
+      height: 100%;
+      // max-height: calc(100vh - 64px - 96px);
+      max-height: calc(100vh - 64px - 24px);
+    }
+
+    ion-grid ion-row ion-col ion-row ion-col {
+      padding: 0 !important;
+    }
+
+    .swiper-pagination-bullet {
+      background: $secondary;
+      border: 2px solid $secondary;
+      border-radius: 50%;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-pagination-bullet-active {
+      background: $primary;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 8px;
+    }
   }
 
 }

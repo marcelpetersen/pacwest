@@ -6,257 +6,135 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="lightGallery">
+<ion-content class="lightGallery" no-bounce>
 
-  <section class="flex-container height-full">
+  <section>
     <ion-grid>
       <ion-row>
+        <ion-col col-12>
 
-        <!-- Main Gallery -->
-        <ion-col col-10>
+          <!-- Exterior Gallery -->
           <div *ngIf="selectedGallery == 'exterior'">
-
             <ion-row>
               <ion-col col-lg-12>
-                <ion-slides>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-01.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-02.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-03.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-04.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-05.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-06.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-07.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/exterior/exterior-08.jpg" />
-                  </ion-slide>
+                <ion-slides #exterior pager="true" autoplay="5000" loop="true" speed="600" autoplayDisableOnInteraction=false (ionSlideDidChange)="slideChanged()">
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/becker-lobby3.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/becker-co.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/perkins-conf1.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/perkins-stairs1.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/schwabe1.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/terrace2.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/terrace3.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/gallery/terrace1.jpg" />
+                      </div>
+                    </ion-slide>
                 </ion-slides>
-              </ion-col>
-            </ion-row>
-            <!-- <ion-card *ngFor="let item of galleryExterior" col-2>
-              <img class="galleryItem" [src]="item.image" />
-            </ion-card> -->
-
-            <ion-row>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-01.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-02.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-03.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-04.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-05.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-06.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-07.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-lg-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-08.jpg" />
-                </ion-card>
               </ion-col>
             </ion-row>
           </div>
 
 
-
-          <div *ngIf="selectedGallery == 'interior'">
+          <!-- Interior Gallery -->
+          <!-- <div *ngIf="selectedGallery == 'interior'">
             <ion-row>
               <ion-col col-lg-12>
-                <ion-slides>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-01.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-02.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-03.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-04.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-05.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-06.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-07.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-08.jpg" />
-                  </ion-slide>
+                <ion-slides #interior pager="true" autoplay="5000" loop="true" speed="600" autoplayDisableOnInteraction=false (ionSlideDidChange)="slideChanged()">
+
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-01.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-02.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-03.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-04.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-05.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-06.jpg" />
+                      </div>
+                    </ion-slide>
+                    <ion-slide>
+                      <div class="flex-container height-full">
+                        <img class="galleryItem" src="assets/img/interior/interior-07.jpg" />
+                      </div>
+                    </ion-slide>
+
                 </ion-slides>
               </ion-col>
             </ion-row>
+          </div> -->
 
-            <ion-row>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-01.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-02.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-03.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-04.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-05.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-06.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-07.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/interior/interior-08.jpg" />
-                </ion-card>
-              </ion-col>
-            </ion-row>
-          </div>
-
-
-          <div *ngIf="selectedGallery == 'rendering'">
-            <ion-row>
-              <ion-col col-lg-12>
-                <ion-slides>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-01.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-02.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-03.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-04.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-05.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-06.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-07.jpg" />
-                  </ion-slide>
-                  <ion-slide>
-                    <img class="galleryItem" src="assets/img/interior/interior-08.jpg" />
-                  </ion-slide>
-                </ion-slides>
-              </ion-col>
-            </ion-row>
-
-            <ion-row>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-02.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-03.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-04.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-05.jpg" />
-                </ion-card>
-              </ion-col>
-              <ion-col col-2>
-                <ion-card>
-                  <img class="galleryItem" src="assets/img/exterior/exterior-06.jpg" />
-                </ion-card>
-              </ion-col>
-            </ion-row>
-          </div>
-
-        </ion-col>
-
-
-        <!-- Aside -->
-        <ion-col col-2>
-          <ion-list radio-group [(ngModel)]="selectedGallery">
-            <ion-item>
-              <ion-label for="exterior">Exterior Photos</ion-label>
-              <ion-radio #exterior id="exterior" value="exterior" (click)="selectedGallery = exterior.value"></ion-radio>
-            </ion-item>
-
-            <ion-item>
-              <ion-label>Interior Photos</ion-label>
-              <ion-radio #interior id="interior" value="interior" (click)="selectedGallery = interior.value"></ion-radio>>
-            </ion-item>
-
-            <ion-item>
-              <ion-label>Renderings</ion-label>
-              <ion-radio #rendering id="rendering" value="rendering" (click)="selectedGallery = rendering.value"></ion-radio>
-            </ion-item>
-          </ion-list>
         </ion-col>
       </ion-row>
+
+
+      <!-- Aside -->
+      <!-- <ion-row>
+
+        <ion-col col-lg-6>
+          <ion-list radio-group [(ngModel)]="selectedGallery">
+              <ion-item ion-col col-lg-4 style="display:inline-block">
+                <ion-label for="exterior">Exterior Photos</ion-label>
+                <ion-radio #exterior id="exterior" value="exterior" (click)="selectedGallery = exterior.value;presentLoading()"></ion-radio>
+              </ion-item>
+
+              <ion-item ion-col col-lg-4 style="display:inline-block">
+                <ion-label>Interior Photos</ion-label>
+                <ion-radio #interior id="interior" value="interior" (click)="selectedGallery = interior.value;presentLoading()"></ion-radio>>
+              </ion-item>
+
+          </ion-list>
+        </ion-col>
+
+      </ion-row> -->
+
     </ion-grid>
   </section>
 
