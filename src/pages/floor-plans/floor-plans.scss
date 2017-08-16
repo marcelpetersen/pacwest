@@ -36,6 +36,10 @@ page-floor-plans {
         padding-right: 20px;
       }
 
+      @media (min-width: 1920px) {
+        padding-right: 180px;
+      }
+
       @include MQ(iPadPro_w & iPadPro_h) {
         padding: 80px 0 0;
       }
@@ -46,7 +50,49 @@ page-floor-plans {
     }
   }
 
-  .header {
+  #background.building {
+    background-image: url('../assets/img/floor-plans/pacwest-building-floor-plans-min-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    z-index: -2;
+    left: 0;
+    height: 2020px;
+    width: 1840px;
+    opacity: 1;
+
+    @media (max-width: 800px) {
+      left: -500px;
+      top: 0;
+      position: absolute;
+    }
+
+    @include MQ(larger) {
+      left: -220px;
+      top:0px;
+      position: absolute;
+    }
+
+    @include MQ(L) {
+      left: -220px;
+      top:0px;
+      position: absolute;
+    }
+
+    @include MQ(XL) {
+      position: relative;
+    }
+
+    @include MQ(XXL) {  }
+
+    @include MQ(iPadPro_w & iPadPro_h) {
+      left: -275px;
+      top: 0px;
+      position: absolute;
+    }
+  }
+
+  .header-title {
     position: absolute;
     display: block;
     top: 120px;
@@ -73,8 +119,14 @@ page-floor-plans {
       right: 28px;
       top: 240px;
     }
+
+    @media (min-width: 1920px) {
+      right: 196px;
+    }
+
     @include MQ(XXL) {
       right: 16%;
+      right: 240px;
       top: 240px;
 
       h1 {
@@ -91,12 +143,12 @@ page-floor-plans {
   }
 
   @media (max-width: 1920px) {
-    .header {
+    .header-title {
       padding: 0.3rem 0.8rem;
     }
 
     .flex-container {
-      max-width: 1080px;
+      max-width: 1280px;
     }
   }
 
@@ -173,7 +225,8 @@ page-floor-plans {
     }
   }
 
-  ion-grid ion-row.row:before {
+  ion-grid ion-row.row:before,
+  ion-grid ion-row.row::before {
     content: '';
     background: #FFF;
     width: calc(100% + 290px);
@@ -204,7 +257,8 @@ page-floor-plans {
       @media (max-width: 800px) {
         margin-top: 37px;
 
-        &:before {
+        &:before,
+        &::before {
           height: 122px !important;
         }
       }
@@ -228,7 +282,8 @@ page-floor-plans {
       @media (max-width: 800px) {
         margin-top: 188px;
 
-        &:before {
+        &:before,
+        &::before {
           height: 122px !important;
         }
       }
@@ -258,23 +313,16 @@ page-floor-plans {
         overflow: visible;
 
         &.label.label-md {
-          margin-top: 16px;
-          margin-bottom: 8px;
-
-          // margin-top: 10px;
-          // margin-bottom: 0;
           margin-top: 12px;
           margin-bottom: 2px;
         }
       }
-
 
       h2 {
         display: inline-block;
 
         span {
           font-size: 1.4rem;
-          // text-transform: uppercase;
         }
 
         @include MQ(iPadPro_w & iPadPro_h) {
@@ -293,124 +341,9 @@ page-floor-plans {
         padding: 0 1.1em !important;
         height: 3.6rem !important;
         box-shadow: none;
-
-        // @include MQ(iPadPro_w & iPadPro_h) {
-        //   height: 2.8rem !important;
-        //   padding: 0 0.8rem !important;
-        // }
       }
     }
   }
-
-
-
-  #background.building {
-    // background-image: url('../assets/img/floor-plans/pacwest.png');
-    background-image: url('../assets/img/floor-plans/pacwest-building-floor-plans-min-2.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    width: 100%;
-    height: 210%;
-    display: block;
-    z-index: -2;
-    // position: absolute;
-    // top: 100px;
-    left: 20px;
-
-    height: 2200px;
-    width: 2000px;
-
-    height: 2020px;
-    width: 1840px;
-    opacity: 1;
-
-    left: 0;
-
-    @media (max-width: 800px) {
-      position: absolute;
-      top: 0;
-      left: -500px;
-    }
-
-    @include MQ(larger) {
-      left: -220px;
-      top:0px;
-      position: absolute;
-    }
-
-    @include MQ(L) {
-      left: -220px;
-      top:0px;
-      position: absolute;
-    }
-
-    @include MQ(XL) {
-      position: relative;
-    }
-
-    @include MQ(XXL) {
-      // left: 10%;
-    }
-
-    @include MQ(iPadPro_w & iPadPro_h) {
-      left: -140px;
-
-      left: -275px;
-      top: 0px;
-      position: absolute;
-    }
-  }
-
-  // .building {
-  //   position: absolute;
-  //   display: block;
-  //   top: 100px;
-  //   left: 5%;
-  //   opacity: .7;
-  //   height: 2200px;
-  //   width: 2000px;
-  //   z-index: -1;
-  //
-  //
-  //   &.ste2600 {
-  //     background-image: url('../assets/img/floor-plans/ste-2600-2700_1.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste2200 {
-  //     background-image: url('../assets/img/floor-plans/ste-2200.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste2050 {
-  //     background-image: url('../assets/img/floor-plans/ste-2050.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste1400 {
-  //     background-image: url('../assets/img/floor-plans/ste-1400.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste1220 {
-  //     background-image: url('../assets/img/floor-plans/ste-1220.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste700 {
-  //     background-image: url('../assets/img/floor-plans/ste-700.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //   &.ste300 {
-  //     background-image: url('../assets/img/floor-plans/ste-300-400_1.png');
-  //     background-repeat: no-repeat;
-  //     background-size: 100%;
-  //   }
-  //
-  // }
-
 
 
 }

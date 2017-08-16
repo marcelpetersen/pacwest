@@ -370,8 +370,6 @@ section, article, p, span, ul, li {
 }
 ion-footer {
   background: $white;
-
-  // background: $secondary;
 }
 
 ::-webkit-scrollbar {
@@ -379,8 +377,17 @@ ion-footer {
 }
 
 
+// Floor Plan page override on browser ios
+.ios.platform-mobileweb.platform-ios { //.platform-ios9
+  .main-container ion-grid ion-row.row:before,
+  .main-container ion-grid ion-row.row::before {
+    margin-top: 5px !important;
+  }
+}
 
-
-
-// Imports
-//@import 'node_modules/lightgallery/dist/css/lightgallery.min.css';
+.md, .wp { //.platform-ios9
+  .main-container ion-grid ion-row.row:before,
+  .main-container ion-grid ion-row.row::before {
+    margin-top: -13px !important;
+  }
+}
