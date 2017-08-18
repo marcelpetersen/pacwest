@@ -8,13 +8,64 @@ page-vitals {
     }
   }
 
+  ion-list.vitals {
+
+    ion-item {
+      background-color: transparent;
+      color: #FFF;
+      padding-left: 0;
+
+      h3 {
+        font-size: 1.8rem;
+
+        @include MQ(S) {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+        }
+      }
+
+      .item-inner {
+        border: none !important;
+      }
+    }
+
+    ion-avatar {
+      margin-right: 8px;
+
+      img {
+      width: 72px;
+      height: 72px;
+
+        @include MQ(S) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
   .flex-container {
     // padding-top: 120px;
+
+    &.height-full {
+
+      @include MQ(S) {
+        height: auto;
+      }
+      @include MQ(M) {
+        height: auto;
+      }
+    }
 
     h1 {
       text-transform: uppercase;
       font-weight: 300;
       font-size: 4rem;
+
+      @include MQ(S) {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+      }
 
       span {
         font-weight: 300;
@@ -22,25 +73,41 @@ page-vitals {
     }
 
     p {
-      font-size: 1.8rem;
+      font-size: 2rem;
+      line-height: 2.8rem;
+
+      @include MQ(S) {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+      }
     }
 
     ul {
       padding-left: 24px;
+
+      li {
+        font-size: 2rem;
+        line-height: 3.2rem;
+
+        @include MQ(S) {
+          font-size: 1.8rem;
+          line-height: 2.4rem;
+        }
+      }
     }
 
     .icon-cw {
       max-width: 72px;
       width: 72px;
       height: 72px;
-      display: inline-block;
-      // margin: 0 auto;
+      // display: inline-block;
+      margin: 0 auto;
 
     }
     span.text-center,
     p.text-center {
-      margin-top: 0.4rem;
-      margin-bottom: 0.4rem;
+      // margin-top: 0.4rem;
+      // margin-bottom: 0.4rem;
     }
   }
 }
