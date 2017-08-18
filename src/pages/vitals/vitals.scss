@@ -8,6 +8,11 @@ page-vitals {
     }
   }
 
+  .list-ios > .item-block:first-child,
+  .list-ios > .item-block:last-child {
+    border: none;
+  }
+
   ion-list.vitals {
 
     ion-item {
