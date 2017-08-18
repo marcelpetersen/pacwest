@@ -7,7 +7,7 @@ import { MyApp } from './app.component';
 
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-import { MenuPage } from '../pages/menu/menu';
+// import { MenuPage } from '../pages/menu/menu';
 
 // Custom Pages for Pacwest
 import { HomePage } from '../pages/home/home';
@@ -56,9 +56,9 @@ export function provideSettings(storage: Storage) {
    */
   return new Settings(storage, {
     option1: true,
-    option2: 'Ionitron J. Framework',
-    option3: '3',
-    option4: 'Hello'
+    option2: 'null',
+    option3: 'null',
+    option4: 'null'
   });
 }
 
@@ -72,7 +72,7 @@ let pages = [
   MyApp,
   TabsPage,
   TutorialPage,
-  MenuPage,
+  // MenuPage,
 
   HomePage,
   FuturePage,
