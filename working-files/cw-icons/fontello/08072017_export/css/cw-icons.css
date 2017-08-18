@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'cw-icons';
+  src: url('../font/cw-icons.eot?73878362');
+  src: url('../font/cw-icons.eot?73878362#iefix') format('embedded-opentype'),
+       url('../font/cw-icons.woff2?73878362') format('woff2'),
+       url('../font/cw-icons.woff?73878362') format('woff'),
+       url('../font/cw-icons.ttf?73878362') format('truetype'),
+       url('../font/cw-icons.svg?73878362#cw-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'cw-icons';
+    src: url('../font/cw-icons.svg?73878362#cw-icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="pacwest-"]:before, [class*=" pacwest-"]:before {
+  font-family: "cw-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.pacwest-cw-conference:before { content: '\e801'; } /* '' */
+.pacwest-cw-cycling:before { content: '\e802'; } /* '' */
+.pacwest-cw-flexible:before { content: '\e803'; } /* '' */
+.pacwest-cw-floor-layout:before { content: '\e804'; } /* '' */
+.pacwest-cw-location:before { content: '\e805'; } /* '' */
+.pacwest-cw-tools:before { content: '\e806'; } /* '' */
+.pacwest-cw-building:before { content: '\e807'; } /* '' */
+.pacwest-floorplan:before { content: '\e808'; } /* '' */
+.pacwest-app-future:before { content: '\e809'; } /* '' */
+.pacwest-app-gallery:before { content: '\e80a'; } /* '' */
+.pacwest-app-home:before { content: '\e80b'; } /* '' */
+.pacwest-app-location:before { content: '\e80c'; } /* '' */
+.pacwest-app-vitals:before { content: '\e80d'; } /* '' */
+.pacwest-cw-transit:before { content: '\e80e'; } /* '' */
+.pacwest-cw-walk:before { content: '\e80f'; } /* '' */

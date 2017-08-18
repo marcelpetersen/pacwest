@@ -8,36 +8,132 @@ page-future {
 
   .flex-container {
     padding: 0;
-    //@include flex-vr-align(center);
-    //@include flex-hz-align(center);
-  }
-
-  .verticalLine {
-    background-color: #FFFFFF;
-    height: calc(140% - 120px);
-    margin: 0 auto;
-    width: 1px;
-    position: absolute;
-    top: 180px;
-    left: calc(50% - 0.5px);
-    right: calc(50% - 0.5px);
-  }
-
-  .verticalLine-full {
-    background-color: #FFFFFF;
-    height: 100%;
-    margin: 0 auto;
-    width: 1px;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left: calc(50% - 0.5px);
-    right: calc(50% - 0.5px);
   }
 
   h1 {
     font-family: "Raleway", "Brandon Grotesque", sans-serif;
-    font-size: 3.2rem;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 4.8rem;
+    font-size: 4rem;
+
+    .primary-yellow {
+      color: $primary;
+    }
+  }
+
+  .flex-container.height-full {
+    max-width: 100%;
+    height: 100%;
+    max-height: calc(100vh - 86px);
+
+    .future {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+
+      height: calc(100vh - 86px);
+
+      &.one {
+        background-image: url('../assets/img/future/PacWest-Lobby_02.jpg');
+      }
+      &.two {
+        background-image: url('../assets/img/future/PacWest-Lobby_08.jpg');
+      }
+      &.three {
+        background-image: url('../assets/img/future/PacWest-Lobby_09.jpg');
+      }
+      &.four {
+        background-image: url('../assets/img/future/PacWest-Gym_01.jpg');
+      }
+      &.five {
+        background-image: url('../assets/img/future/PacWest-Gym_02.jpg');
+      }
+
+    }
+
+    .flex-container {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      z-index: 100;
+      display: block;
+      bottom: 80px;
+      // left: 80px;
+      max-width: 1366px;
+
+      .flex-item {
+        margin: 0 auto 0 0;
+        margin-left: 96px;
+        width: 64%;
+        min-width: 740px;
+        max-width: 1120px;
+
+        h1, h2, p {
+          text-align: left;
+          text-shadow: 0px 3px 4px rgba(0,0,0,0.56);
+        }
+
+        span.caption {
+          background: rgba(0,0,0,0.56);
+          padding: 0.4rem 0.8rem;
+          line-height: 3.4rem;
+        }
+       }
+
+    }
+  }
+
+  .flex-container.overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    display: block;
+
+    top: 24%;
+
+    top: 240px;
+    width: auto;
+    left: 16%;
+
+    .flex-item {
+      margin: 0 auto;
+
+      h1, h2, p {
+        text-align: left;
+        text-shadow: 0px 3px 4px rgba(0,0,0,0.56);
+      }
+     }
+
+  }
+
+  .text-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  ion-grid ion-row ion-col ion-row ion-col {
+    padding: 0 !important;
+  }
+
+  .swiper-pagination-bullet {
+    background: $secondary;
+    border: 2px solid $secondary;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+  }
+  .swiper-pagination-bullet-active {
+    background: $primary;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
   }
 
 }

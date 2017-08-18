@@ -1,60 +1,113 @@
 <ion-header hidden="hidden">
   <ion-navbar>
     <ion-title>
-      Future
+      The Future of PACWEST
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <section class="flex-container" style="height:240px;">
-    <div class="flex-item flex-420px align-self-end">
-      <h1 class="uppercase text-right" style="margin-right:8px;">
-        Pacwest
-      </h1>
-    </div>
-    <div class="flex-item flex-420px align-self-end">
-      <h1 class="uppercase text-left yellow" style="margin-left:8px;">
-        Transforming
-      </h1>
-    </div>
-    <div class="verticalLine"></div>
-  </section>
 
+<ion-content no-bounce>
 
-  <section class="flex-container" style="height: 400px ;padding: 0;">
-    <div class="flex-item flex-50per">
-      <div class="flex-container justify-space-between">
-        <h2 class="uppercase text-right flex-item" style="padding-right: 2.4rem;padding-left:3.2rem;">
-          <span class="yellow">Extraordinary fitness facility</span> with innovative equipment and architectural finishes designed to ignite tenants’ Fitness and Health Goals.
-        </h2>
-        <img src="http://placehold.it/184x300" class="flex-item" />
-      </div>
-    </div>
-    <div class="flex-item flex-50per">
-      <div class="flex-container justify-space-between row-reverse">
-        <h2 class="uppercase text-left flex-item" style="padding-right:3.2rem;padding-left: 2.4rem;">
-          <span class="yellow">Reimagined two story lobby</span> that will set a new standard of excellence for the office tenant of the future.
-        </h2>
-        <img src="http://placehold.it/184x300" class="flex-item" />
-      </div>
-    </div>
-    <div class="verticalLine-full"></div>
-  </section>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-lg-12>
 
-  <section class="flex-container align-stretch justify-flex-end" style="height:440px;padding: 40px 0 0;">
-    <div class="flex-item flex-50per align-self-end">
-      <h2 class="uppercase text-right" style="padding-right: 2.4rem;width:424px;float:right;">
-        Engaging the city’s expanding cyclist population, pacwest is developing a lobby facing, <span class="yellow">indoor bicycle parking</span> facility with <span class="yellow">resort style showers and lockers</span>.
-      </h2>
-      <img src="http://placehold.it/420x400/444444" style="position:absolute;left:0;top:0;bottom:0;margin:auto;z-index:-1;" />
-    </div>
-    <div class="flex-item flex-50per align-self-end">
-      <h2 class="uppercase text-left" style="padding-left: 2.4rem;width:480px;float:left;">
-        <span class="yellow">Tenant lounge</span> with multi-sized conference and meeting facilities opening to <span class="yellow">a generously sized outdoor terrace</span> with large covered areas and outdoor living amenities.
-      </h2>
-      <img src="http://placehold.it/420x400/444444" style="position:absolute;right:0;top:0;bottom:0;margin:auto;z-index:-1;" />
-    </div>
-    <div class="verticalLine-full"></div>
-  </section>
+        <!-- <div class="flex-container height-full"> -->
+          <!-- <div class="flex-container overlay">
+            <div class="flex-item align-middle">
+              <h1 class="uppercase">
+                New <span class="yellow">Plans</span>
+              </h1>
+              <h2 class="uppercase">
+                Pacwest is transformed
+              </h2>
+            </div>
+          </div> -->
+        <!-- </div> -->
+
+        <ion-slides pager="true" loop="true" speed="600" autoplayDisableOnInteraction=false>
+            <ion-slide>
+              <div class="flex-container height-full">
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <p>
+                      <span class="caption">
+                        View entering our new lobby.
+                      </span>
+                      <!-- <br />
+                      <span class="caption">on the West Coast for the office tenant of the future.
+                      </span> -->
+                    </p>
+                  </div>
+                </div>
+                <div class="future one"></div>
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="flex-container height-full">
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <p>
+                      <span class="caption">
+                        View from second floor.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="future two"></div>
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="flex-container height-full">
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <p>
+                      <span class="caption">
+                        Large open space with natural lighting.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="future three"></div>
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="flex-container height-full">
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <p>
+                      <span class="caption">
+                        Tenant gym and workout equipment.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="future four"></div>
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="flex-container height-full">
+                <div class="flex-container">
+                  <div class="flex-item">
+                    <p>
+                      <span class="caption">
+                        Multiple workout stations.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="future five"></div>
+              </div>
+            </ion-slide>
+        </ion-slides>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

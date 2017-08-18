@@ -9,7 +9,7 @@ page-vitals {
   }
 
   .flex-container {
-    padding-top: 120px;
+    // padding-top: 120px;
 
     h1 {
       text-transform: uppercase;
@@ -27,6 +27,20 @@ page-vitals {
 
     ul {
       padding-left: 24px;
+    }
+
+    .icon-cw {
+      max-width: 72px;
+      width: 72px;
+      height: 72px;
+      display: inline-block;
+      // margin: 0 auto;
+
+    }
+    span.text-center,
+    p.text-center {
+      margin-top: 0.4rem;
+      margin-bottom: 0.4rem;
     }
   }
 }

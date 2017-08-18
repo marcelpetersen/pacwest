@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { TranslateService } from 'ng2-translate/ng2-translate';
 
 import { Tab1Root } from '../pages';
@@ -23,19 +23,15 @@ export class TabsPage {
 
   tab1Title = "Home";
   tab2Title = "Future";
-  tab3Title = "Floor Plans";
+  tab3Title = "Availabilities";
   tab4Title = "Location";
   tab5Title = "Vitals";
   tab6Title = "Gallery";
 
-  constructor(public navCtrl: NavController, public translateService: TranslateService) {
-    // translateService.get(['TAB1_TITLE', 'TAB2_TITLE', 'TAB3_TITLE', 'TAB4_TITLE', 'TAB5_TITLE', 'TAB6_TITLE']).subscribe(values => {
-    //   this.tab1Title = values['TAB1_TITLE'];
-    //   this.tab2Title = values['TAB2_TITLE'];
-    //   this.tab3Title = values['TAB3_TITLE'];
-    //   this.tab4Title = values['TAB4_TITLE'];
-    //   this.tab5Title = values['TAB5_TITLE'];
-    //   this.tab6Title = values['TAB6_TITLE'];
-    // });
+  mySelectedIndex: number;
+
+  constructor(public navCtrl: NavController, public translateService: TranslateService, public navParams: NavParams) {
+    this.mySelectedIndex = navParams.data.tabIndex || 0;
+
   }
 }

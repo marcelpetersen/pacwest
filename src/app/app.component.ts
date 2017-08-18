@@ -38,6 +38,7 @@ import { TranslateService } from 'ng2-translate/ng2-translate';
 })
 export class MyApp {
   rootPage = FirstRunPage;
+  index: number;
 
   @ViewChild(Nav) nav: Nav;
 
@@ -73,6 +74,6 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    this.nav.setRoot(page.component, {tabIndex: this.index});
   }
 }
