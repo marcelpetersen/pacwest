@@ -1,0 +1,13 @@
+{
+  "name": "Pacwest",
+  "short_name": "Pacwest",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#2e2e2f",
+  "theme_color": "#2e2e2f"
+}

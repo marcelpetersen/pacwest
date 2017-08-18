@@ -1,0 +1,7 @@
+
+.pacwest-floorplan:before { content: '\e800'; } /* '' */
+.pacwest-future:before { content: '\e801'; } /* '' */
+.pacwest-gallery:before { content: '\e802'; } /* '' */
+.pacwest-home:before { content: '\e803'; } /* '' */
+.pacwest-location:before { content: '\e804'; } /* '' */
+.pacwest-vitals:before { content: '\e806'; } /* '' */
