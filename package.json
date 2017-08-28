@@ -25,6 +25,7 @@
         "@ionic-native/status-bar": "3.1.0",
         "@ionic/storage": "2.0.0",
         "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.4.0",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-console": "^1.0.7",
         "cordova-plugin-device": "^1.1.6",
@@ -55,7 +56,7 @@
         "@ionic/app-scripts": "1.1.4",
         "@ionic/cli-plugin-cordova": "1.6.2",
         "@ionic/cli-plugin-ionic-angular": "1.4.1",
-        "ionic": "3.7.0",
+        "ionic": "3.9.2",
         "mapbox-gl": "^0.38.0",
         "typescript": "2.0.9"
     },
@@ -92,7 +93,8 @@
             "ionic-plugin-keyboard": {}
         },
         "platforms": [
-            "android"
+            "android",
+            "ios"
         ]
     }
 }
