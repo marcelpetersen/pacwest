@@ -381,7 +381,7 @@ ion-footer {
 .ios.platform-mobileweb.platform-ios { //.platform-ios9
   .main-container ion-grid ion-row.row:before,
   .main-container ion-grid ion-row.row::before {
-    margin-top: 5px !important;
+    margin-top: -13px !important;
   }
 }
 
@@ -389,5 +389,18 @@ ion-footer {
   .main-container ion-grid ion-row.row:before,
   .main-container ion-grid ion-row.row::before {
     margin-top: -13px !important;
+  }
+}
+
+.ios, .platform-ios { // iOS Devices
+  .main-container ion-grid ion-row.row:before,
+  .main-container ion-grid ion-row.row::before {
+    margin-top: 4px !important;
+  }
+
+  .ste-container {
+    &.overlayer {
+      background: transparent !important;
+    }
   }
 }
