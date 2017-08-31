@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.pacwestportland.app" version="0.0.41" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.pacwestportland.app" ios-CFBundleVersion="004" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Pacwest Tour App</name>
     <description>An awesome tour app for Pacwest Portland</description>
     <author email="gustavo.youngberg@cushwake.com" href="http://www.cushwake.com">San Francisco Marketing Team</author>
@@ -87,6 +87,6 @@
     </plugin>
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <engine name="android" spec="~6.2.3" />
+    <plugin name="cordova-plugin-google-analytics" spec="^1.8.3" />
     <engine name="ios" spec="~4.4.0" />
 </widget>

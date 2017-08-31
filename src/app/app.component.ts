@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { Platform, Nav, Config } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { StatusBar, Splashscreen, GoogleAnalytics } from 'ionic-native';
 
 import { Settings } from '../providers/providers';
 
@@ -68,6 +68,18 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
       Splashscreen.hide();
+
+
+      // Google Analytics
+      return GoogleAnalytics.startTrackerWithId('')
+        .then(() => {
+          console.log('Google analytics is ready now');
+
+          // return GoogleAnalytics.debugMode();
+          // this.GoogleAnalytics.setAllowIDFACollection(true);
+          // return GoogleAnalytics.enableUncaughtExceptionReporting(true)
+        })
+        .catch(e => console.log('Error starting GoogleAnalytics', e));
     });
   }
 
