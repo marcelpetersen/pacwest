@@ -38,6 +38,7 @@ import { User } from '../providers/user';
 import { Api } from '../providers/api';
 import { Settings } from '../providers/settings';
 import { Items } from '../mocks/providers/items';
+import { Data } from '../mocks/providers/data/data';
 
 import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate/ng2-translate';
 
@@ -110,6 +111,7 @@ export function providers() {
     User,
     Api,
     Items,
+    Data,
 
     { provide: Settings, useFactory: provideSettings, deps: [ Storage ] },
     // Keep this to enable Ionic's runtime error handling during development

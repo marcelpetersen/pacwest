@@ -88,5 +88,4 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.3" />
-    <engine name="ios" spec="~4.4.0" />
 </widget>

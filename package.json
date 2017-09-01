@@ -20,12 +20,11 @@
         "@angular/platform-browser-dynamic": "2.4.8",
         "@angular/platform-server": "2.4.8",
         "@angular/tsc-wrapped": "^4.3.0",
-        "@ionic-native/core": "3.1.0",
+        "@ionic-native/core": "^3.14.0",
         "@ionic-native/google-analytics": "^4.2.1",
         "@ionic-native/splash-screen": "3.1.0",
         "@ionic-native/status-bar": "3.1.0",
         "@ionic/storage": "2.0.0",
-        "cordova-ios": "^4.4.0",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-console": "^1.0.7",
         "cordova-plugin-device": "^1.1.6",
@@ -54,12 +53,10 @@
         "zone.js": "0.7.2"
     },
     "devDependencies": {
-        "@ionic/app-scripts": "1.1.4",
-        "@ionic/cli-plugin-cordova": "1.6.2",
-        "@ionic/cli-plugin-ionic-angular": "1.4.1",
+        "@ionic/app-scripts": "^2.1.4",
         "ionic": "3.9.2",
         "mapbox-gl": "^0.39.1",
-        "typescript": "2.0.9"
+        "typescript": "^2.0.9"
     },
     "cordovaPlugins": [
         "cordova-plugin-whitelist",
@@ -94,8 +91,6 @@
             "ionic-plugin-keyboard": {},
             "cordova-plugin-google-analytics": {}
         },
-        "platforms": [
-            "ios"
-        ]
+        "platforms": []
     }
 }
