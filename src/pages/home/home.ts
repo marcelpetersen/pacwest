@@ -14,12 +14,12 @@ export class HomePage {
 
   ionViewWillEnter() {
     StatusBar.styleBlackTranslucent();
-    console.log(StatusBar);
+    // console.log(StatusBar);
   }
 
   ionViewDidLeave() {
     StatusBar.styleDefault();
-    console.log(StatusBar);
+    // console.log(StatusBar);
   }
 
 

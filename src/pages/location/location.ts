@@ -44,10 +44,15 @@ export class LocationPage {
     }, 3000);
   }
 
+  ionViewDidEnter(){
+    this.presentLoading();
+  }
 
-  ionViewDidEnter() {
 
-      this.presentLoading()
+  ionViewDidLoad() {
+
+
+
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
 
       // Set Bounds
@@ -80,7 +85,7 @@ export class LocationPage {
 
       var filterGroup = document.getElementById('filter-group-list');
       map.on('load', function() {
-          console.log('Reading Events while in dev mode');
+          // console.log('Reading Events while in dev mode');
           // OPTION ONE
           toggleLayer([
             'place_grocery',
@@ -194,7 +199,7 @@ export class LocationPage {
 
                 if (this.id === 'place_grocery,place_shopping') {
                     flyCenter();
-                    console.log(this.id + ' is selected');
+                    // console.log(this.id + ' is selected');
                     map.setLayoutProperty('place_grocery', 'visibility', 'visible');
                     map.setLayoutProperty('place_shopping', 'visibility', 'visible');
 
@@ -205,9 +210,6 @@ export class LocationPage {
                     map.setLayoutProperty('place_lodging', 'visibility', 'none');
                     map.setLayoutProperty('place_museum', 'visibility', 'none');
                     map.setLayoutProperty('place_restaurant', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
                     map.setLayoutProperty('MAX_O', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Y', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
@@ -242,7 +244,7 @@ export class LocationPage {
                     map.setLayoutProperty('biketown-station', 'visibility', 'none');
                 } else if (this.id === 'place_government,place_museum') {
                     flyCenter();
-                    console.log(this.id + ' is selected');
+                    // console.log(this.id + ' is selected');
                     map.setLayoutProperty('place_government', 'visibility', 'visible');
                     map.setLayoutProperty('place_museum', 'visibility', 'visible');
 
@@ -253,9 +255,6 @@ export class LocationPage {
                     map.setLayoutProperty('place_lodging', 'visibility', 'none');
                     map.setLayoutProperty('place_restaurant', 'visibility', 'none');
                     map.setLayoutProperty('place_shopping', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
                     map.setLayoutProperty('MAX_O', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Y', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
@@ -290,7 +289,7 @@ export class LocationPage {
                     map.setLayoutProperty('biketown-station', 'visibility', 'none');
                 } else if (this.id === 'place_bar,place_coffee,place_restaurant') {
                     flyCenter();
-                    console.log(this.id + ' is selected');
+                    // console.log(this.id + ' is selected');
                     map.setLayoutProperty('place_bar', 'visibility', 'visible');
                     map.setLayoutProperty('place_coffee', 'visibility', 'visible');
                     map.setLayoutProperty('place_restaurant', 'visibility', 'visible');
@@ -301,9 +300,6 @@ export class LocationPage {
                     map.setLayoutProperty('place_lodging', 'visibility', 'none');
                     map.setLayoutProperty('place_museum', 'visibility', 'none');
                     map.setLayoutProperty('place_shopping', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_R', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_G', 'visibility', 'none');
-                    // map.setLayoutProperty('MAX_B', 'visibility', 'none');
                     map.setLayoutProperty('MAX_O', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Y', 'visibility', 'none');
                     map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
@@ -338,7 +334,7 @@ export class LocationPage {
                     map.setLayoutProperty('biketown-station', 'visibility', 'none');
                 } else if (this.id === 'place_lodging') {
                   flyCenter();
-                  console.log(this.id + ' is selected');
+                  // console.log(this.id + ' is selected');
                   map.setLayoutProperty('place_lodging', 'visibility', 'visible');
 
                   // OFF
@@ -349,9 +345,6 @@ export class LocationPage {
                   map.setLayoutProperty('place_museum', 'visibility', 'none');
                   map.setLayoutProperty('place_restaurant', 'visibility', 'none');
                   map.setLayoutProperty('place_shopping', 'visibility', 'none');
-                  // map.setLayoutProperty('MAX_R', 'visibility', 'none');
-                  // map.setLayoutProperty('MAX_G', 'visibility', 'none');
-                  // map.setLayoutProperty('MAX_B', 'visibility', 'none');
                   map.setLayoutProperty('MAX_O', 'visibility', 'none');
                   map.setLayoutProperty('MAX_Y', 'visibility', 'none');
                   map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
@@ -386,10 +379,7 @@ export class LocationPage {
                   map.setLayoutProperty('biketown-station', 'visibility', 'none');
                 } else if (this.id ===  'MAX_O,MAX_Y,MAX_Rgby,MAX_rGby,MAX_rgBy,MAX_rgbY,MAX_Go,MAX_gO,MAX_Rgb,MAX_rGb,MAX_rgB,MAX_Rb,MAX_rB,MAX_Gy,MAX_gY,SC_R,SC_G,SC_B,SC_Rgb,SC_rGb,SC_rgB,SC_Rg,SC_rG,SC_Rb,SC_rB,SC_Gb,SC_gB,Aerial-Tram,portland-lightrail-labels,portland-tram-labels,portland-tram-labels-aerial,biketown-station') {
                   flyCenter();
-                  console.log(this.id + ' is selected');
-                  // map.setLayoutProperty('MAX_R', 'visibility', 'visible');
-                  // map.setLayoutProperty('MAX_G', 'visibility', 'visible');
-                  // map.setLayoutProperty('MAX_B', 'visibility', 'visible');
+                  // console.log(this.id + ' is selected');
                   map.setLayoutProperty('MAX_O', 'visibility', 'visible');
                   map.setLayoutProperty('MAX_Y', 'visibility', 'visible');
                   map.setLayoutProperty('MAX_Rgby', 'visibility', 'visible');
@@ -433,7 +423,7 @@ export class LocationPage {
                   map.setLayoutProperty('place_restaurant', 'visibility', 'none');
                   map.setLayoutProperty('place_shopping', 'visibility', 'none');
                 } else {
-                  console.log('Nothing is selected');
+                  // console.log('Nothing is selected');
                   // EVERYTHING OFF
                   map.setLayoutProperty('place_bar', 'visibility', 'none');
                   map.setLayoutProperty('place_coffee', 'visibility', 'none');
@@ -443,9 +433,6 @@ export class LocationPage {
                   map.setLayoutProperty('place_museum', 'visibility', 'none');
                   map.setLayoutProperty('place_restaurant', 'visibility', 'none');
                   map.setLayoutProperty('place_shopping', 'visibility', 'none');
-                  // map.setLayoutProperty('MAX_R',    'visibility', 'none');
-                  // map.setLayoutProperty('MAX_G',    'visibility', 'none');
-                  // map.setLayoutProperty('MAX_B',    'visibility', 'none');
                   map.setLayoutProperty('MAX_O',    'visibility', 'none');
                   map.setLayoutProperty('MAX_Y',    'visibility', 'none');
                   map.setLayoutProperty('MAX_Rgby', 'visibility', 'none');
