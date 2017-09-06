@@ -3,7 +3,6 @@ import { NavController, Platform, ViewController, Events, LoadingController } fr
 
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
 import * as $ from "jquery";
-//import { Geolocation, Geoposition } from 'ionic-native';
 
 @Component({
   selector: 'page-location',
@@ -17,20 +16,6 @@ export class LocationPage {
 
   }
 
-  //ionViewDidEnter() {
-    /*Initializing geolocation*/
-    // let options = {
-    //   frequency: 3000,
-    //   enableHighAccuracy: true
-    // };
-    //
-    // this.watch = Geolocation.watchPosition(options)
-    // .subscribe((position: Geoposition) => {
-    //   console.log(position);
-    //   this.Coordinates = position.coords;
-    //   this.executemap()
-    // });
-  //}
 
   presentLoading(){
     let loader = this.loading.create({
@@ -50,17 +35,12 @@ export class LocationPage {
 
 
   ionViewDidLoad() {
-
-
-
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3lvdW5nYmUiLCJhIjoiY2o0NGsxYmIzMDNzbjJ3dWI0ZnBlcnAyZiJ9.1DXK1Zphc2hdw7gNwKDwtg';
 
-      // Set Bounds
-      // var sw = new mapboxgl.LngLat(-123.046875, 45.418849);
-      // var ne = new mapboxgl.LngLat(-122.372589, 45.622201);
-
-      var sw = new mapboxgl.LngLat(-122.71108626318916, 45.48014656958415);
-      var ne = new mapboxgl.LngLat(-122.64920233679575, 45.55051403284517);
+      // -122.71108626318916
+      // -122.64920233679575
+      var sw = new mapboxgl.LngLat(-122.74108626318916, 45.48014656958415);
+      var ne = new mapboxgl.LngLat(-122.60920233679575, 45.55051403284517);
       var llb = new mapboxgl.LngLatBounds(sw, ne);
 
       var map = new mapboxgl.Map({
@@ -152,10 +132,6 @@ export class LocationPage {
             input.id = ids;
             input.className = 'mapToggle';
             input.checked = false;
-            // input.setAttribute('ng-click', 'flyCenter()');
-
-            // map.flyTo({center: [-122.6801443,45.5153413],bearing: -90,pitch: 0,speed: 0.75,zoom: 15})
-            // console.log('Mapbox Layers Initiated:' + input.checked);
             filterGroup.appendChild(input);
 
             // Add Label to DOM
@@ -163,22 +139,6 @@ export class LocationPage {
             label.setAttribute('for', ids);
             label.textContent = name;
             filterGroup.appendChild(label);
-
-            // Create Event Listener for change W/O using e.target.checked
-            // input.addEventListener('change', function(e){
-            //   e.preventDefault();
-            //   e.stopPropagation();
-            //   for (let layers in ids) {
-            //     if (input.checked === true) {
-            //         map.setLayoutProperty(ids[layers], 'visibility', 'visible')
-            //         console.log('Mapbox Layers Visible');
-            //     }
-            //     else {
-            //         map.setLayoutProperty(ids[layers], 'visibility', 'none')
-            //         console.log('Mapbox Layers Hidden');
-            //     }
-            //   }
-            // });
 
             // Toggle through layer groups one at a time
             $("input.mapToggle").click(function(e) {
@@ -470,16 +430,12 @@ export class LocationPage {
             })
           };
 
-          // $('input.mapToggle')
-
-
           // Sort Input and Label within ul < li
           var $sort = $('ul#filter-group-list').children();
           for(var i=0, len = $sort.length; i < len; i+=2){
             // console.log(len); // Read Length of created items
             $sort.slice(i, i+2).wrapAll('<li>')
           };
-
 
           // Fly to map center
           var flyToCenter = document.getElementById('flyToCenter');
@@ -646,26 +602,10 @@ export class LocationPage {
  }
 
   ionViewDidLeave() {
-    var filterGroup = document.getElementById('filter-group-list');
-    while (filterGroup.hasChildNodes()) {
-      filterGroup.removeChild(filterGroup.firstChild);
-    }
+    // var filterGroup = document.getElementById('filter-group-list');
+    // while (filterGroup.hasChildNodes()) {
+    //   filterGroup.removeChild(filterGroup.firstChild);
+    // }
   }
-
-  // flyCenter() {
-  //     var map = mapboxgl.Map();
-  //     //var flyCenter = document.getElementsByClassName('mapToggle');
-  //
-  //     map.flyTo({
-  //         center: [
-  //           -122.6801443,
-  //           45.5153413
-  //         ],
-  //         bearing: -90,
-  //         pitch: 0,
-  //         speed: 0.75,
-  //         zoom: 15
-  //     });
-  // }
 
 }
