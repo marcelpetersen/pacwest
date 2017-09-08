@@ -26,6 +26,7 @@
         "@ionic-native/status-bar": "3.1.0",
         "@ionic/storage": "2.0.0",
         "cordova-ios": "^4.4.0",
+        "cordova-ios-plugin-no-export-compliance": "0.0.5",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-console": "^1.0.7",
         "cordova-plugin-device": "^1.1.6",
@@ -92,7 +93,8 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
-            "cordova-plugin-google-analytics": {}
+            "cordova-plugin-google-analytics": {},
+            "cordova-ios-plugin-no-export-compliance": {}
         },
         "platforms": [
             "ios"
