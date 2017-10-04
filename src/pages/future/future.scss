@@ -46,19 +46,28 @@ page-future {
       height: calc(100vh - 64px);
 
       &.one {
-        background-image: url('../assets/img/future/PacWest-Lobby_02-min.jpg');
+        background-image: url('../assets/img/future/future-gallery-01-min.jpg');
       }
       &.two {
-        background-image: url('../assets/img/future/PacWest-Lobby_08-min.jpg');
+        background-image: url('../assets/img/future/future-gallery-02-min.jpg');
       }
       &.three {
-        background-image: url('../assets/img/future/PacWest-Lobby_09-min.jpg');
+        background-image: url('../assets/img/future/future-gallery-03-min.jpg');
       }
       &.four {
-        background-image: url('../assets/img/future/PacWest-Gym_01-min.jpg');
+        background-image: url('../assets/img/future/future-gallery-04-min.jpg');
       }
       &.five {
-        background-image: url('../assets/img/future/PacWest-Gym_02-min.jpg');
+        background-image: url('../assets/img/future/future-gallery-05-min.jpg');
+      }
+      &.six {
+        background-image: url('../assets/img/future/future-gallery-06-min.jpg');
+      }
+      &.seven {
+        background-image: url('../assets/img/future/future-gallery-07-min.jpg');
+      }
+      &.eight {
+        background-image: url('../assets/img/future/future-gallery-08-min.jpg');
       }
 
     }
