@@ -1,3 +1,3 @@
 # Floor Plans
 
-The List Master Page shows the details of instances of `Item`, and will most commonly be navigated to from `ListMasterPage`.
+This page is for the Availabilities tab. In order to edit the individual modals for the suites, those are found in the modalsuites### directories.

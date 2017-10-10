@@ -7,7 +7,6 @@ import { MyApp } from './app.component';
 
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-// import { MenuPage } from '../pages/menu/menu';
 
 // Custom Pages for Pacwest
 import { HomePage } from '../pages/home/home';

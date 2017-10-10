@@ -11,23 +11,21 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#2e2e2f">
 
-  <!-- Mapbox js and css -->
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
-
   <!-- cordova.js required for cordova apps -->
   <!-- <script src="cordova.js"></script> -->
 
-  <!-- un-comment this code to enable service worker
+  <!-- Enable Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
+        .then(() => console.log('Service Worker Enabled and Installed'))
         .catch(err => console.log('Error', err));
     }
-  </script>-->
+  </script>
 
+  <!-- Styles -->
   <link href="build/main.css" rel="stylesheet">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
 
 </head>
 <body>
@@ -41,8 +39,8 @@
   <!-- The bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
-  <!-- Load Plugins JS Via CDN & BUILD-->
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+  <!-- Load Plugins -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
 
 </body>
 </html>

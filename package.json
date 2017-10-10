@@ -1,7 +1,7 @@
 {
     "name": "pacwest-tour-app",
     "author": "Gustavo Youngberg",
-    "homepage": "http://pacwestportland.com/",
+    "homepage": "https://pacwestportland.com/",
     "private": true,
     "scripts": {
         "clean": "ionic-app-scripts clean",
@@ -56,7 +56,6 @@
     },
     "devDependencies": {
         "@ionic/app-scripts": "1.1.4",
-        "@ionic/cli-plugin-cordova": "1.6.2",
         "@ionic/cli-plugin-ionic-angular": "1.4.1",
         "ionic": "3.9.2",
         "mapbox-gl": "^0.39.1",
